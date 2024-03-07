@@ -1,0 +1,51 @@
+name: Process and Update Skill Collection
+
+on:
+  workflow_dispatch:
+
+jobs:
+  process-and-update:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.GH_PAT }} # Use PAT for checkout
+
+    - name: Rebase with Remote Main Branch
+      run: |
+        git fetch origin main
+        git rebase origin/main
+
+    - name: Fetch Skill Collection Data
+      run: |
+        curl -H 'accept: application/json' -o skillCollection.json "${{ env.SKILL_COLLECTION_URL }}
+        
+    - name: Install Dependencies
+      run: |
+        npm install
+
+    - name: Process and Convert to YAML
+      run: |
+        node .github/scripts/processSkillCollection.js
+
+    - name: Commit and Push `collection.skill.yaml`
+      run: |
+        git config --local user.email "david.petersen@wgu.edu"
+        git config --local user.name "David Petersen"
+        git add collection.skill.yaml
+        git diff --staged --quiet || git commit -m "Update collection.skill.yaml"
+        git push https://${{ secrets.GH_PAT }}@github.com/wgu-skills/cs.git
+
+    - name: Process Each Skill and Save as File
+      run: |
+        node .github/scripts/processSkills.js
+
+    - name: Commit and Push Skill Files
+      run: |
+        git add .
+        git diff --staged --quiet || git commit -m "Add/Update Skill Files"
+        git push https://${{ secrets.GH_PAT }}@github.com/wgu-skills/cs.git
+
+env:
+  COLLECTION_API_BASE_URL: https://aa-skill.wgu.edu/api/collections/
