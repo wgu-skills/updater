@@ -48,4 +48,4 @@ jobs:
         git push https://${{ secrets.GH_PAT }}@github.com/wgu-skills/cs.git
 
 env:
-  COLLECTION_API_BASE_URL: https://aa-skill.wgu.edu/api/collections/
+  SKILL_COLLECTION_URL: https://aa-skill.wgu.edu/api/collections/
