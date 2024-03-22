@@ -1,20 +1,19 @@
-import dotenv from "dotenv"
-dotenv.config()
+const dotenv = require('dotenv');
+dotenv.config();
 
 const checkEnvVariable = (key, defaultValue = null) => {
-  const value = process.env[key]
+  const value = process.env[key];
   if (typeof value === "undefined") {
     if (defaultValue !== null) {
-      console.warn(`Environment variable ${key} is not set. Using default value.`)
-      return defaultValue
+      console.warn(`Environment variable ${key} is not set. Using default value.`);
+      return defaultValue;
     }
-    console.error(`Environment variable ${key} is missing.`)
-    return null
+    console.error(`Environment variable ${key} is missing.`);
+    return null;
   }
-  return value
-}
+  return value;
+};
 
-// Environment variables grouped and validated
 const config = {
   collection: {
     slug: checkEnvVariable("COLLECTION_SLUG", "default-slug"),
@@ -30,15 +29,14 @@ const config = {
     email: checkEnvVariable("GIT_EMAIL", "david.petersen@wgu.edu"),
     org: checkEnvVariable("GIT_ORG", "wgu-skills")
   }
-}
+};
 
-// Throw an error if any required variable is missing
 Object.keys(config).forEach((group) => {
   Object.entries(config[group]).forEach(([key, value]) => {
     if (value === null) {
-      throw new Error(`Required environment variable ${key} is missing in ${group}`)
+      throw new Error(`Required environment variable ${key} is missing in ${group}`);
     }
-  })
-})
+  });
+});
 
-export default config
+module.exports = config;

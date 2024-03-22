@@ -1,48 +1,42 @@
-import fs from "fs/promises"
-import path from "path"
-import yaml from "js-yaml"
-import { toCamelCase } from "./stringOperations.js"
-import config from "./config.js"
+const fs = require('fs/promises');
+const path = require('path');
+const yaml = require('js-yaml');
+const { toCamelCase } = require('./stringOperations.js');
+const config = require('./config.js');
 
 const { output_dir } = config.files;
 
-const FORMAT_JSON = "json"
-const FORMAT_YAML = "yaml"
-const FILE_EXTENSION_SKILL_JSON = ".skill.json"
-const FILE_EXTENSION_SKILL_YAML = ".skill.yaml"
+const FORMAT_JSON = "json";
+const FORMAT_YAML = "yaml";
+const FILE_EXTENSION_SKILL_JSON = ".skill.json";
+const FILE_EXTENSION_SKILL_YAML = ".skill.yaml";
 
 // Utility to get full path
-const getFullPath = (collectionSlug, fileName) => path.join(output_dir, collectionSlug, fileName)
+const getFullPath = (collectionSlug, fileName) => path.join(output_dir, collectionSlug, fileName);
 
 // Simplified writeToFile with directory creation
 const writeToFile = async (filePath, content) => {
-
-  console.log(`Writing file to ${filePath}`)
-
+  console.log(`Writing file to ${filePath}`);
   try {
-    await fs.mkdir(path.dirname(filePath), { recursive: true })
-    await fs.writeFile(filePath, content)
-
-    console.log(`File written successfully to ${filePath}`)
-
+    await fs.mkdir(path.dirname(filePath), { recursive: true });
+    await fs.writeFile(filePath, content);
+    console.log(`File written successfully to ${filePath}`);
   } catch (err) {
-
-    console.error(`Error writing file: ${err}`)
-    
-    throw err
+    console.error(`Error writing file: ${err}`);
+    throw err;
   }
-
-}
+};
 
 const listFiles = async (dir) => {
   try {
-    const files = await fs.readdir(dir)
-    return files
+    const files = await fs.readdir(dir);
+    return files;
   } catch (error) {
-    console.error("Error in listing files:", error)
-    throw error
+    console.error("Error in listing files:", error);
+    throw error;
   }
-}
+};
+
 
 const createIndexFile = async (collection) => {
   try {
@@ -130,4 +124,5 @@ const createReadmeFile = async (collection) => {
   }
 }
 
-export { writeToFile, FORMAT_JSON, FORMAT_YAML, createIndexFile, createPackageJsonFile, createReadmeFile }
+
+module.exports = { writeToFile, FORMAT_JSON, FORMAT_YAML, createIndexFile, createPackageJsonFile, createReadmeFile };

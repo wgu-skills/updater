@@ -1,14 +1,9 @@
-import fetch from "node-fetch";
-import config from "./config.js";
-import SkillCollection from "../types/SkillCollection.js";
+const fetch = require('node-fetch');
+const config = require('./config.js');
+const SkillCollection = require('../types/SkillCollection.js');
 
 const { url } = config.collection;
 
-/**
- * Fetches and returns a SkillCollection from the specified url.
- * @returns {Promise<SkillCollection>} A SkillCollection instance.
- * @throws {Error} Throws an error if the network response is not ok or JSON parsing fails.
- */
 const getCollection = async (url, slug) => {
   try {
     const response = await fetch(url, { headers: { Accept: "application/json" } });
@@ -26,4 +21,4 @@ const getCollection = async (url, slug) => {
   }
 };
 
-export default getCollection;
+module.exports = getCollection;

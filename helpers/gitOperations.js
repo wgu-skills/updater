@@ -1,57 +1,57 @@
-import simpleGit from "simple-git"
-import fs from "fs"
-import config from "./config.js"
-import { Octokit } from "@octokit/rest"
+const simpleGit = require('simple-git');
+const fs = require('fs');
+const config = require('./config.js');
+const { Octokit } = require('@octokit/rest');
 
 const octokit = new Octokit({
   auth: config.git.pat
-})
+});
 
 const isGitRepo = async (directory) => {
-  const gitDir = `${directory}/.git`
+  const gitDir = `${directory}/.git`;
   try {
-    fs.accessSync(gitDir, fs.constants.R_OK)
-    const git = simpleGit(directory)
-    return git.checkIsRepo()
+    fs.accessSync(gitDir, fs.constants.R_OK);
+    const git = simpleGit(directory);
+    return git.checkIsRepo();
   } catch (error) {
-    return false
+    return false;
   }
-}
+};
 
 const initRepo = async (directory) => {
-  const git = simpleGit(directory)
-  return git.init()
-}
+  const git = simpleGit(directory);
+  return git.init();
+};
 
 const checkIfRepoExists = async (owner, repoName) => {
   try {
     await octokit.repos.get({
       owner: owner,
       repo: repoName
-    })
-    return true // The repository exists
+    });
+    return true; // The repository exists
   } catch (error) {
     if (error.status === 404) {
-      return false // The repository does not exist
+      return false; // The repository does not exist
     }
-    console.error("Error checking repository existence:", error)
-    throw error // An error other than non-existence occurred
+    console.error('Error checking repository existence:', error);
+    throw error; // An error other than non-existence occurred
   }
-}
+};
 
 async function createGitHubRepo(repoName) {
   try {
     const response = await octokit.repos.createForAuthenticatedUser({
       name: repoName,
       private: true // Set to false if you want a public repository
-    })
-    console.log("Repository created: ", response.data.html_url)
-    return response.data.html_url
+    });
+    console.log('Repository created: ', response.data.html_url);
+    return response.data.html_url;
   } catch (error) {
-    console.error("Error creating repository: ", error)
-    throw error
+    console.error('Error creating repository: ', error);
+    throw error;
   }
-}
+};
 
 const updateRepo = async () => {
   const slug = config.collection.slug
@@ -94,7 +94,7 @@ const updateRepo = async () => {
   await git.commit(`Automatically updated on ${timestamp}`).catch((err) => console.error("Error committing: ", err))
   await git.push("origin", "main").catch((err) => console.error("Error pushing to repo: ", err))
 
-  console.log("Repository updated successfully.")
-}
+  console.log('Repository updated successfully.');
+};
 
-export { isGitRepo, initRepo, updateRepo, createGitHubRepo }
+module.exports = { isGitRepo, initRepo, updateRepo, createGitHubRepo };
