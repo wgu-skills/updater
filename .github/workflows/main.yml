@@ -12,34 +12,9 @@ jobs:
       with:
         token: ${{ secrets.GH_PAT }} # Use PAT for checkout
 
-    - name: Rebase with Remote Main Branch
-      run: |
-        git fetch origin main
-        git rebase origin/main
-
     - name: Fetch Skill Collection Data
       run: |
         curl -H 'accept: application/json' -o skillCollection.json "${{ env.SKILL_COLLECTION_URL }}
-        
-    - name: Install Dependencies
-      run: |
-        npm install
-
-    - name: Process and Convert to YAML
-      run: |
-        node .github/scripts/processSkillCollection.js
-
-    - name: Commit and Push `collection.skill.yaml`
-      run: |
-        git config --local user.email "david.petersen@wgu.edu"
-        git config --local user.name "David Petersen"
-        git add collection.skill.yaml
-        git diff --staged --quiet || git commit -m "Update collection.skill.yaml"
-        git push https://${{ secrets.GH_PAT }}@github.com/wgu-skills/cs.git
-
-    - name: Process Each Skill and Save as File
-      run: |
-        node .github/scripts/processSkills.js
 
     - name: Commit and Push Skill Files
       run: |

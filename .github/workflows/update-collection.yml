@@ -1,0 +1,13 @@
+name: Update Collection
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  update_collection:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Org Level Update Action
+      uses: wgu-skills/.github/actions/update-collection@main
