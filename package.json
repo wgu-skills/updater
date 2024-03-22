@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "babel index.js --out-dir dist && ncc build index.js -o dist -w",
-    "build": "babel index.js --out-dir dist && ncc build index.js -o dist -m"
+    "build": "npm run build:babel && npm run build:ncc",
+    "build:babel": "babel index.js --out-dir lib",
+    "build:ncc": "ncc build lib/index.js -o dist"
   },
   "repository": {
     "type": "git",
