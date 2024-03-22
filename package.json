@@ -37,5 +37,11 @@
     "@babel/plugin-transform-modules-commonjs": "^7.24.1",
     "@babel/preset-env": "^7.24.3",
     "@vercel/ncc": "^0.38.1"
+  },
+  "babel": {
+    "presets": [
+      ["@babel/preset-env", { "modules": false }]
+    ]
   }
+  
 }
