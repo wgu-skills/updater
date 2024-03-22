@@ -1,0 +1,20 @@
+{
+  "name": "@wgu/updater",
+  "version": "1.0.0",
+  "description": "Github action to update the skills in a skill collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wgu-skills/updater.git"
+  },
+  "author": "David Petersen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wgu-skills/updater/issues"
+  },
+  "homepage": "https://github.com/wgu-skills/updater#readme",
+  "type": "module"
+}

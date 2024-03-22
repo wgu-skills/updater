@@ -1,31 +1,12 @@
-name: Process and Update Skill Collection
-
-on:
-  workflow_dispatch:
-    inputs:
-      skillCollectionUrl:
-        description: 'Skill Collection URL'
-        required: true
-        default: 'https://osmt.wgu.edu/api/collections/1db79be3-ff33-4114-8449-e151aa9e6b25'
-      
-
-jobs:
-  process-and-update:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.GH_PAT }} # Use PAT for checkout
-
-      - name: Fetch Skill Collection Data
-        run: |
-          curl -H 'accept: application/json' -o skillCollection.json "${{ github.event.inputs.skillCollectionUrl }}"
-
-      - name: Commit and Push Skill Files
-        run: |
-          git config --global user.name 'David Petersen'
-          git config --global user.email 'david.petersen@wgu.edu'
-          git add .
-          git diff --staged --quiet || git commit -m "Add/Update Skill Files"
-          git push https://${{ secrets.GH_PAT }}@github.com/wgu-skills/cs.git
+name: 'Updater Action'
+description: 'Updates collection data'
+inputs:
+  skillCollectionUrl:
+    description: 'Skill Collection URL'
+    required: true
+  patToken:
+    description: 'Personal Access Token'
+    required: true
+runs:
+  using: 'node16' # or 'composite' if you're running shell commands
+  main: 'index.js' # The entry point script
