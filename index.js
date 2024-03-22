@@ -1,10 +1,11 @@
-import { getInput, setFailed } from '@actions/core';
+import * as core from '@actions/core';
+import * as github from '@actions/github';
 import getCollection from './helpers/getCollection';
 
 async function run() {
 	try {
-		const skillCollectionUrl = getInput('skillCollectionUrl');
-		const patToken = getInput('patToken');
+		const skillCollectionUrl = core.getInput('skillCollectionUrl');
+		const patToken = core.getInput('patToken');
         const repoName = github.context.repo.repo;
 
 		console.log(`Skill Collection URL: ${skillCollectionUrl}`);
