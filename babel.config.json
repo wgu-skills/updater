@@ -1,10 +1,13 @@
 {
 	"presets": [
-		[
-			"@babel/preset-env",
-			{
-				"modules": false // This tells Babel to keep ES6 imports and exports
-			}
-		]
+	  ["@babel/preset-env", {
+		"modules": false
+	  }]
+	],
+	"plugins": [
+	  ["@babel/plugin-transform-modules-commonjs", {
+		"noInterop": true
+	  }]
 	]
-}
+  }
+  
