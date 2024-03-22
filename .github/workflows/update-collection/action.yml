@@ -22,6 +22,3 @@ jobs:
         git diff --staged --quiet || git commit -m "Add/Update Skill Files"
         git push https://${{ secrets.GH_PAT }}@github.com/wgu-skills/cs.git
 
-env:
-  SKILL_COLLECTION_URL: https://aa-skill.wgu.edu/api/collections/
-
