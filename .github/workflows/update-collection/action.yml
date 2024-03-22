@@ -24,3 +24,4 @@ jobs:
 
 env:
   SKILL_COLLECTION_URL: https://aa-skill.wgu.edu/api/collections/
+
