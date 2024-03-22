@@ -4,7 +4,8 @@
   "description": "Github action to update the skills in a skill collection",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build index.js -o dist"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/wgu-skills/updater#readme",
   "type": "module",
   "devDependencies": {
-    "@actions/core": "^1.10.1"
+    "@actions/core": "^1.10.1",
+    "@vercel/ncc": "^0.38.1"
   }
 }

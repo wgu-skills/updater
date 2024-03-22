@@ -8,5 +8,5 @@ inputs:
     description: 'Personal Access Token'
     required: true
 runs:
-  using: 'node16' # or 'composite' if you're running shell commands
-  main: 'index.js' # The entry point script
+  using: 'node16'
+  main: 'dist/index.js'
