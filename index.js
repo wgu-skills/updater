@@ -1,17 +1,13 @@
-import * as core from '@actions/core';
-// import * as exec from '@actions/exec';
-// import * as github from '@actions/github';
-
-// index.js
+import { getInput, setFailed } from '@actions/core';
 
 async function run() {
     try {
-        const skillCollectionUrl = core.getInput('skillCollectionUrl');
-        const patToken = core.getInput('patToken');
+        const skillCollectionUrl = getInput('skillCollectionUrl');
+        const patToken = getInput('patToken');
         console.log(`Skill Collection URL: ${skillCollectionUrl}`);
         
     } catch (error) {
-        core.setFailed(error.message);
+        setFailed(error.message);
     }
 }
 

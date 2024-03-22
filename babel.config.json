@@ -1,7 +1,10 @@
 {
-  "presets": [
-    ["@babel/preset-env", {
-      "modules": false  // This tells Babel to keep ES6 imports and exports
-    }]
-  ]
+	"presets": [
+		[
+			"@babel/preset-env",
+			{
+				"modules": false // This tells Babel to keep ES6 imports and exports
+			}
+		]
+	]
 }
