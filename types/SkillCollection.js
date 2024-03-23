@@ -1,9 +1,15 @@
-const { writeToFile, createIndexFile, createPackageJsonFile, createReadmeFile, FORMAT_JSON } = require("../helpers/fileOperations.js");
-const { updateRepo } = require("../helpers/gitOperations.js");
-const Skill = require("./Skill.js");
-const config = require("../helpers/config.js");
-const path = require("path");
-const yaml = require("js-yaml");
+import {
+  writeToFile,
+  createIndexFile,
+  createPackageJsonFile,
+  createReadmeFile,
+  FORMAT_JSON
+} from "../helpers/fileOperations.js"
+import { updateRepo } from "../helpers/gitOperations.js"
+import Skill from "./Skill.js"
+import config from "../helpers/config.js"
+import path from "path"
+import yaml from "js-yaml"
 
 class SkillCollection {
   constructor(data) {
@@ -23,7 +29,7 @@ class SkillCollection {
       publishDate,
       archiveDate,
       skills
-    } = data;
+    } = data
 
     Object.assign(this, {
       uuid,
@@ -41,36 +47,36 @@ class SkillCollection {
       publishDate,
       archiveDate,
       slug: config.collection.slug,
-      skills: skills.map(skill => new Skill(skill))
-    });
+      skills: skills.map((skill) => new Skill(skill))
+    })
   }
 
   async export(format) {
-    const formattedCollection = { ...this, skills: this.skills.map(skill => skill.get()) };
-    const dataToWrite = format === FORMAT_JSON ? JSON.stringify(formattedCollection, null, 4) : yaml.dump(formattedCollection);
-    const fileName = path.join(config.files.output_dir, this.slug, `collection.skill.${format}`);
-    await writeToFile(fileName, dataToWrite);
+    const formattedCollection = { ...this, skills: this.skills.map((skill) => skill.get()) }
+    const dataToWrite = format === FORMAT_JSON ? JSON.stringify(formattedCollection, null, 4) : yaml.dump(formattedCollection)
+    const fileName = path.join(config.files.output_dir, this.slug, `collection.skill.${format}`)
+    await writeToFile(fileName, dataToWrite)
   }
 
   async exportSkills(format) {
-    await Promise.all(this.skills.map(skill => skill.export(this, format)));
+    await Promise.all(this.skills.map((skill) => skill.export(this, format)))
   }
 
   async createIndexFile() {
-    await createIndexFile(this);
+    await createIndexFile(this)
   }
 
   async createPackageJsonFile() {
-    await createPackageJsonFile(this);
+    await createPackageJsonFile(this)
   }
 
   async createReadmeFile() {
-    await createReadmeFile(this);
+    await createReadmeFile(this)
   }
 
   async updateRepo() {
-    await updateRepo();
+    await updateRepo()
   }
 }
 
-module.exports = SkillCollection;
+export default SkillCollection

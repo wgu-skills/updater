@@ -1,11 +1,11 @@
-const yaml = require('js-yaml');
-const { FORMAT_JSON, FORMAT_YAML } = require("../helpers/fileOperations.js");
-const { writeToFile } = require('../helpers/fileOperations.js');
-const { createSlug } = require('../helpers/stringOperations.js');
-const config = require('../helpers/config.js');
-const path = require('path');
+import yaml from 'js-yaml';
+import { FORMAT_JSON, FORMAT_YAML } from "../helpers/fileOperations.js"
+import { writeToFile } from '../helpers/fileOperations.js';
+import { createSlug } from '../helpers/stringOperations.js';
+import config from '../helpers/config.js';
+import path from 'path';
 
-class Skill {
+export default class Skill {
   constructor(data, collection) {
     Object.assign(this, {
       ...data,
@@ -19,7 +19,9 @@ class Skill {
   }
 
   async export(collection, format) {
-    const fileName = path.join(config.files.output_dir, collection.slug, `skills/${this.slug}.skill.${format}`);
+
+    const fileName = path.join(config.files.output_dir, collection.slug, `skills/${this.slug}.skill.${format}`)
+
     let dataString;
 
     if (format === FORMAT_JSON) {
@@ -34,5 +36,3 @@ class Skill {
     await writeToFile(fileName, dataString);
   }
 }
-
-module.exports = Skill;

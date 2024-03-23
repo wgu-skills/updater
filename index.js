@@ -1,15 +1,11 @@
 import { getInput, setFailed } from '@actions/core';
 import getCollection from './helpers/getCollection';
-
+import { skillCollectionUrl, slug } from './helpers/config';
 async function run() {
 	try {
-		const skillCollectionUrl = getInput('skillCollectionUrl');
-		const patToken = getInput('patToken');
-        const repoName = github.context.repo.repo;
 
-		console.log(`Skill Collection URL: ${skillCollectionUrl}`);
-
-		const collection = await getCollection(skillCollectionUrl, repoName);
+		console.log(`Skill Collection URL: ${skillCollectionUrl} as ${slug}`);
+		const collection = await getCollection(skillCollectionUrl, slug);
 
 		// Get the collection
 		await Promise.all([
