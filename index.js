@@ -1,36 +1,32 @@
-const core = require('@actions/core');
-const github = require('@actions/github');
-const fetch = require('node-fetch');
-
-async function fetchSkillCollection(url, token) {
-    const headers = { 
-        Accept: "application/json",
-        ...(token && { Authorization: `token ${token}` })  // Adds Authorization header if token is provided
-    };
-
-    const response = await fetch(url, { headers });
-    if (!response.ok) {
-        throw new Error(`HTTP error: ${response.status} - ${response.statusText}`);
-    }
-
-    return response.json();
-}
+import { getInput, setFailed } from '@actions/core';
+import getCollection from './helpers/getCollection';
 
 async function run() {
-    try {
-        const skillCollectionUrl = core.getInput('skillCollectionUrl');
-        const patToken = core.getInput('patToken'); // Personal Access Token
-
-        console.log(`Fetching skill collection from URL: ${skillCollectionUrl}`);
-        const skillCollection = await fetchSkillCollection(skillCollectionUrl, patToken);
-
+	try {
+		const skillCollectionUrl = getInput('skillCollectionUrl');
+		const patToken = getInput('patToken');
         const repoName = github.context.repo.repo;
-        console.log(`Skill Collection for repository '${repoName}':`, skillCollection);
-        
-    } catch (error) {
-        console.error('Failed to fetch skill collection:', error);
-        core.setFailed(`Error: ${error.message}`);
-    }
+
+		console.log(`Skill Collection URL: ${skillCollectionUrl}`);
+
+		const collection = await getCollection(skillCollectionUrl, repoName);
+
+		// Get the collection
+		await Promise.all([
+			collection.export(FORMAT_JSON), // Export the collection
+			// collection.export(FORMAT_YAML), // Export the collection
+			// collection.exportSkills(FORMAT_JSON), // Export the skills
+			// collection.exportSkills(FORMAT_YAML), // Export the skills
+			// collection.createIndexFile(), // Create the index file
+			// collection.createPackageJsonFile(), // Create the package.json file
+			// collection.createReadmeFile() // Create the README file
+		]);
+
+		// Check if the directory is a git repository
+		collection.updateRepo()
+	} catch (error) {
+		setFailed(error.message);
+	}
 }
 
 run();
