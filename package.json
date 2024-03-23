@@ -22,6 +22,7 @@
     "js-yaml": "^4.1.0",
     "node-fetch": "^3.3.2",
     "path": "^0.12.7",
+    "simple-git": "^3.23.0",
     "slugify": "^1.6.6"
   },
   "devDependencies": {
