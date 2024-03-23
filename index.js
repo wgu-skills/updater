@@ -1,6 +1,6 @@
 const core = require('@actions/core');
 const github = require('@actions/github');
-const getCollection = require('./helpers/getCollection');
+const getCollection = require('./helpers/getCollection.js');
 
 async function run() {
     try {
