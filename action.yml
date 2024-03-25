@@ -25,17 +25,16 @@ inputs:
 runs:
   using: 'composite'
   steps:
-    - name: Checkout repository
+    - name: Checkout Updater Repo
       uses: actions/checkout@v2
-  
+      with:
+        repository: wgu-skills/updater
+        path: updater
+
     - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
         node-version: '20'
-
-    - name: Access directory
-      shell: bash
-      run: cd ../ && ls -lia
 
     - name: Run update script
       shell: bash
