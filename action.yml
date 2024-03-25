@@ -31,6 +31,13 @@ runs:
         repository: wgu-skills/updater
         path: updater
 
+    - name: Configure Git
+      shell: bash
+      run: |
+        git config --local user.email "$GIT_EMAIL"
+        git config --local user.name "GitHub Action"
+
+
     - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
@@ -51,8 +58,6 @@ runs:
     - name: Commit and Push changes
       shell: bash
       run: |
-        git config --local user.email "$GIT_EMAIL"
-        git config --local user.name "$GIT_USERNAME"
         git add .
         git commit -m "Update skill collection data" -a || echo "No changes to commit"
         git push
