@@ -23,7 +23,7 @@ const listFiles = async (dir) => fs.readdir(dir);
 const createFileFromTemplate = async (collection, fileType, contentBuilder) => {
   try {
     const filePath = getFilePath(`${collection.slug}/${fileType}`);
-    const content = contentBuilder(collection);
+    const content = await contentBuilder(collection);
     await writeToFile(filePath, content);
   } catch (error) {
     console.error(`Error creating ${fileType}:`, error);
