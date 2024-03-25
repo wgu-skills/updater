@@ -1,11 +1,14 @@
 import { setFailed } from '@actions/core';
 import getCollection from './helpers/getCollection';
-import { collection } from './helpers/config';
-const { slug, url } = collection;
+import config from './helpers/config';
+import { FORMAT_JSON } from './helpers/fileOperations';
+
 async function run() {
 	try {
 
-		console.log(`Skill Collection URL: ${url} as ${slug}`);
+		const { url, slug } = config.collection;
+		console.log(`Skill Collection` , url, slug);
+		
 		const collection = await getCollection(url, slug);
 
 		// Get the collection
