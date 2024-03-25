@@ -16,18 +16,18 @@ const checkEnvVariable = (key, defaultValue = null) => {
 // Environment variables grouped and validated
 const config = {
   collection: {
-    slug: checkEnvVariable("COLLECTION_SLUG", getInput('skillCollectionSlug')),
-    uuid: checkEnvVariable("COLLECTION_UUID", getInput('skillCollectionUuid')),
-    url: checkEnvVariable("COLLECTION_URL", getInput('skillCollectionUrl'))
+    slug: getInput('skillCollectionSlug'),
+    uuid: getInput('skillCollectionUuid'),
+    url: getInput('skillCollectionUrl')
   },
   files: {
     output_dir: checkEnvVariable("OUTPUT_DIR", process.env.GITHUB_WORKSPACE)
   },
   git: {
-    pat: checkEnvVariable("GIT_PAT", getInput('patToken')),
-    username: checkEnvVariable("GIT_USERNAME", getInput('gitUsername')),
-    email: checkEnvVariable("GIT_EMAIL", getInput('gitEmail')),
-    org: checkEnvVariable("GIT_ORG", getInput('gitOrg')),
+    pat: getInput('patToken'),
+    username: getInput('gitUsername'),
+    email: getInput('gitEmail'),
+    org: getInput('gitOrg'),
   }
 }
 
