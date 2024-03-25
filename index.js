@@ -8,12 +8,8 @@ async function run() {
 
 		 // Debug: Log the config and collection config
 		 console.log('Config:', config);
-		 console.log('Collection Config:', config.collection);
- 
-		 const { url, slug } = config.collection;
-		 console.log(`Skill Collection`, url, slug);
- 
-		 const collection = await getCollection(url, slug);
+
+		 const collection = await getCollection(config.collection.url, config.collection.slug);
 
 		// Get the collection
 		await Promise.all([
