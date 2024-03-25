@@ -1,6 +1,5 @@
 name: 'Updater Action'
 description: 'Updates collection data and commits changes to the repository.'
-
 inputs:
   skillCollectionSlug:
     description: 'Skill Collection Slug'
@@ -23,22 +22,18 @@ inputs:
   patToken:
     description: 'GitHub Personal Access Token'
     required: true
-
 runs:
   using: 'composite'
   steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
 
     - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
         node-version: '20'
-
-    - name: Build project
-      shell: bash
-      run: cd ~/ && npm install && npm run build
-
+        
     - name: List files in dist directory
-      shell: bash
       run: ls -l dist/
 
     - name: Run update script
