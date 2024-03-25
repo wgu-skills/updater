@@ -68,4 +68,4 @@ runs:
         cd $GITHUB_WORKSPACE
         git add .
         git commit -m "Update skill collection data" -a || echo "No changes to commit"
-        git push
+        git -c http.extraheader="AUTHORIZATION: basic $(echo -n x-access-token:${{ inputs.patToken }} | base64)" push
