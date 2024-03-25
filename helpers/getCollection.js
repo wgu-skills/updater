@@ -7,7 +7,11 @@ import SkillCollection from "../types/SkillCollection.js";
  * @throws {Error} Throws an error if the network response is not ok or JSON parsing fails.
  */
 const getCollection = async (slug) => {
+
+  console.log(`Beginning getCollection`)
+
   try {
+    
     const url = `https://aa-skill.wgu.edu/api/collections/${slug}`
     const response = await fetch(url, { headers: { Accept: "application/json" } });
 
