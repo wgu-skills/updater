@@ -35,7 +35,7 @@ runs:
 
     - name: Build project
       shell: bash
-      run: npm install && npm run build
+      run: cd ~/ && npm install && npm run build
 
     - name: List files in dist directory
       shell: bash
