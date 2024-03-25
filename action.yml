@@ -1,8 +1,23 @@
 name: 'Updater Action'
 description: 'Updates collection data'
 inputs:
+  skillCollectionSlug:
+    description: 'Skill Collection Slug'
+    required: true
   skillCollectionUrl:
     description: 'Skill Collection URL'
+    required: true
+  skillCollectionUuid:
+    description: 'Skill Collection UUID'
+    required: true
+  gitOrg:
+    description: 'Organization'
+    required: true
+  gitUsername:
+    description: 'Username'
+    required: true
+  gitEmail:
+    description: 'Email'
     required: true
   patToken:
     description: 'Personal Access Token'

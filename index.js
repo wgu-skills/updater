@@ -1,4 +1,4 @@
-import { getInput, setFailed } from '@actions/core';
+import { setFailed } from '@actions/core';
 import getCollection from './helpers/getCollection';
 import { skillCollectionUrl, slug } from './helpers/config';
 async function run() {

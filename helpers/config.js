@@ -16,8 +16,8 @@ const checkEnvVariable = (key, defaultValue = null) => {
 // Environment variables grouped and validated
 const config = {
   collection: {
-    slug: checkEnvVariable("COLLECTION_SLUG", github.context.repo.repo),
-    uuid: checkEnvVariable("COLLECTION_UUID", "168fae01-783d-422e-8b9f-93b9dc9102ea"),
+    slug: checkEnvVariable("COLLECTION_SLUG", getInput('skillCollectionSlug')),
+    uuid: checkEnvVariable("COLLECTION_UUID", getInput('skillCollectionUuid')),
     url: checkEnvVariable("COLLECTION_URL", getInput('skillCollectionUrl'))
   },
   files: {
@@ -25,9 +25,9 @@ const config = {
   },
   git: {
     pat: checkEnvVariable("GIT_PAT", getInput('patToken')),
-    username: checkEnvVariable("GIT_USERNAME", "davidjpetersen"),
-    email: checkEnvVariable("GIT_EMAIL", "david.petersen@wgu.edu"),
-    org: checkEnvVariable("GIT_ORG", github.context.repo.owner)
+    username: checkEnvVariable("GIT_USERNAME", getInput('gitUsername')),
+    email: checkEnvVariable("GIT_EMAIL", getInput('gitEmail')),
+    org: checkEnvVariable("GIT_ORG", getInput('gitOrg')),
   }
 }
 
