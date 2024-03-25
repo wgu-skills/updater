@@ -35,6 +35,14 @@ runs:
       with:
         node-version: '20'
 
+    - name: Build project
+      shell: bash
+      run: npm install && npm run build
+
+    - name: List files in dist directory
+      shell: bash
+      run: ls -l dist/
+      
     - name: Run update script
       run: node dist/index.js
       shell: bash
