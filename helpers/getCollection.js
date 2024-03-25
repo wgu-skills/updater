@@ -6,8 +6,9 @@ import SkillCollection from "../types/SkillCollection.js";
  * @returns {Promise<SkillCollection>} A SkillCollection instance.
  * @throws {Error} Throws an error if the network response is not ok or JSON parsing fails.
  */
-const getCollection = async (url, slug) => {
+const getCollection = async (slug) => {
   try {
+    const url = `https://aa-skill.wgu.edu/api/collections/${slug}`
     const response = await fetch(url, { headers: { Accept: "application/json" } });
 
     if (!response.ok) {
