@@ -1,5 +1,5 @@
 import { setFailed } from '@actions/core';
-import getCollection from './helpers/getCollection';
+import SkillCollection from './types/SkillCollection';
 import config from './helpers/config';
 // import { FORMAT_JSON, FORMAT_YAML } from './helpers/fileOperations';
 
