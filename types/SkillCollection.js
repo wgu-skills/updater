@@ -54,7 +54,7 @@ class SkillCollection {
   async export(format) {
     const formattedCollection = { ...this, skills: this.skills.map((skill) => skill.get()) }
     const dataToWrite = format === FORMAT_JSON ? JSON.stringify(formattedCollection, null, 4) : yaml.dump(formattedCollection)
-    const fileName = path.join(config.files.output_dir, this.slug, `collection.skill.${format}`)
+    const fileName = path.join(config.files.output_dir, `collection.skill.${format}`)
     await writeToFile(fileName, dataToWrite)
   }
 
