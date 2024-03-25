@@ -17,7 +17,7 @@ const writeToFile = async (filePath, content) => {
   await fs.mkdir(path.dirname(filePath), { recursive: true });
   await fs.writeFile(filePath, content);
 };
-const listFiles = (dir) => fs.readdir(dir);
+const listFiles = async (dir) => fs.readdir(dir);
 
 // Collection File Creators
 const createFileFromTemplate = async (collection, fileType, contentBuilder) => {
@@ -32,7 +32,7 @@ const createFileFromTemplate = async (collection, fileType, contentBuilder) => {
 };
 
 const createIndexFile = async (collection) => {
-  await createFileFromTemplate(collection, 'index.js', (collection) => {
+  await createFileFromTemplate(collection, 'index.js', async (collection) => {
     const imports = [], exports = [];
     const skillsPath = getFilePath("skills");
     const files = await listFiles(skillsPath);
