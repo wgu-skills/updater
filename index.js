@@ -6,10 +6,14 @@ import { FORMAT_JSON } from './helpers/fileOperations';
 async function run() {
 	try {
 
-		const { url, slug } = config.collection;
-		console.log(`Skill Collection` , url, slug);
-		
-		const collection = await getCollection(url, slug);
+		 // Debug: Log the config and collection config
+		 console.log('Config:', config);
+		 console.log('Collection Config:', config.collection);
+ 
+		 const { url, slug } = config.collection;
+		 console.log(`Skill Collection`, url, slug);
+ 
+		 const collection = await getCollection(url, slug);
 
 		// Get the collection
 		await Promise.all([
