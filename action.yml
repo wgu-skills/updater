@@ -24,6 +24,15 @@ inputs:
     description: 'GitHub Personal Access Token'
     required: true
 
+env:
+  SKILL_COLLECTION_SLUG: ${{ inputs.skillCollectionSlug }}
+  SKILL_COLLECTION_URL: ${{ inputs.skillCollectionUrl }}
+  SKILL_COLLECTION_UUID: ${{ inputs.skillCollectionUuid }}
+  GIT_ORG: ${{ inputs.gitOrg }}
+  GIT_USERNAME: ${{ inputs.gitUsername }}
+  GIT_EMAIL: ${{ inputs.gitEmail }}
+  PAT_TOKEN: ${{ inputs.patToken }}
+
 runs:
   using: 'composite'
   steps:
@@ -38,23 +47,12 @@ runs:
     - name: Run update script
       run: node dist/index.js
       shell: bash
-      env:
-        SKILL_COLLECTION_SLUG: ${{ inputs.skillCollectionSlug }}
-        SKILL_COLLECTION_URL: ${{ inputs.skillCollectionUrl }}
-        SKILL_COLLECTION_UUID: ${{ inputs.skillCollectionUuid }}
-        GIT_ORG: ${{ inputs.gitOrg }}
-        GIT_USERNAME: ${{ inputs.gitUsername }}
-        GIT_EMAIL: ${{ inputs.gitEmail }}
-        PAT_TOKEN: ${{ inputs.patToken }}
 
     - name: Commit and Push changes
-      env:
-        GIT_EMAIL: ${{ inputs.gitEmail }}
-        GIT_USERNAME: ${{ inputs.gitUsername }}
       run: |
-        git config --local user.email "$GIT_EMAIL"
-        git config --local user.name "$GIT_USERNAME"
-        git add .
-        git commit -m "Update skill collection data" -a || echo "No changes to commit"
+        git config --local user.email "$GIT_EMAIL" && \
+        git config --local user.name "$GIT_USERNAME" && \
+        git add . && \
+        git commit -m "Update skill collection data" -a || echo "No changes to commit" && \
         git push
       shell: bash
