@@ -25,6 +25,10 @@ inputs:
 runs:
   using: 'composite'
   steps:
+
+    - name: Checkout Skill Collection Repo
+      uses: actions/checkout@v2
+      
     - name: Configure Git
       shell: bash
       run: |
