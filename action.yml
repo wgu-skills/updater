@@ -25,10 +25,10 @@ inputs:
 runs:
   using: 'composite'
   steps:
-
     - name: Configure Git
       shell: bash
       run: |
+        cd $GITHUB_WORKSPACE
         git config --local user.email "$GIT_EMAIL"
         git config --local user.name "GitHub Action"
       env:
