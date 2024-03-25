@@ -7,7 +7,7 @@ async function run() {
 	try {
 
 		const collection = await SkillCollection.fetchAndCreate('1db79be3-ff33-4114-8449-e151aa9e6b25', 'accountants-and-auditors');
-		console.log('Collection:', collection);
+		// console.log('Collection:', collection);
 
 		// Get the collection
 		await Promise.all([
@@ -20,8 +20,9 @@ async function run() {
 			// collection.createReadmeFile() // Create the README file
 		]);
 
-		// Check if the directory is a git repository
+
 		collection.updateRepo()
+
 	} catch (error) {
 		setFailed(error.message);
 	}

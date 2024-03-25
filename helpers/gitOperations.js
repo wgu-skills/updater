@@ -57,12 +57,12 @@ const updateRepo = async () => {
 
   console.log("Updating repository...")
 
-  const slug = config.collection.slug
-  const outputDir = config.files.output_dir
-  const gitDir = `${outputDir}/${slug}`
-  const git = simpleGit(gitDir)
+  // const slug = config.collection.slug
+  // const outputDir = config.files.output_dir
+  // const gitDir = `${outputDir}/${slug}`
+  const git = simpleGit()
 
-  console.log(`Checking if ${gitDir} is a Git repository...`)
+  // console.log(`Checking if ${gitDir} is a Git repository...`)
 
   // Check if the directory is a Git repository
   const isRepo = await git.checkIsRepo()
