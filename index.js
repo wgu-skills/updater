@@ -1,6 +1,5 @@
 import { setFailed } from '@actions/core';
 import SkillCollection from './types/SkillCollection';
-import config from './helpers/config';
 import { FORMAT_JSON, FORMAT_YAML } from './helpers/fileOperations';
 
 async function run() {
@@ -13,15 +12,12 @@ async function run() {
 		await Promise.all([
 			collection.export(FORMAT_JSON), // Export the collection
 			collection.export(FORMAT_YAML), // Export the collection
-			// collection.exportSkills(FORMAT_JSON), // Export the skills
-			// collection.exportSkills(FORMAT_YAML), // Export the skills
-			// collection.createIndexFile(), // Create the index file
-			// collection.createPackageJsonFile(), // Create the package.json file
-			// collection.createReadmeFile() // Create the README file
+			collection.exportSkills(FORMAT_JSON), // Export the skills
+			collection.exportSkills(FORMAT_YAML), // Export the skills
+			collection.createIndexFile(), // Create the index file
+			collection.createPackageJsonFile(), // Create the package.json file
+			collection.createReadmeFile() // Create the README file
 		]);
-
-
-		collection.updateRepo()
 
 	} catch (error) {
 		setFailed(error.message);

@@ -25,3 +25,26 @@ inputs:
 runs:
   using: 'node20'
   main: 'dist/index.js'
+
+jobs:
+  build-and-commit-json:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '20'  # Updated to match 'node20'
+
+    - name: Run your script
+      run: node dist/index.js  # Replace with your actual script name
+
+    - name: Commit and Push
+      run: |
+        git config --local user.email ${{ inputs.gitEmail }}
+        git config --local user.name ${{ inputs.gitUsername }}
+        git add -A
+        git commit -m "Auto-update JSON file" -a || echo "No changes to commit"
+        git push

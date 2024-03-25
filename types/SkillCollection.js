@@ -10,7 +10,6 @@ import {
 	createReadmeFile,
 	FORMAT_JSON,
 } from '../helpers/fileOperations.js';
-import { updateRepo } from '../helpers/gitOperations.js';
 
 /**
  * Represents a collection of skills.
@@ -113,14 +112,7 @@ class SkillCollection {
 	async createReadmeFile() {
 		await createReadmeFile(this);
 	}
-
-	/**
-	 * Updates the repository.
-	 * @returns {Promise<void>} A promise that resolves when the repository is updated.
-	 */
-	async updateRepo() {
-		await updateRepo();
-	}
+	
 }
 
 export default SkillCollection;
