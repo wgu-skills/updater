@@ -2,6 +2,9 @@ const fs = require('fs/promises');
 const path = require('path');
 const { toCamelCase } = require('./stringOperations.js');
 
+const FORMAT_JSON = "json";
+const FORMAT_YAML = "yaml";
+
 const FILE_EXTENSIONS = {
   skillJson: ".skill.json",
   skillYaml: ".skill.yaml"
@@ -74,4 +77,4 @@ const createReadmeFile = async (collection) => {
   });
 };
 
-module.exports = { writeToFile, createIndexFile, createPackageJsonFile, createReadmeFile };
+module.exports = { writeToFile, createIndexFile, createPackageJsonFile, createReadmeFile, FORMAT_JSON, FORMAT_YAML};
