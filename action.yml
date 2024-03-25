@@ -43,8 +43,8 @@ jobs:
 
     - name: Commit and Push
       run: |
-        git config --local user.email ${{ inputs.gitEmail }}
-        git config --local user.name ${{ inputs.gitUsername }}
+        git config --local user.email ${{ github.event.inputs.gitEmail }}
+        git config --local user.name ${{ github.event.inputs.gitUsername }}
         git add -A
         git commit -m "Auto-update JSON file" -a || echo "No changes to commit"
         git push
