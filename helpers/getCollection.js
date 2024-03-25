@@ -9,10 +9,10 @@ import SkillCollection from "../types/SkillCollection.js";
 const getCollection = async (slug) => {
 
   console.log(`Beginning getCollection`)
+  const url = `https://aa-skill.wgu.edu/api/collections/${slug}`
 
   try {
-    
-    const url = `https://aa-skill.wgu.edu/api/collections/${slug}`
+
     const response = await fetch(url, { headers: { Accept: "application/json" } });
 
     if (!response.ok) {
@@ -23,6 +23,7 @@ const getCollection = async (slug) => {
     return new SkillCollection(json, slug);
 
   } catch (error) {
+
     console.error(`Error fetching collection for url: ${url}`, error);
     throw error;  // Propagating the same error object
   }
