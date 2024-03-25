@@ -33,9 +33,13 @@ runs:
       with:
         node-version: '20'
 
+    - name: Change to the root directory
+      shell: bash
+      run: cd $GITHUB_WORKSPACE
+
     - name: List files in dist directory
       shell: bash
-      run: ls -l dist/
+      run: ls -lia
 
     - name: Run update script
       shell: bash
