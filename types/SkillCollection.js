@@ -12,7 +12,19 @@ import {
 } from '../helpers/fileOperations.js';
 import { updateRepo } from '../helpers/gitOperations.js';
 
+/**
+ * Represents a collection of skills.
+ * @class
+ */
 class SkillCollection {
+
+	/**
+	 * Represents a SkillCollection object.
+	 * @constructor
+	 * @param {Object} data - The data object used to initialize the SkillCollection.
+	 * @param {string} data.slug - The slug of the SkillCollection.
+	 * @param {Array} data.skills - An array of skills to be included in the SkillCollection.
+	 */
 	constructor(data) {
 		// Assigning properties more concisely
 		Object.assign(this, data, {
@@ -21,6 +33,13 @@ class SkillCollection {
 		});
 	}
 
+	/**
+	 * Fetches a skill collection from the specified URL and creates a new instance of SkillCollection.
+	 * @param {string} uuid - The UUID of the skill collection.
+	 * @param {string} slug - The slug of the skill collection.
+	 * @returns {Promise<SkillCollection>} A promise that resolves with a new instance of SkillCollection.
+	 * @throws {Error} If the network response is not ok or an error occurs during the fetch operation.
+	 */
 	static async fetchAndCreate(uuid, slug) {
 		const url = `https://aa-skill.wgu.edu/api/collections/${uuid}`;
 		try {
@@ -38,6 +57,11 @@ class SkillCollection {
 		}
 	}
 
+	/**
+	 * Exports the SkillCollection in the specified format.
+	 * @param {string} format - The format to export the SkillCollection in. Can be 'json' or 'yaml'.
+	 * @returns {Promise<void>} - A Promise that resolves when the export is complete.
+	 */
 	async export(format) {
 		const formattedCollection = {
 			...this,
@@ -57,22 +81,43 @@ class SkillCollection {
 		await writeToFile(fileName, dataToWrite);
 	}
 
+	/**
+	 * Export the skills in the specified format.
+	 * @param {string} format - The format in which to export the skills.
+	 * @returns {Promise<void>} - A promise that resolves when the export is complete.
+	 */
 	async exportSkills(format) {
 		await Promise.all(this.skills.map((skill) => skill.export(this, format)));
 	}
 
+	/**
+	 * Creates an index file for the SkillCollection.
+	 * @returns {Promise<void>} A promise that resolves when the index file is created.
+	 */
 	async createIndexFile() {
 		await createIndexFile(this);
 	}
 
+	/**
+	 * Creates a package.json file for the skill collection.
+	 * @returns {Promise<void>} A promise that resolves when the package.json file is created.
+	 */
 	async createPackageJsonFile() {
 		await createPackageJsonFile(this);
 	}
 
+	/**
+	 * Creates a readme file for the skill collection.
+	 * @returns {Promise<void>} A promise that resolves when the readme file is created.
+	 */
 	async createReadmeFile() {
 		await createReadmeFile(this);
 	}
 
+	/**
+	 * Updates the repository.
+	 * @returns {Promise<void>} A promise that resolves when the repository is updated.
+	 */
 	async updateRepo() {
 		await updateRepo();
 	}
