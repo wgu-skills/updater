@@ -13,7 +13,6 @@ import {
 import { updateRepo } from '../helpers/gitOperations.js';
 
 class SkillCollection {
-  
 	constructor(data) {
 		// Assigning properties more concisely
 		Object.assign(this, data, {
@@ -44,14 +43,17 @@ class SkillCollection {
 			...this,
 			skills: this.skills.map((skill) => skill.get()),
 		};
+
 		const dataToWrite =
 			format === FORMAT_JSON
 				? JSON.stringify(formattedCollection, null, 4)
 				: yaml.dump(formattedCollection);
+
 		const fileName = path.join(
 			config.files.output_dir,
 			`collection.skill.${format}`
 		);
+
 		await writeToFile(fileName, dataToWrite);
 	}
 
