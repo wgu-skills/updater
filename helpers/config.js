@@ -21,13 +21,13 @@ const config = {
     url: getInput('skillCollectionUrl')
   },
   files: {
-    output_dir: checkEnvVariable("OUTPUT_DIR", process.env.GITHUB_WORKSPACE)
+    output_dir: process.env.GITHUB_WORKSPACE
   },
   git: {
-    pat: getInput('patToken'),
+    org: getInput('gitOrg'),
     username: getInput('gitUsername'),
     email: getInput('gitEmail'),
-    org: getInput('gitOrg'),
+    pat: getInput('patToken')
   }
 }
 
