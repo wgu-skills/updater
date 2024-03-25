@@ -8,12 +8,8 @@ async function run() {
 		// Debug: Log the config and collection config
 		console.log('Config:', config);
 
-		const collection = await getCollection(
-			config.collection.uuid,
-			config.collection.slug
-		);
+		const collection = await SkillCollection.fetchAndCreate('1db79be3-ff33-4114-8449-e151aa9e6b25', 'accountants-and-auditors');
 
-		console.log('Collection:', collection);
 		// Get the collection
 		// await Promise.all([
 		// 	collection.export(FORMAT_JSON), // Export the collection
