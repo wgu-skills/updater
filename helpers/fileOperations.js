@@ -12,6 +12,7 @@ const FILE_EXTENSIONS = {
 
 // Utility functions
 const getFilePath = (fileName) => path.join(process.env.GITHUB_WORKSPACE, fileName);
+
 const writeToFile = async (filePath, content) => {
   await fs.mkdir(path.dirname(filePath), { recursive: true });
   await fs.writeFile(filePath, content);

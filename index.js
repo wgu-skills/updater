@@ -1,15 +1,17 @@
 import { setFailed } from '@actions/core';
 import getCollection from './helpers/getCollection';
 import config from './helpers/config';
-import { FORMAT_JSON } from './helpers/fileOperations';
+// import { FORMAT_JSON, FORMAT_YAML } from './helpers/fileOperations';
 
 async function run() {
 	try {
+		// Debug: Log the config and collection config
+		console.log('Config:', config);
 
-		 // Debug: Log the config and collection config
-		 console.log('Config:', config);
-
-		 const collection = await getCollection(config.collection.uuid, config.collection.slug);
+		const collection = await getCollection(
+			config.collection.uuid,
+			config.collection.slug
+		);
 
 		console.log('Collection:', collection);
 		// Get the collection
@@ -25,7 +27,6 @@ async function run() {
 
 		// Check if the directory is a git repository
 		// collection.updateRepo()
-
 	} catch (error) {
 		setFailed(error.message);
 	}
