@@ -54,13 +54,21 @@ async function createGitHubRepo(repoName) {
 }
 
 const updateRepo = async () => {
+
+  console.log("Updating repository...")
+
   const slug = config.collection.slug
   const outputDir = config.files.output_dir
   const gitDir = `${outputDir}/${slug}`
   const git = simpleGit(gitDir)
 
+  console.log(`Checking if ${gitDir} is a Git repository...`)
+
   // Check if the directory is a Git repository
   const isRepo = await git.checkIsRepo()
+  console.log(`The directory is ${isRepo ? "" : "not "}a Git repository.`)
+
+  // Initialize a new Git repository if it isn't one
   if (!isRepo) {
     console.log(`Initializing new Git repository in ${gitDir}`)
     await git.init()
