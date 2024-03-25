@@ -1,5 +1,6 @@
 name: 'Updater Action'
-description: 'Updates collection data'
+description: 'Updates collection data and commits changes to the repository.'
+
 inputs:
   skillCollectionSlug:
     description: 'Skill Collection Slug'
@@ -11,40 +12,49 @@ inputs:
     description: 'Skill Collection UUID'
     required: true
   gitOrg:
-    description: 'Organization'
+    description: 'GitHub Organization'
     required: true
   gitUsername:
-    description: 'Username'
+    description: 'GitHub Username'
     required: true
   gitEmail:
-    description: 'Email'
+    description: 'GitHub Email'
     required: true
   patToken:
-    description: 'Personal Access Token'
+    description: 'GitHub Personal Access Token'
     required: true
-runs:
-  using: 'node20'
-  main: 'dist/index.js'
 
-jobs:
-  build-and-commit-json:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Check out repository
+runs:
+  using: 'composite'
+  steps:
+    - name: Checkout repository
       uses: actions/checkout@v2
 
     - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '20'  # Updated to match 'node20'
+        node-version: '20'
 
-    - name: Run your script
-      run: node dist/index.js  # Replace with your actual script name
+    - name: Run update script
+      run: node dist/index.js
+      shell: bash
+      env:
+        SKILL_COLLECTION_SLUG: ${{ inputs.skillCollectionSlug }}
+        SKILL_COLLECTION_URL: ${{ inputs.skillCollectionUrl }}
+        SKILL_COLLECTION_UUID: ${{ inputs.skillCollectionUuid }}
+        GIT_ORG: ${{ inputs.gitOrg }}
+        GIT_USERNAME: ${{ inputs.gitUsername }}
+        GIT_EMAIL: ${{ inputs.gitEmail }}
+        PAT_TOKEN: ${{ inputs.patToken }}
 
-    - name: Commit and Push
+    - name: Commit and Push changes
+      env:
+        GIT_EMAIL: ${{ inputs.gitEmail }}
+        GIT_USERNAME: ${{ inputs.gitUsername }}
       run: |
-        git config --local user.email ${{ inputs.gitEmail }}
-        git config --local user.name ${{ inputs.gitUsername }}
-        git add -A
-        git commit -m "Auto-update JSON file" -a || echo "No changes to commit"
+        git config --local user.email "$GIT_EMAIL"
+        git config --local user.name "$GIT_USERNAME"
+        git add .
+        git commit -m "Update skill collection data" -a || echo "No changes to commit"
         git push
+      shell: bash
