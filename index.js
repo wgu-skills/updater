@@ -9,7 +9,7 @@ async function run() {
 		 // Debug: Log the config and collection config
 		 console.log('Config:', config);
 
-		 const collection = await getCollection(config.collection.url, config.collection.slug);
+		 const collection = await getCollection(config.collection.slug);
 
 		// Get the collection
 		await Promise.all([
