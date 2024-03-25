@@ -33,6 +33,10 @@ runs:
       with:
         node-version: '20'
 
+    - name: Access directory
+      shell: bash
+      run: cd ../ && ls -lia
+
     - name: Run update script
       shell: bash
       run: node dist/index.js
