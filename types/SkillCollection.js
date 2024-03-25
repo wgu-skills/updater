@@ -73,12 +73,12 @@ class SkillCollection {
 				? JSON.stringify(formattedCollection, null, 4)
 				: yaml.dump(formattedCollection);
 
-		const fileName = path.join(
-			config.files.output_dir,
-			`collection.skill.${format}`
-		);
+		// const fileName = path.join(
+		// 	config.files.output_dir,
+		// 	`collection.skill.${format}`
+		// );
 
-		await writeToFile(fileName, dataToWrite);
+		await writeToFile(`./collection.skill.${format}`, dataToWrite);
 	}
 
 	/**

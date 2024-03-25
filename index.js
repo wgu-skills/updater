@@ -5,10 +5,9 @@ import { FORMAT_JSON, FORMAT_YAML } from './helpers/fileOperations';
 
 async function run() {
 	try {
-		// Debug: Log the config and collection config
-		console.log('Config:', config);
 
 		const collection = await SkillCollection.fetchAndCreate('1db79be3-ff33-4114-8449-e151aa9e6b25', 'accountants-and-auditors');
+		console.log('Collection:', collection);
 
 		// Get the collection
 		await Promise.all([
@@ -22,7 +21,7 @@ async function run() {
 		]);
 
 		// Check if the directory is a git repository
-		// collection.updateRepo()
+		collection.updateRepo()
 	} catch (error) {
 		setFailed(error.message);
 	}
