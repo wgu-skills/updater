@@ -1,11 +1,12 @@
 import { setFailed } from '@actions/core';
 import getCollection from './helpers/getCollection';
-import { skillCollectionUrl, slug } from './helpers/config';
+import { collection } from './helpers/config';
+const { slug, url } = collection;
 async function run() {
 	try {
 
-		console.log(`Skill Collection URL: ${skillCollectionUrl} as ${slug}`);
-		const collection = await getCollection(skillCollectionUrl, slug);
+		console.log(`Skill Collection URL: ${url} as ${slug}`);
+		const collection = await getCollection(url, slug);
 
 		// Get the collection
 		await Promise.all([
