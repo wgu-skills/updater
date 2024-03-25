@@ -36,7 +36,9 @@ runs:
       run: |
         git config --local user.email "$GIT_EMAIL"
         git config --local user.name "GitHub Action"
-
+      env:
+        GIT_EMAIL: ${{ inputs.gitEmail }}
+        GIT_USERNAME: ${{ inputs.gitUsername }}
 
     - name: Set up Node.js
       uses: actions/setup-node@v2
@@ -61,6 +63,3 @@ runs:
         git add .
         git commit -m "Update skill collection data" -a || echo "No changes to commit"
         git push
-      env:
-        GIT_EMAIL: ${{ inputs.gitEmail }}
-        GIT_USERNAME: ${{ inputs.gitUsername }}
