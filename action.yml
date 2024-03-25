@@ -33,10 +33,6 @@ runs:
       with:
         node-version: '20'
 
-    - name: Install dependencies
-      shell: bash
-      run: npm install && npm run build
-
     - name: Run update script
       shell: bash
       run: node dist/index.js
