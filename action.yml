@@ -25,11 +25,6 @@ inputs:
 runs:
   using: 'composite'
   steps:
-    - name: Checkout Updater Repo
-      uses: actions/checkout@v2
-      with:
-        repository: wgu-skills/updater
-        path: updater
 
     - name: Configure Git
       shell: bash
@@ -39,6 +34,12 @@ runs:
       env:
         GIT_EMAIL: ${{ inputs.gitEmail }}
         GIT_USERNAME: ${{ inputs.gitUsername }}
+
+    - name: Checkout Updater Repo
+      uses: actions/checkout@v2
+      with:
+        repository: wgu-skills/updater
+        path: updater
 
     - name: Set up Node.js
       uses: actions/setup-node@v2
@@ -60,6 +61,7 @@ runs:
     - name: Commit and Push changes
       shell: bash
       run: |
+        cd $GITHUB_WORKSPACE
         git add .
         git commit -m "Update skill collection data" -a || echo "No changes to commit"
         git push
