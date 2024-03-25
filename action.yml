@@ -38,7 +38,7 @@ runs:
 
     - name: Run update script
       shell: bash
-      run: node dist/index.js
+      run: node updater/dist/index.js
       env:
         SKILL_COLLECTION_SLUG: ${{ inputs.skillCollectionSlug }}
         SKILL_COLLECTION_URL: ${{ inputs.skillCollectionUrl }}
