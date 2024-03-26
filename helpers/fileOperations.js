@@ -122,13 +122,13 @@ const createReadmeFile = async (collection) => {
         let markdownSections = categories.map(category => {
             const sortedSkills = skillsByCategory[category].sort((a, b) => a.skillName.localeCompare(b.skillName));
             const anchor = toCamelCase(category); // Convert category to anchor
-            const categoryHeader = `${category}\n\n`;
+            const categoryHeader = `${category}`;
             const skillLinks = sortedSkills.map(skill => {
                 const skillName = path.basename(skill.skillName);
                 return `- ${skillName} [JSON](./skills/${skill.slug}${FILE_EXTENSIONS.skillJson})`;
             }).join('\n');
 
-            return `<a id="${anchor}">${categoryHeader}</a>${skillLinks}\n\n[Back to Top](#skills)\n`;
+            return `### [${categoryHeader}](${anchor})${skillLinks}\n\n[Back to Top](#skills)\n`;
         }).join('\n\n');
 
         const readmeContent = `${readmeHeader}## <a id="skills"></a>Skills\n\n${toc}\n\n${markdownSections}`;
