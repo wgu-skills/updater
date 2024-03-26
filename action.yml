@@ -35,9 +35,6 @@ runs:
         cd $GITHUB_WORKSPACE
         git config --local user.email "$GIT_EMAIL"
         git config --local user.name "GitHub Action"
-      env:
-        GIT_EMAIL: ${{ inputs.gitEmail }}
-        GIT_USERNAME: ${{ inputs.gitUsername }}
 
     - name: Checkout Updater Repo
       uses: actions/checkout@v4
@@ -53,21 +50,11 @@ runs:
     - name: Run update script
       shell: bash
       run: node updater/dist/index.js
-      env:
-        SKILL_COLLECTION_SLUG: ${{ inputs.skillCollectionSlug }}
-        SKILL_COLLECTION_URL: ${{ inputs.skillCollectionUrl }}
-        SKILL_COLLECTION_UUID: ${{ inputs.skillCollectionUuid }}
-        GIT_ORG: ${{ inputs.gitOrg }}
-        GIT_USERNAME: ${{ inputs.gitUsername }}
-        GIT_EMAIL: ${{ inputs.gitEmail }}
 
     - name: Commit and push if changes
       shell: bash
       run: |
         cd $GITHUB_WORKSPACE
-        ls -al
-        git config --global user.email "you@example.com"
-        git config --global user.name "Your Name"
         git add -A
         git diff --staged --exit-code > /dev/null || git commit -m "Automated commit message"
         git push
