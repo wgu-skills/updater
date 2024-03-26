@@ -1,11 +1,12 @@
 import { setFailed } from '@actions/core';
+import config from './helpers/config.js';
 import SkillCollection from './types/SkillCollection';
 import { FORMAT_JSON, FORMAT_YAML } from './helpers/fileOperations';
 
 async function run() {
 	try {
 
-		const collection = await SkillCollection.fetchAndCreate('1db79be3-ff33-4114-8449-e151aa9e6b25', 'accountants-and-auditors');
+		const collection = await SkillCollection.fetchAndCreate(config.collections.uuid, config.collections.slug);
 		// console.log('Collection:', collection);
 
 		// Get the collection
