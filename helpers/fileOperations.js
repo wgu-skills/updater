@@ -33,33 +33,16 @@ const createFileFromTemplate = async (collection, fileType, contentBuilder) => {
 	}
 };
 
-// const createIndexFile = async (collection) => {
-//   await createFileFromTemplate(collection, 'index.js', async (collection) => {
-//     const imports = [], exports = [];
-//     const skillsPath = getFilePath("skills");
-//     const files = await listFiles(skillsPath);
-
-//     files.forEach(file => {
-//       if (file.endsWith(FILE_EXTENSIONS.skillJson)) {
-//         const variableName = toCamelCase(path.basename(file, FILE_EXTENSIONS.skillJson));
-//         imports.push(`import ${variableName} from './skills/${file}';`);
-//         exports.push(variableName);
-//       }
-//     });
-
-//     return `${imports.join("\n")}\n\nexport { ${exports.join(", ")} };`;
-//   });
-// };
 const createIndexFile = async (collection) => {
   await createFileFromTemplate(collection, 'index.js', async (collection) => {
     // Validate and process skill names in parallel (if applicable)
-    const processedSkills = collection.skills.map(skillName => {
-      if (!isValidSkillName(skillName)) {
-        throw new Error(`Invalid skill name: ${skillName}`);
+    const processedSkills = collection.skills.map(skill => {
+      if (!isValidSkillName(skill.skillName)) {
+        throw new Error(`Invalid skill name: ${skill.skillName}`);
       }
-      const variableName = toCamelCase(skillName);
+      const variableName = toCamelCase(skill.skillName);
       return {
-        importStatement: `import ${variableName} from './skills/${skillName}${FILE_EXTENSIONS.skillJson}';`,
+        importStatement: `import ${variableName} from './skills/${skill.skillName}${FILE_EXTENSIONS.skillJson}';`,
         exportName: variableName
       };
     });
@@ -111,7 +94,7 @@ const createReadmeFile = async (collection) => {
 				.filter((file) => file.endsWith(FILE_EXTENSIONS.skillJson))
 				.map(async (file) => {
 					const skillName = path.basename(file, FILE_EXTENSIONS.skillJson);
-					return `- ${skillName} [JSON](./skills/${skillName}${FILE_EXTENSIONS.skillJson}) [YAML](./skills/${skillName}${FILE_EXTENSIONS.skillYaml})`;
+					return `- ${skillName} [JSON](./skills/${skillName}${FILE_EXTENSIONS.skillJson})`;
 				})
 		);
 
