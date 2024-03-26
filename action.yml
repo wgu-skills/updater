@@ -26,12 +26,6 @@ runs:
   using: 'composite'
   steps:
 
-    - name: Configure Git
-      shell: bash
-      run: |
-        git config --local user.email "${{ inputs.gitEmail }}"
-        git config --local user.name "${{ inputs.gitUsername }}"
-
     - name: Checkout Skill Collection Repo
       uses: actions/checkout@v4
       
@@ -61,6 +55,8 @@ runs:
       shell: bash
       run: |
         rm -rf updater
+        git config --local user.email "${{ inputs.gitEmail }}"
+        git config --local user.name "${{ inputs.gitUsername }}"
         git add -A
         git diff --staged --exit-code > /dev/null || git commit -m "Automated commit message"
         git push
