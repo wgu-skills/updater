@@ -1,6 +1,12 @@
 import slugify from 'slugify';
 
-const toCamelCase = (fileName) =>
+const toCamelCase = (fileName) => { 
+
+  if (typeof fileName !== 'string') {
+    console.error('toCamelCase error: Input is not a string', fileName);
+    return ''; // Return a default value or handle the error as appropriate
+  }
+
   fileName
     .split('-')
     .map((word, index) => word[0].toUpperCase() + word.slice(1).toLowerCase())
