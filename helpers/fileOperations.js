@@ -84,23 +84,40 @@ const createPackageJsonFile = async (collection) => {
 };
 
 const createReadmeFile = async (collection) => {
-	await createFileFromTemplate(collection, 'README.md', async (collection) => {
-		const readmeHeader = `# ${collection.name}\n\n${collection.description}\n\n## Skills\n\n`;
-		const skillsPath = getFilePath(`${collection.slug}/skills`);
-		const skillFiles = await listFiles(skillsPath);
+    try {
+        const readmeFilePath = getFilePath(`README.md`);
 
-		const skillLinks = await Promise.all(
-			skillFiles
-				.filter((file) => file.endsWith(FILE_EXTENSIONS.skillJson))
-				.map(async (file) => {
-					const skillName = path.basename(file, FILE_EXTENSIONS.skillJson);
-					return `- ${skillName} [JSON](./skills/${skillName}${FILE_EXTENSIONS.skillJson})`;
-				})
-		);
+        // Check if README.md already exists
+        try {
+            await fs.access(readmeFilePath);
+            console.log('README.md already exists, skipping creation.');
+            return;
+        } catch (error) {
+            // File does not exist, proceed with creation
+            console.log('Creating README.md');
+        }
 
-		return `${readmeHeader}${skillLinks.join('\n')}`;
-	});
+        const readmeHeader = `# ${collection.name}\n\n${collection.description}\n\n## Skills\n\n`;
+        const skillsPath = getFilePath(`skills`);
+        const skillFiles = await listFiles(skillsPath);
+
+        const skillLinks = await Promise.all(
+            skillFiles
+                .filter((file) => file.endsWith(FILE_EXTENSIONS.skillJson))
+                .map(async (file) => {
+                    const skillName = path.basename(file, FILE_EXTENSIONS.skillJson);
+                    return `- ${skillName} [JSON](./skills/${skillName}${FILE_EXTENSIONS.skillJson})`;
+                })
+        );
+
+        const readmeContent = `${readmeHeader}${skillLinks.join('\n')}`;
+        await writeToFile(readmeFilePath, readmeContent);
+    } catch (error) {
+        console.error(`Error creating README.md:`, error);
+        throw error;
+    }
 };
+
 
 export {
 	writeToFile,
