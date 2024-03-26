@@ -96,7 +96,9 @@ const createReadmeFile = async (collection) => {
             console.log('Creating README.md');
         }
 
-        const readmeHeader = `# ${collection.name}\n\n${collection.description}\n\n## Skills\n\n`;
+        const readmeHeader = `# ${collection.name}\n\n${collection.description}\n\n`;
+        const skillsPath = getFilePath(`skills`);
+        const skillFiles = await listFiles(skillsPath);
 
         // Group skills by category and sort skills within each category
         let skillsByCategory = {};
@@ -110,24 +112,33 @@ const createReadmeFile = async (collection) => {
 
         // Sort categories and skill names within each category
         const categories = Object.keys(skillsByCategory).sort();
+        
+        // Create TOC
+        const toc = categories.map(category => {
+            const anchor = category.replace(/\s+/g, '-').toLowerCase(); // Convert category to anchor
+            return `- [${category}](#${anchor})`;
+        }).join('\n');
+
         let markdownSections = categories.map(category => {
             const sortedSkills = skillsByCategory[category].sort((a, b) => a.skillName.localeCompare(b.skillName));
+            const anchor = category.replace(/\s+/g, '-').toLowerCase(); // Convert category to anchor
             const categoryHeader = `### ${category}\n\n`;
             const skillLinks = sortedSkills.map(skill => {
                 const skillName = path.basename(skill.skillName);
-                return `- ${skillName} [JSON](./skills/${skill.slug}${FILE_EXTENSIONS.skillJson})`;
+                return `- ${skillName} [JSON](./skills/${skillName}${FILE_EXTENSIONS.skillJson})`;
             }).join('\n');
 
-            return `${categoryHeader}${skillLinks}`;
+            return `#### <a id="${anchor}"></a>${categoryHeader}${skillLinks}`;
         }).join('\n\n');
 
-        const readmeContent = `${readmeHeader}${markdownSections}`;
+        const readmeContent = `${readmeHeader}## Skills\n\n${toc}\n\n${markdownSections}`;
         await writeToFile(readmeFilePath, readmeContent);
     } catch (error) {
         console.error(`Error creating README.md:`, error);
         throw error;
     }
 };
+
 
 
 
