@@ -115,23 +115,23 @@ const createReadmeFile = async (collection) => {
         
         // Create TOC
         const toc = categories.map(category => {
-            const anchor = category.replace(/\s+/g, '-').toLowerCase(); // Convert category to anchor
+            const anchor = toCamelCase(category); // Convert category to anchor
             return `- [${category}](#${anchor})`;
         }).join('\n');
 
         let markdownSections = categories.map(category => {
             const sortedSkills = skillsByCategory[category].sort((a, b) => a.skillName.localeCompare(b.skillName));
-            const anchor = category.replace(/\s+/g, '-').toLowerCase(); // Convert category to anchor
+            const anchor = toCamelCase(category); // Convert category to anchor
             const categoryHeader = `### ${category}\n\n`;
             const skillLinks = sortedSkills.map(skill => {
                 const skillName = path.basename(skill.skillName);
-                return `- ${skillName} [JSON](./skills/${skillName}${FILE_EXTENSIONS.skillJson})`;
+                return `- ${skillName} [JSON](./skills/${skill.slug}${FILE_EXTENSIONS.skillJson})`;
             }).join('\n');
 
-            return `#### <a id="${anchor}"></a>${categoryHeader}${skillLinks}`;
+            return `<a id="${anchor}"></a>${categoryHeader}${skillLinks}\n\n[Back to Top](#skills)\n`;
         }).join('\n\n');
 
-        const readmeContent = `${readmeHeader}## Skills\n\n${toc}\n\n${markdownSections}`;
+        const readmeContent = `${readmeHeader}## <a id="skills"></a>Skills\n\n${toc}\n\n${markdownSections}`;
         await writeToFile(readmeFilePath, readmeContent);
     } catch (error) {
         console.error(`Error creating README.md:`, error);
