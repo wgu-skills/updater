@@ -139,9 +139,6 @@ const createReadmeFile = async (collection) => {
     }
 };
 
-
-
-
 export {
 	writeToFile,
 	createIndexFile,
