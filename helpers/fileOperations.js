@@ -121,6 +121,7 @@ const createReadmeFile = async (collection) => {
 			const sortedSkills = skillsByCategory[category].sort((a, b) =>
 				a.skillName.localeCompare(b.skillName)
 			);
+			console.log("Creating markdown section for", category, "with", sortedSkills.length, "skills");
 			const anchor = createSlug(category); // Convert category to anchor
 			const skillLinks = sortedSkills
 				.map((skill) => {
