@@ -84,59 +84,52 @@ const createPackageJsonFile = async (collection) => {
 };
 
 const createReadmeFile = async (collection) => {
-    try {
-        const readmeFilePath = getFilePath(`README.md`);
+	const readmeFilePath = getFilePath(`README.md`);
 
-        // Check if README.md already exists
-        try {
-            await fs.access(readmeFilePath);
-            console.log('README.md already exists, skipping creation.');
-            return;
-        } catch (error) {
-            console.log('Creating README.md');
-        }
+	// Check if README.md already exists
+	try {
+		await fs.access(readmeFilePath);
+		console.log('README.md already exists, skipping creation.');
+		return;
+	} catch (error) {
+		console.log('Creating README.md');
+	}
 
-        const readmeHeader = `# ${collection.name}\n\n${collection.description}\n\n`;
-        const skillsPath = getFilePath(`skills`);
-        const skillFiles = await listFiles(skillsPath);
+	const readmeHeader = `# ${collection.name}\n\n${collection.description}\n\n`;
 
-        // Group skills by category and sort skills within each category
-        let skillsByCategory = {};
-        for (const skill of collection.skills) {
-            const category = skill.category || 'Uncategorized';
-            if (!skillsByCategory[category]) {
-                skillsByCategory[category] = [];
-            }
-            skillsByCategory[category].push(skill);
-        }
+	// Group skills by category and sort skills within each category
+	const skillsByCategory = {};
+	for (const skill of collection.skills) {
+		const category = skill.category || 'Uncategorized';
+		if (!skillsByCategory[category]) {
+			skillsByCategory[category] = [];
+		}
+		skillsByCategory[category].push(skill);
+	}
 
-        // Sort categories and skill names within each category
-        const categories = Object.keys(skillsByCategory).sort();
-        
-        // Create TOC
-        const toc = categories.map(category => {
-            const anchor = toCamelCase(category); // Convert category to anchor
-            return `- [${category}](#${anchor})`;
-        }).join('\n');
+	// Sort categories and skill names within each category
+	const categories = Object.keys(skillsByCategory).sort();
+	
+	// Create TOC
+	const toc = categories.map(category => {
+		const anchor = toCamelCase(category); // Convert category to anchor
+		return `- [${category}](#${anchor})`;
+	}).join('\n');
 
-        let markdownSections = categories.map(category => {
-            const sortedSkills = skillsByCategory[category].sort((a, b) => a.skillName.localeCompare(b.skillName));
-            const anchor = toCamelCase(category); // Convert category to anchor
-            const categoryHeader = `${category}`;
-            const skillLinks = sortedSkills.map(skill => {
-                const skillName = path.basename(skill.skillName);
-                return `- ${skillName} [JSON](./skills/${skill.slug}${FILE_EXTENSIONS.skillJson})`;
-            }).join('\n');
+	const markdownSections = categories.map(category => {
+		const sortedSkills = skillsByCategory[category].sort((a, b) => a.skillName.localeCompare(b.skillName));
+		const anchor = toCamelCase(category); // Convert category to anchor
+		const categoryHeader = `${category}`;
+		const skillLinks = sortedSkills.map(skill => {
+			const skillName = path.basename(skill.skillName);
+			return `- ${skillName} [JSON](./skills/${skill.slug}${FILE_EXTENSIONS.skillJson})`;
+		}).join('\n');
 
-            return `### [${categoryHeader}](#${anchor})\n\n${skillLinks}\n\n[Back to Top](#skills)\n`;
-        }).join('\n\n');
+		return `### [${categoryHeader}](#${anchor})\n\n${skillLinks}\n\n[Back to Top](#skills)\n`;
+	}).join('\n\n');
 
-        const readmeContent = `${readmeHeader}## <a id="skills"></a>Skills\n\n${toc}\n\n${markdownSections}`;
-        await writeToFile(readmeFilePath, readmeContent);
-    } catch (error) {
-        console.error(`Error creating README.md:`, error);
-        throw error;
-    }
+	const readmeContent = `${readmeHeader}## Skills\n\n${toc}\n\n${markdownSections}`;
+	await writeToFile(readmeFilePath, readmeContent);
 };
 
 export {
