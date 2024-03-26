@@ -19,9 +19,6 @@ inputs:
   gitEmail:
     description: 'GitHub Email'
     required: true
-  patToken:
-    description: 'GitHub Personal Access Token'
-    required: true
 runs:
   using: 'composite'
   steps:
@@ -60,7 +57,6 @@ runs:
         GIT_ORG: ${{ inputs.gitOrg }}
         GIT_USERNAME: ${{ inputs.gitUsername }}
         GIT_EMAIL: ${{ inputs.gitEmail }}
-        PAT_TOKEN: ${{ inputs.patToken }}
 
     - name: Commit and Push changes
       shell: bash
