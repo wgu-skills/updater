@@ -128,7 +128,7 @@ const createReadmeFile = async (collection) => {
                 return `- ${skillName} [JSON](./skills/${skill.slug}${FILE_EXTENSIONS.skillJson})`;
             }).join('\n');
 
-            return `### [${categoryHeader}](${anchor})${skillLinks}\n\n[Back to Top](#skills)\n`;
+            return `### [${categoryHeader}](#${anchor})\n\n${skillLinks}\n\n[Back to Top](#skills)\n`;
         }).join('\n\n');
 
         const readmeContent = `${readmeHeader}## <a id="skills"></a>Skills\n\n${toc}\n\n${markdownSections}`;
