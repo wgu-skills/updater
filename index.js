@@ -6,7 +6,7 @@ import { FORMAT_JSON } from './helpers/fileOperations';
 async function run() {
 	try {
 
-		const collection = await SkillCollection.fetchAndCreate(config.collections.uuid, config.collections.slug);
+		const collection = await SkillCollection.fetchAndCreate(config.collection.uuid, config.collection.slug);
 		// console.log('Collection:', collection);
 
 		// Get the collection
