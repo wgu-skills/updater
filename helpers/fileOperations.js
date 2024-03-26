@@ -35,14 +35,18 @@ const createFileFromTemplate = async (collection, fileType, contentBuilder) => {
 
 const createIndexFile = async (collection) => {
 	await createFileFromTemplate(collection, 'index.js', async (collection) => {
+			
 		// Validate and process skill names in parallel (if applicable)
-		const processedSkills = collection.skills.map((skill) => {
-			console.log('skill', skill);
+			const processedSkills = collection.skills.map((skill) => {
+			
 			const variableName = toCamelCase(skill.slug);
+			console.log(`Processing skill: ${skill.slug} as ${variableName}`);
+			
 			return {
 				importStatement: `import ${variableName} from './skills/${skill.slug}${FILE_EXTENSIONS.skillJson}';`,
 				exportName: variableName,
 			};
+
 		});
 
 		// Construct the file content
