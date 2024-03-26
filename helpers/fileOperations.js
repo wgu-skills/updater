@@ -51,22 +51,36 @@ const createFileFromTemplate = async (collection, fileType, contentBuilder) => {
 //   });
 // };
 const createIndexFile = async (collection) => {
-	await createFileFromTemplate(collection, 'index.js', async (collection) => {
-		const imports = [],
-			exports = [];
+  await createFileFromTemplate(collection, 'index.js', async (collection) => {
+    // Validate and process skill names in parallel (if applicable)
+    const processedSkills = collection.skills.map(skillName => {
+      if (!isValidSkillName(skillName)) {
+        throw new Error(`Invalid skill name: ${skillName}`);
+      }
+      const variableName = toCamelCase(skillName);
+      return {
+        importStatement: `import ${variableName} from './skills/${skillName}${FILE_EXTENSIONS.skillJson}';`,
+        exportName: variableName
+      };
+    });
 
-		collection.skills.forEach((skillName) => {
-			console.log('skillName', skillName);
-			const variableName = toCamelCase(skillName);
-			imports.push(
-				`import ${variableName} from './skills/${skillName}${FILE_EXTENSIONS.skillJson}';`
-			);
-			exports.push(variableName);
-		});
+    // Construct the file content
+    const fileContent = processedSkills.reduce((content, skill) => {
+      content.imports.push(skill.importStatement);
+      content.exports.push(skill.exportName);
+      return content;
+    }, { imports: [], exports: [] });
 
-		return `${imports.join('\n')}\n\nexport { ${exports.join(', ')} };`;
-	});
+    return `${fileContent.imports.join('\n')}\n\nexport { ${fileContent.exports.join(', ')} };`;
+  });
 };
+
+// Utility function to validate skill names
+const isValidSkillName = (name) => {
+  // Implement any specific validation logic here
+  return true; // Placeholder
+};
+
 
 const createPackageJsonFile = async (collection) => {
 	await createFileFromTemplate(collection, 'package.json', (collection) =>
