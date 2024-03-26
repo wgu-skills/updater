@@ -45,7 +45,7 @@ const createIndexFile = async (collection) => {
       }
       const variableName = toCamelCase(skill.skillName);
       return {
-        importStatement: `import ${variableName} from './skills/${skill.skillName}${FILE_EXTENSIONS.skillJson}';`,
+        importStatement: `import ${JSON.stringify(skill)} from './skills/${skill.skillName}${FILE_EXTENSIONS.skillJson}';`,
         exportName: variableName
       };
     });
