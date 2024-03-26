@@ -34,40 +34,32 @@ const createFileFromTemplate = async (collection, fileType, contentBuilder) => {
 };
 
 const createIndexFile = async (collection) => {
-  await createFileFromTemplate(collection, 'index.js', async (collection) => {
-    // Validate and process skill names in parallel (if applicable)
-    const processedSkills = collection.skills.map(skill => {
+	await createFileFromTemplate(collection, 'index.js', async (collection) => {
+		// Validate and process skill names in parallel (if applicable)
+		const processedSkills = collection.skills.map((skill) => {
+			console.log('skill', skill);
+			const variableName = toCamelCase(skill.slug);
+			return {
+				importStatement: `import ${variableName} from './skills/${skill.slug}${FILE_EXTENSIONS.skillJson}';`,
+				exportName: variableName,
+			};
+		});
 
-		console.log('skill', skill);
-		const slug = createSlug(skill.skillName);
-		
-      if (!isValidSkillName(skill.skillName)) {
-        throw new Error(`Invalid skill name: ${skill.skillName}`);
-      }
-      const variableName = toCamelCase(skill.skillName);
-      return {
-        importStatement: `import  from './skills/${skill.skillName}${FILE_EXTENSIONS.skillJson}';`,
-        exportName: variableName
-      };
-    });
+		// Construct the file content
+		const fileContent = processedSkills.reduce(
+			(content, skill) => {
+				content.imports.push(skill.importStatement);
+				content.exports.push(skill.exportName);
+				return content;
+			},
+			{ imports: [], exports: [] }
+		);
 
-    // Construct the file content
-    const fileContent = processedSkills.reduce((content, skill) => {
-      content.imports.push(skill.importStatement);
-      content.exports.push(skill.exportName);
-      return content;
-    }, { imports: [], exports: [] });
-
-    return `${fileContent.imports.join('\n')}\n\nexport { ${fileContent.exports.join(', ')} };`;
-  });
+		return `${fileContent.imports.join(
+			'\n'
+		)}\n\nexport { ${fileContent.exports.join(', ')} };`;
+	});
 };
-
-// Utility function to validate skill names
-const isValidSkillName = (name) => {
-  // Implement any specific validation logic here
-  return true; // Placeholder
-};
-
 
 const createPackageJsonFile = async (collection) => {
 	await createFileFromTemplate(collection, 'package.json', (collection) =>
