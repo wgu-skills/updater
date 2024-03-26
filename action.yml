@@ -51,12 +51,12 @@ runs:
       shell: bash
       run: node updater/dist/index.js
       env:
-        SKILL_COLLECTION_SLUG: ${{ inputs.skillCollectionSlug }}
-        SKILL_COLLECTION_URL: ${{ inputs.skillCollectionUrl }}
-        SKILL_COLLECTION_UUID: ${{ inputs.skillCollectionUuid }}
-        GIT_ORG: ${{ inputs.gitOrg }}
-        GIT_USERNAME: ${{ inputs.gitUsername }}
-        GIT_EMAIL: ${{ inputs.gitEmail }}
+        skillCollectionSlug: ${{ inputs.skillCollectionSlug }}
+        skillCollectionUrl: ${{ inputs.skillCollectionUrl }}
+        skillCollectionUuid: ${{ inputs.skillCollectionUuid }}
+        gitOrg: ${{ inputs.gitOrg }}
+        gitUsername: ${{ inputs.gitUsername }}
+        gitEmail: ${{ inputs.gitEmail }}
 
     - name: Commit and push if changes
       shell: bash
