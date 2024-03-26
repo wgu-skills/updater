@@ -35,10 +35,8 @@ const createFileFromTemplate = async (collection, fileType, contentBuilder) => {
 
 const createIndexFile = async (collection) => {
 	await createFileFromTemplate(collection, 'index.js', async (collection) => {
-			
 		// Validate and process skill names in parallel (if applicable)
-			const processedSkills = collection.skills.map((skill) => {
-			
+		const processedSkills = collection.skills.map((skill) => {
 			const variableName = toCamelCase(skill.slug);
 			// console.log(`Processing skill: ${skill.slug} as ${variableName}`);
 
@@ -46,7 +44,6 @@ const createIndexFile = async (collection) => {
 				importStatement: `import ${variableName} from './skills/${skill.slug}${FILE_EXTENSIONS.skillJson}';`,
 				exportName: variableName,
 			};
-
 		});
 
 		// Construct the file content
@@ -109,24 +106,31 @@ const createReadmeFile = async (collection) => {
 
 	// Sort categories and skill names within each category
 	const categories = Object.keys(skillsByCategory).sort();
-	
+
 	// Create TOC
-	const toc = categories.map(category => {
-		const anchor = createSlug(category); // Convert category to anchor
-		return `- [${category}](#${anchor})`;
-	}).join('\n');
+	const toc = categories
+		.map((category) => {
+			const anchor = createSlug(category); // Convert category to anchor
+			return `- [${category}](#${anchor})`;
+		})
+		.join('\n');
 
-	const markdownSections = categories.map(category => {
-		const sortedSkills = skillsByCategory[category].sort((a, b) => a.skillName.localeCompare(b.skillName));
-		const anchor = createSlug(category); // Convert category to anchor
-		const categoryHeader = `${category}`;
-		const skillLinks = sortedSkills.map(skill => {
-			const skillName = path.basename(skill.skillName);
-			return `- ${skillName} [JSON](./skills/${skill.slug}${FILE_EXTENSIONS.skillJson})`;
-		}).join('\n');
+	const markdownSections = categories
+		.map((category) => {
+			const sortedSkills = skillsByCategory[category].sort((a, b) =>
+				a.skillName.localeCompare(b.skillName)
+			);
+			const anchor = createSlug(category); // Convert category to anchor
+			const skillLinks = sortedSkills
+				.map((skill) => {
+					const skillName = path.basename(skill.skillName);
+					return `- ${skillName} [JSON](./skills/${skill.slug}${FILE_EXTENSIONS.skillJson})`;
+				})
+				.join('\n');
 
-		return `### [${categoryHeader}](#${anchor})\n\n${skillLinks}\n\n[Back to Top](#skills)\n`;
-	}).join('\n\n');
+			return `### [${category}](#${anchor})\n\n${skillLinks}\n\n[Back to Top](#skills)\n`;
+		})
+		.join('\n\n');
 
 	const readmeContent = `${readmeHeader}## Skills\n\n${toc}\n\n${markdownSections}`;
 	await writeToFile(readmeFilePath, readmeContent);

@@ -16,6 +16,8 @@ const toCamelCase = (fileName) => {
 
 }
 
-const createSlug = (name) => slugify(name, { lower: true, strict: true });
+const createSlug = (name) => slugify(name, { lower: true, strict: true, trim: true });
+
+
 
 export { createSlug, toCamelCase };
