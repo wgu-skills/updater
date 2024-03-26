@@ -27,7 +27,7 @@ runs:
   steps:
 
     - name: Checkout Skill Collection Repo
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       
     - name: Configure Git
       shell: bash
@@ -40,13 +40,13 @@ runs:
         GIT_USERNAME: ${{ inputs.gitUsername }}
 
     - name: Checkout Updater Repo
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       with:
         repository: wgu-skills/updater
         path: updater
 
     - name: Set up Node.js
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v4
       with:
         node-version: '20'
 
