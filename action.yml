@@ -1,4 +1,4 @@
-name: 'Updater Action'
+name: 'Update Skill Collection'
 description: 'Updates collection data and commits changes to the repository.'
 inputs:
   skillCollectionSlug:
@@ -33,8 +33,8 @@ runs:
       shell: bash
       run: |
         cd $GITHUB_WORKSPACE
-        git config --local user.email "$GIT_EMAIL"
-        git config --local user.name "GitHub Action"
+        git config --local user.email "${{ inputs.gitEmail }}"
+        git config --local user.name "${{ inputs.gitUsername }}"
 
     - name: Checkout Updater Repo
       uses: actions/checkout@v4
@@ -50,6 +50,13 @@ runs:
     - name: Run update script
       shell: bash
       run: node updater/dist/index.js
+      env:
+        SKILL_COLLECTION_SLUG: ${{ inputs.skillCollectionSlug }}
+        SKILL_COLLECTION_URL: ${{ inputs.skillCollectionUrl }}
+        SKILL_COLLECTION_UUID: ${{ inputs.skillCollectionUuid }}
+        GIT_ORG: ${{ inputs.gitOrg }}
+        GIT_USERNAME: ${{ inputs.gitUsername }}
+        GIT_EMAIL: ${{ inputs.gitEmail }}
 
     - name: Commit and push if changes
       shell: bash
