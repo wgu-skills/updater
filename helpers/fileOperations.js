@@ -110,6 +110,7 @@ const createReadmeFile = async (collection) => {
 	// Create TOC
 	const toc = categories
 		.map((category) => {
+			console.log(`Creating TOC for ${category}`);
 			const anchor = createSlug(category); // Convert category to anchor
 			return `- [${category}](#${anchor})`;
 		})
