@@ -1,4 +1,4 @@
-const slugify = require('slugify');
+import slugify from 'slugify';
 
 const toCamelCase = (fileName) =>
   fileName
@@ -10,4 +10,4 @@ const toCamelCase = (fileName) =>
 
 const createSlug = (name) => slugify(name, { lower: true, strict: true });
 
-module.exports = { createSlug, toCamelCase };
+export { createSlug, toCamelCase };

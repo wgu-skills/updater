@@ -1,6 +1,6 @@
-const fs = require('fs/promises');
-const path = require('path');
-const { toCamelCase } = require('./stringOperations.js');
+import fs from 'fs/promises';
+import path from 'path';
+import { toCamelCase } from './stringOperations.js';
 
 const FORMAT_JSON = "json";
 const FORMAT_YAML = "yaml";
@@ -17,6 +17,7 @@ const writeToFile = async (filePath, content) => {
   await fs.mkdir(path.dirname(filePath), { recursive: true });
   await fs.writeFile(filePath, content);
 };
+
 const listFiles = async (dir) => fs.readdir(dir);
 
 // Collection File Creators
@@ -31,23 +32,37 @@ const createFileFromTemplate = async (collection, fileType, contentBuilder) => {
   }
 };
 
+// const createIndexFile = async (collection) => {
+//   await createFileFromTemplate(collection, 'index.js', async (collection) => {
+//     const imports = [], exports = [];
+//     const skillsPath = getFilePath("skills");
+//     const files = await listFiles(skillsPath);
+
+//     files.forEach(file => {
+//       if (file.endsWith(FILE_EXTENSIONS.skillJson)) {
+//         const variableName = toCamelCase(path.basename(file, FILE_EXTENSIONS.skillJson));
+//         imports.push(`import ${variableName} from './skills/${file}';`);
+//         exports.push(variableName);
+//       }
+//     });
+
+//     return `${imports.join("\n")}\n\nexport { ${exports.join(", ")} };`;
+//   });
+// };
 const createIndexFile = async (collection) => {
   await createFileFromTemplate(collection, 'index.js', async (collection) => {
     const imports = [], exports = [];
-    const skillsPath = getFilePath("skills");
-    const files = await listFiles(skillsPath);
-
-    files.forEach(file => {
-      if (file.endsWith(FILE_EXTENSIONS.skillJson)) {
-        const variableName = toCamelCase(path.basename(file, FILE_EXTENSIONS.skillJson));
-        imports.push(`import ${variableName} from './skills/${file}';`);
-        exports.push(variableName);
-      }
+    
+    collection.skills.forEach(skillName => {
+      const variableName = toCamelCase(skillName);
+      imports.push(`import ${variableName} from './skills/${skillName}${FILE_EXTENSIONS.skillJson}';`);
+      exports.push(variableName);
     });
 
     return `${imports.join("\n")}\n\nexport { ${exports.join(", ")} };`;
   });
 };
+
 
 const createPackageJsonFile = async (collection) => {
   await createFileFromTemplate(collection, 'package.json', (collection) => JSON.stringify({
@@ -78,4 +93,4 @@ const createReadmeFile = async (collection) => {
   });
 };
 
-module.exports = { writeToFile, createIndexFile, createPackageJsonFile, createReadmeFile, FORMAT_JSON, FORMAT_YAML};
+export { writeToFile, createIndexFile, createPackageJsonFile, createReadmeFile, FORMAT_JSON, FORMAT_YAML};
