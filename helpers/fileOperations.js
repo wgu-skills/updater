@@ -1,6 +1,6 @@
 import fs from 'fs/promises';
 import path from 'path';
-import { toCamelCase } from './stringOperations.js';
+import { createSlug, toCamelCase } from './stringOperations.js';
 
 const FORMAT_JSON = 'json';
 const FORMAT_YAML = 'yaml';
@@ -37,6 +37,9 @@ const createIndexFile = async (collection) => {
   await createFileFromTemplate(collection, 'index.js', async (collection) => {
     // Validate and process skill names in parallel (if applicable)
     const processedSkills = collection.skills.map(skill => {
+
+		const slug = createSlug(skill.skillName);
+		
       if (!isValidSkillName(skill.skillName)) {
         throw new Error(`Invalid skill name: ${skill.skillName}`);
       }
