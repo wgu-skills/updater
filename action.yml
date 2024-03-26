@@ -68,5 +68,6 @@ runs:
         git config --global user.email "you@example.com"
         git config --global user.name "Your Name"
         git add -A
-        git diff --staged --exit-code || git commit -m "Automated commit message"
+        git diff --staged --exit-code > /dev/null || git commit -m "Automated commit message"
         git push
+
