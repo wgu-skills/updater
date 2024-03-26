@@ -93,7 +93,6 @@ const createReadmeFile = async (collection) => {
             console.log('README.md already exists, skipping creation.');
             return;
         } catch (error) {
-            // File does not exist, proceed with creation
             console.log('Creating README.md');
         }
 
@@ -101,22 +100,37 @@ const createReadmeFile = async (collection) => {
         const skillsPath = getFilePath(`skills`);
         const skillFiles = await listFiles(skillsPath);
 
-        const skillLinks = await Promise.all(
-            skillFiles
-                .filter((file) => file.endsWith(FILE_EXTENSIONS.skillJson))
-                .map(async (file) => {
-                    const skillName = path.basename(file, FILE_EXTENSIONS.skillJson);
-                    return `- ${skillName} [JSON](./skills/${skillName}${FILE_EXTENSIONS.skillJson})`;
-                })
-        );
+        // Group skills by category and sort skills within each category
+        let skillsByCategory = {};
+        for (const skill of collection.skills) {
+            const category = skill.category || 'Uncategorized';
+            if (!skillsByCategory[category]) {
+                skillsByCategory[category] = [];
+            }
+            skillsByCategory[category].push(skill);
+        }
 
-        const readmeContent = `${readmeHeader}${skillLinks.join('\n')}`;
+        // Sort categories and skill names within each category
+        const categories = Object.keys(skillsByCategory).sort();
+        let markdownSections = categories.map(category => {
+            const sortedSkills = skillsByCategory[category].sort((a, b) => a.skillName.localeCompare(b.skillName));
+            const categoryHeader = `### ${category}\n\n`;
+            const skillLinks = sortedSkills.map(skill => {
+                const skillName = path.basename(skill.skillName);
+                return `- ${skillName} [JSON](./skills/${skillName}${FILE_EXTENSIONS.skillJson})`;
+            }).join('\n');
+
+            return `${categoryHeader}${skillLinks}`;
+        }).join('\n\n');
+
+        const readmeContent = `${readmeHeader}${markdownSections}`;
         await writeToFile(readmeFilePath, readmeContent);
     } catch (error) {
         console.error(`Error creating README.md:`, error);
         throw error;
     }
 };
+
 
 
 export {
