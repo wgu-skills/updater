@@ -9,7 +9,7 @@ async function exportCollection(collection) {
         collection.exportSkills(FORMAT_JSON),
         collection.createIndexFile(),
         collection.createPackageJsonFile(),
-        collection.createReadMeFile()
+        collection.createReadmeFile()
     ]);
 }
 
