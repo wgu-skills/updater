@@ -1,6 +1,6 @@
 import fs from 'fs/promises';
 import path from 'path';
-import { toCamelCase } from './stringOperations.js';
+import { createSlug } from './stringOperations.js';
 
 const FORMAT_JSON = 'json';
 const FORMAT_YAML = 'yaml';
@@ -112,13 +112,13 @@ const createReadmeFile = async (collection) => {
 	
 	// Create TOC
 	const toc = categories.map(category => {
-		const anchor = toCamelCase(category); // Convert category to anchor
+		const anchor = createSlug(category); // Convert category to anchor
 		return `- [${category}](#${anchor})`;
 	}).join('\n');
 
 	const markdownSections = categories.map(category => {
 		const sortedSkills = skillsByCategory[category].sort((a, b) => a.skillName.localeCompare(b.skillName));
-		const anchor = toCamelCase(category); // Convert category to anchor
+		const anchor = createSlug(category); // Convert category to anchor
 		const categoryHeader = `${category}`;
 		const skillLinks = sortedSkills.map(skill => {
 			const skillName = path.basename(skill.skillName);
