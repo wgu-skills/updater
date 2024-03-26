@@ -32,7 +32,7 @@ export default class Skill {
       throw new Error(`Unsupported format: ${format}`);
     }
 
-    console.log(`Exporting skill data to ${fileName}`);
+    // console.log(`Exporting skill data to ${fileName}`);
     await writeToFile(fileName, dataString);
   }
 }
