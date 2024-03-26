@@ -61,12 +61,12 @@ runs:
         GIT_USERNAME: ${{ inputs.gitUsername }}
         GIT_EMAIL: ${{ inputs.gitEmail }}
 
-    - name: Commit and Push changes
+    - name: Commit and push if changes
       shell: bash
       run: |
         cd $GITHUB_WORKSPACE
-        git add .
-        git commit -m "Update skill collection data" -a || echo "No changes to commit"
+        git config --global user.email "you@example.com"
+        git config --global user.name "Your Name"
+        git add -A
+        git diff --staged --exit-code || git commit -m "Automated commit message"
         git push
-      env:
-        GITHUB_TOKEN: ${{ inputs.githubToken }}
