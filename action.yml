@@ -62,6 +62,7 @@ runs:
       shell: bash
       run: |
         cd $GITHUB_WORKSPACE
+        rm -rf updater
         git add -A
         git diff --staged --exit-code > /dev/null || git commit -m "Automated commit message"
         git push
