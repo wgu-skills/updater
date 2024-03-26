@@ -38,6 +38,7 @@ const createIndexFile = async (collection) => {
     // Validate and process skill names in parallel (if applicable)
     const processedSkills = collection.skills.map(skill => {
 
+		console.log('skill', skill);
 		const slug = createSlug(skill.skillName);
 		
       if (!isValidSkillName(skill.skillName)) {
@@ -45,7 +46,7 @@ const createIndexFile = async (collection) => {
       }
       const variableName = toCamelCase(skill.skillName);
       return {
-        importStatement: `import ${JSON.stringify(skill)} from './skills/${skill.skillName}${FILE_EXTENSIONS.skillJson}';`,
+        importStatement: `import  from './skills/${skill.skillName}${FILE_EXTENSIONS.skillJson}';`,
         exportName: variableName
       };
     });
