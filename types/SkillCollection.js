@@ -1,7 +1,6 @@
 import fetch from 'node-fetch';
 import Skill from './Skill.js';
 import config from '../helpers/config.js';
-import path from 'path';
 import yaml from 'js-yaml';
 import {
 	writeToFile,
@@ -71,11 +70,6 @@ class SkillCollection {
 			format === FORMAT_JSON
 				? JSON.stringify(formattedCollection, null, 4)
 				: yaml.dump(formattedCollection);
-
-		// const fileName = path.join(
-		// 	config.files.output_dir,
-		// 	`collection.skill.${format}`
-		// );
 
 		await writeToFile(`./collection.skill.${format}`, dataToWrite);
 	}

@@ -1,6 +1,6 @@
 import fs from 'fs/promises';
 import path from 'path';
-import { createSlug, toCamelCase } from './stringOperations.js';
+import { toCamelCase } from './stringOperations.js';
 
 const FORMAT_JSON = 'json';
 const FORMAT_YAML = 'yaml';
@@ -24,7 +24,7 @@ const listFiles = async (dir) => fs.readdir(dir);
 // Collection File Creators
 const createFileFromTemplate = async (collection, fileType, contentBuilder) => {
 	try {
-		const filePath = getFilePath(`${collection.slug}/${fileType}`);
+		const filePath = getFilePath(fileType);
 		const content = await contentBuilder(collection);
 		await writeToFile(filePath, content);
 	} catch (error) {

@@ -3,26 +3,28 @@ import config from './helpers/config.js';
 import SkillCollection from './types/SkillCollection';
 import { FORMAT_JSON } from './helpers/fileOperations';
 
+async function exportCollection(collection) {
+    await Promise.all([
+        collection.export(FORMAT_JSON),
+        collection.exportSkills(FORMAT_JSON),
+        collection.createIndexFile(),
+        collection.createPackageJsonFile(),
+        collection.createReadMeFile()
+    ]);
+}
+
 async function run() {
-	try {
+    try {
+		
+        const collection = await SkillCollection.fetchAndCreate(config.collection.uuid, config.collection.slug);
+        await exportCollection(collection);
 
-		const collection = await SkillCollection.fetchAndCreate(config.collection.uuid, config.collection.slug);
-		// console.log('Collection:', collection);
+    } catch (error) {
 
-		// Get the collection
-		await Promise.all([
-			// collection.export(FORMAT_YAML), // Export the collection
-			// collection.exportSkills(FORMAT_YAML), // Export the skills
-			collection.export(FORMAT_JSON), // Export the collection
-			collection.exportSkills(FORMAT_JSON), // Export the skills
-			collection.createIndexFile(), // Create the index file
-			collection.createPackageJsonFile(), // Create the package.json file
-			collection.createReadmeFile() // Create the README file
-		]);
+        console.error('Error occurred:', error); // Detailed error logging
+        setFailed(error.message);
 
-	} catch (error) {
-		setFailed(error.message);
-	}
+    }
 }
 
 run();
