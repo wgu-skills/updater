@@ -66,4 +66,4 @@ runs:
         git commit -m "Update skill collection data" -a || echo "No changes to commit"
         git push
       env:
-        GITHUB_TOKEN: GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
