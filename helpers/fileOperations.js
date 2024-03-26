@@ -97,8 +97,6 @@ const createReadmeFile = async (collection) => {
         }
 
         const readmeHeader = `# ${collection.name}\n\n${collection.description}\n\n## Skills\n\n`;
-        const skillsPath = getFilePath(`skills`);
-        const skillFiles = await listFiles(skillsPath);
 
         // Group skills by category and sort skills within each category
         let skillsByCategory = {};
@@ -117,7 +115,7 @@ const createReadmeFile = async (collection) => {
             const categoryHeader = `### ${category}\n\n`;
             const skillLinks = sortedSkills.map(skill => {
                 const skillName = path.basename(skill.skillName);
-                return `- ${skillName} [JSON](./skills/${skillName}${FILE_EXTENSIONS.skillJson})`;
+                return `- ${skillName} [JSON](./skills/${skill.slug}${FILE_EXTENSIONS.skillJson})`;
             }).join('\n');
 
             return `${categoryHeader}${skillLinks}`;
