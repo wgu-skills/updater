@@ -20,7 +20,7 @@ export default class Skill {
 
   async export(collection, format) {
 
-    const category = skill.category ? createSlug(skill.category) : 'uncategorized';
+    const category = this.category ? createSlug(this.category) : 'uncategorized';
     const fileName = path.join(config.files.output_dir, `skills`, category, `${this.slug}.skill.${format}`);
 
     let dataString;

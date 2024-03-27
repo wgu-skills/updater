@@ -38,10 +38,14 @@ const createIndexFile = async (collection) => {
 		// Validate and process skill names in parallel (if applicable)
 		const processedSkills = collection.skills.map((skill) => {
 			const variableName = toCamelCase(skill.slug);
-			console.log(`Processing skill: ${skill.slug} in category: ${skill.category}`);
+			console.log(
+				`Processing skill: ${skill.slug} in category: ${skill.category}`
+			);
 
 			return {
-				importStatement: `import ${variableName} from './skills/${ skill.category ? createSlug(skill.category) : 'uncategorized' }/${skill.slug}${FILE_EXTENSIONS.skillJson}';`,
+				importStatement: `import ${variableName} from './skills/${
+					skill.category ? createSlug(skill.category) : 'uncategorized'
+				}/${skill.slug}${FILE_EXTENSIONS.skillJson}';`,
 				exportName: variableName,
 			};
 		});
@@ -56,7 +60,9 @@ const createIndexFile = async (collection) => {
 			{ imports: [], exports: [] }
 		);
 
-		return `${ fileContent.imports.join('\n')}\n\nexport { ${ fileContent.exports.join(', ') } };`;
+		return `${fileContent.imports.join(
+			'\n'
+		)}\n\nexport { ${fileContent.exports.join(', ')} };`;
 	});
 };
 
@@ -90,7 +96,7 @@ const createReadmeFile = async (collection) => {
 		console.log('Creating README.md');
 	}
 
-	const readmeHeader = `# ${ collection.name }\n\n${ collection.description }\n\n`;
+	const readmeHeader = `# ${collection.name}\n\n${collection.description}\n\n`;
 
 	// Group skills by category and sort skills within each category
 	const skillsByCategory = {};
@@ -108,32 +114,40 @@ const createReadmeFile = async (collection) => {
 	// Create TOC
 	const toc = categories
 		.map((category) => {
-			console.log(`Creating TOC for ${ category }`);
+			console.log(`Creating TOC for ${category}`);
 			const anchor = createSlug(category); // Convert category to anchor
-			return `- [${ category }](#${ anchor })`;
+			return `- [${category}](#${anchor})`;
 		})
 		.join('\n');
-// @ TODO: Debug why category anchors are being created without "-"
+	// @ TODO: Debug why category anchors are being created without "-"
 	const markdownSections = categories
 		.map((category) => {
 			const sortedSkills = skillsByCategory[category].sort((a, b) =>
 				a.skillName.localeCompare(b.skillName)
 			);
-			console.log("Creating markdown section for", category, "with", sortedSkills.length, "skills");
+			console.log(
+				'Creating markdown section for',
+				category,
+				'with',
+				sortedSkills.length,
+				'skills'
+			);
 			const anchor = createSlug(category); // Convert category to anchor
 			const skillLinks = sortedSkills
 				.map((skill) => {
 					const skillName = path.basename(skill.skillName);
-					const category = skill.category ? createSlug(skill.category) : 'uncategorized';
-					return `- ${ skillName } [JSON](./skills/${ category }/${ skill.slug }${ FILE_EXTENSIONS.skillJson })`;
+					const category = skill.category
+						? createSlug(skill.category)
+						: 'uncategorized';
+					return `- ${skillName} [JSON](./skills/${category}/${skill.slug}${FILE_EXTENSIONS.skillJson})`;
 				})
 				.join('\n');
 
-			return `### [${ category }](#${ anchor })\n\n${ skillLinks }\n\n[Back to Top](#skills)\n`;
+			return `### [${category}](#${anchor})\n\n${skillLinks}\n\n[Back to Top](#skills)\n`;
 		})
 		.join('\n\n');
 
-	const readmeContent = `${ readmeHeader }## Skill Categories\n\n${toc}\n\n${ markdownSections }`;
+	const readmeContent = `${readmeHeader}## Skill Categories\n\n${toc}\n\n${markdownSections}`;
 	await writeToFile(readmeFilePath, readmeContent);
 };
 
