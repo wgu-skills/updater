@@ -15,7 +15,7 @@ async function exportCollection(collection) {
     collection.createPackageJsonFile(),
     collection.createReadmeFile()
   ])
-  
+   
 }
 
 async function run() {
