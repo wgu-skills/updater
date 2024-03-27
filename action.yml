@@ -25,7 +25,6 @@ inputs:
 runs:
   using: 'composite'
   steps:
-
     - name: Checkout Skill Collection Repo
       uses: actions/checkout@v4
       
@@ -53,13 +52,11 @@ runs:
 
     - name: Commit and push if changes
       shell: bash
-      with:
-        token: ${{ secrets.githubToken }}  
+      env:
+        GITHUB_TOKEN: ${{ secrets.githubToken }}
       run: |
-        rm -rf updater
         git config --local user.email "${{ inputs.gitEmail }}"
         git config --local user.name "${{ inputs.gitUsername }}"
         git add -A
         git diff --staged --exit-code > /dev/null || git commit -m "Automated commit message"
         git push
-
