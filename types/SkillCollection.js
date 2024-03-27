@@ -5,6 +5,7 @@ import Skill from './Skill.js'
 import {
   writeToFile,
   createIndexFile,
+  createMainIndexFile,
   createPackageJsonFile,
   createReadmeFile,
   FORMAT_JSON
