@@ -35,8 +35,8 @@ export default class Skill {
 
     try {
       // Ensure that the skill folder exists
-      if (!fs.existsSync(skillFolder)) {
-        fs.mkdirSync(skillFolder, { recursive: true })
+      if (!fs.existsSync(categoryFolder)) {
+        fs.mkdirSync(categoryFolder, { recursive: true })
       }
 
       // Ensure unique import statement in the index file
