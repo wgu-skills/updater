@@ -1,6 +1,6 @@
 import fs from 'fs/promises';
 import path from 'path';
-import { createSlug } from './stringOperations.js';
+import { toCamelCase, createSlug } from './stringOperations.js';
 
 const FORMAT_JSON = 'json';
 const FORMAT_YAML = 'yaml';
@@ -41,7 +41,7 @@ const createIndexFile = async (collection) => {
 			// console.log(`Processing skill: ${skill.slug} as ${variableName}`);
 
 			return {
-				importStatement: `import ${variableName} from './skills/${skill.slug}${FILE_EXTENSIONS.skillJson}';`,
+				importStatement: `import ${variableName} from './skills/${ createSlug(this.slug.category) }/${skill.slug}${FILE_EXTENSIONS.skillJson}';`,
 				exportName: variableName,
 			};
 		});
