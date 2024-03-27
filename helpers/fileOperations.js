@@ -70,6 +70,7 @@ const createReadmeFile = async (collection) => {
   const categories = Object.keys(skillsByCategory).sort();
 
   let toc = categories.map(category => `- [${category}](#${createSlug(category)})`).join('\n');
+  
   let markdownSections = categories.map(category => {
     let skillsList = skillsByCategory[category]
       .sort()
