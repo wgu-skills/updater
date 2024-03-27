@@ -84,6 +84,11 @@ class SkillCollection {
     await createIndexFile(this)
   }
 
+  async createMainIndexFile() {
+    await createMainIndexFile(this)
+  }
+
+
   async createPackageJsonFile() {
     await createPackageJsonFile(this)
   }
