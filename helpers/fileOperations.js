@@ -75,6 +75,7 @@ const createMainIndexFile = async () => {
 }
 
 const createPackageJsonFile = async (collection) => {
+  console.log('Creating package.json')
   await createFileFromTemplate(collection, 'package.json', (collection) =>
     JSON.stringify(
       {
@@ -93,6 +94,7 @@ const createPackageJsonFile = async (collection) => {
 }
 
 const createReadmeFile = async (collection) => {
+  console.log('Creating README.md')
   const readmeFilePath = getFilePath('README.md')
 
   // Check if README.md already exists
