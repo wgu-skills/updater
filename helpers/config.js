@@ -1,15 +1,15 @@
 const checkEnvVariable = (key, defaultValue = null) => {
-  const value = process.env[key];
+  const value = process.env[key]
   if (typeof value === 'undefined' || value === '') {
     if (defaultValue !== null) {
-      console.warn(`Environment variable ${key} is not set. Using default value.`);
-      return defaultValue;
+      console.warn(`Environment variable ${key} is not set. Using default value.`)
+      return defaultValue
     }
-    console.error(`Environment variable ${key} is missing.`);
-    return null;
+    console.error(`Environment variable ${key} is missing.`)
+    return null
   }
-  return value;
-};
+  return value
+}
 
 // Environment variables grouped and validated
 const config = {
@@ -26,15 +26,15 @@ const config = {
     username: checkEnvVariable('gitUsername'),
     email: checkEnvVariable('gitEmail')
   }
-};
+}
 
 // Throw an error if any required variable is missing
-Object.keys(config).forEach(group => {
+Object.keys(config).forEach((group) => {
   Object.entries(config[group]).forEach(([key, value]) => {
     if (value === null) {
-      throw new Error(`Required environment variable ${key} is missing in ${group}`);
+      throw new Error(`Required environment variable ${key} is missing in ${group}`)
     }
-  });
-});
+  })
+})
 
-export default config;
+export default config
