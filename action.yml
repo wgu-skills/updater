@@ -25,23 +25,14 @@ inputs:
 runs:
   using: 'composite'
   steps:
-    - name: Echo Input Variables
-      shell: bash
-      run: |
-        echo "Skill Collection Slug: ${{ inputs.skillCollectionSlug }}"
-        echo "Skill Collection URL: ${{ inputs.skillCollectionUrl }}"
-        echo "Skill Collection UUID: ${{ inputs.skillCollectionUuid }}"
-        echo "Git Organization: ${{ inputs.gitOrg }}"
-        echo "Git Username: ${{ inputs.gitUsername }}"
-        echo "Git Email: ${{ inputs.gitEmail }}"
 
     - name: Checkout Skill Collection Repo
       uses: actions/checkout@v4
-
+      
     - name: Checkout Updater Repo
       uses: actions/checkout@v4
       with:
-        repository: ${{ inputs.gitOrg }}/updater
+        repository: wgu-skills/updater
         path: updater
 
     - name: Set up Node.js
@@ -53,12 +44,12 @@ runs:
       shell: bash
       run: node updater/dist/index.js
       env:
-        SKILL_COLLECTION_SLUG: ${{ inputs.skillCollectionSlug }}
-        SKILL_COLLECTION_URL: ${{ inputs.skillCollectionUrl }}
-        SKILL_COLLECTION_UUID: ${{ inputs.skillCollectionUuid }}
-        GIT_ORG: ${{ inputs.gitOrg }}
-        GIT_USERNAME: ${{ inputs.gitUsername }}
-        GIT_EMAIL: ${{ inputs.gitEmail }}
+        skillCollectionSlug: ${{ inputs.skillCollectionSlug }}
+        skillCollectionUrl: ${{ inputs.skillCollectionUrl }}
+        skillCollectionUuid: ${{ inputs.skillCollectionUuid }}
+        gitOrg: ${{ inputs.gitOrg }}
+        gitUsername: ${{ inputs.gitUsername }}
+        gitEmail: ${{ inputs.gitEmail }}
 
     - name: Commit and push if changes
       shell: bash
@@ -69,5 +60,4 @@ runs:
         git add -A
         git diff --staged --exit-code > /dev/null || git commit -m "Automated commit message"
         git push
-      env:
-        GITHUB_TOKEN: ${{ inputs.githubToken }}
+
