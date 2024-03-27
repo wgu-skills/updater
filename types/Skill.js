@@ -1,9 +1,8 @@
 import yaml from 'js-yaml';
-import { FORMAT_JSON, FORMAT_YAML } from "../helpers/fileOperations.js"
-import { writeToFile } from '../helpers/fileOperations.js';
-import { createSlug } from '../helpers/stringOperations.js';
-import config from '../helpers/config.js';
 import path from 'path';
+import config from '../helpers/config.js';
+import { FORMAT_JSON, FORMAT_YAML, writeToFile } from '../helpers/fileOperations.js';
+import { createSlug } from '../helpers/stringOperations.js';
 
 export default class Skill {
   constructor(data, collection) {
@@ -15,25 +14,25 @@ export default class Skill {
   }
 
   get() {
-    return { ...this, slug: undefined };
+    return { ...this };
   }
 
-  async export(collection, format) {
-
-    const category = this.category ? createSlug(this.category) : 'uncategorized';
-    const fileName = path.join(config.files.output_dir, `skills`, category, `${this.slug}.skill.${format}`);
+  async export(format) {
+    const categorySlug = this.category ? createSlug(this.category) : 'uncategorized';
+    const fileName = path.join(config.files.output_dir, 'skills', categorySlug, `${this.slug}.skill.${format}`);
 
     let dataString;
-
-    if (format === FORMAT_JSON) {
-      dataString = JSON.stringify(this.get(), null, 4);
-    } else if (format === FORMAT_YAML) {
-      dataString = yaml.dump(this.get());
-    } else {
-      throw new Error(`Unsupported format: ${format}`);
+    switch (format) {
+      case FORMAT_JSON:
+        dataString = JSON.stringify(this.get(), null, 4);
+        break;
+      case FORMAT_YAML:
+        dataString = yaml.dump(this.get());
+        break;
+      default:
+        throw new Error(`Unsupported format: ${format}`);
     }
 
-    // console.log(`Exporting skill data to ${fileName}`);
     await writeToFile(fileName, dataString);
   }
 }
