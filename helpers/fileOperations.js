@@ -105,7 +105,7 @@ const createReadmeFile = async (collection) => {
   }
 
   const readmeHeader = `# ${collection.name}\n\n${collection.description}\n\n`
-  const skillsByCategory = await getSkillsByCategory()
+  const skillsByCategory = await collection.getSkillsByCategory()
 
   // Sort categories
   const categories = Object.keys(skillsByCategory).sort()

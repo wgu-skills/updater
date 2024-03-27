@@ -63,16 +63,19 @@ class SkillCollection {
 
   async getSkillsByCategory() {
     const skillsByCategory = {}
-    const skillsDir = path.join(config.files.output_dir, 'skills')
 
-    const categories = await fs.readdir(skillsDir, { withFileTypes: true })
-    for (const category of categories) {
-      if (category.isDirectory()) {
-        const categoryName = category.name
-        const categorySkills = await listFiles(path.join(skillsDir, categoryName))
-        skillsByCategory[categoryName] = categorySkills
+    // Iterate over each skill in the this.skills array
+    this.skills.forEach((skill) => {
+      const category = skill.category || 'Uncategorized'
+
+      // Initialize the category array if it doesn't exist
+      if (!skillsByCategory[category]) {
+        skillsByCategory[category] = []
       }
-    }
+
+      // Add the skill to its respective category
+      skillsByCategory[category].push(skill)
+    })
 
     return skillsByCategory
   }
@@ -88,7 +91,6 @@ class SkillCollection {
   async createMainIndexFile() {
     await createMainIndexFile(this)
   }
-
 
   async createPackageJsonFile() {
     await createPackageJsonFile(this)
