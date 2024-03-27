@@ -29,13 +29,20 @@ runs:
     - name: Echo Input Variables
       shell: bash
       run: |
-        echo "Skill Collection Slug: ${{ inputs.skillCollectionSlug }}"
-        echo "Skill Collection URL: ${{ inputs.skillCollectionUrl }}"
-        echo "Skill Collection UUID: ${{ inputs.skillCollectionUuid }}"
-        echo "Git Organization: ${{ inputs.gitOrg }}"
-        echo "Git Username: ${{ inputs.gitUsername }}"
-        echo "Git Email: ${{ inputs.gitEmail }}"
-        echo "GitHub Token: ${{ inputs.githubToken }}"
+        echo "Skill Collection Slug: $SKILL_COLLECTION_SLUG"
+        echo "Skill Collection URL: $SKILL_COLLECTION_URL"
+        echo "Skill Collection UUID: $SKILL_COLLECTION_UUID"
+        echo "Git Organization: $GIT_ORG"
+        echo "Git Username: $GIT_USERNAME"
+        echo "Git Email: $GIT_EMAIL"
+      env:
+        SKILL_COLLECTION_SLUG: ${{ inputs.skillCollectionSlug }}
+        SKILL_COLLECTION_URL: ${{ inputs.skillCollectionUrl }}
+        SKILL_COLLECTION_UUID: ${{ inputs.skillCollectionUuid }}
+        GIT_ORG: ${{ inputs.gitOrg }}
+        GIT_USERNAME: ${{ inputs.gitUsername }}
+        GIT_EMAIL: ${{ inputs.gitEmail }}
+
 
 
     - name: Checkout Skill Collection Repo
