@@ -56,22 +56,36 @@ const createPackageJsonFile = async (collection) => {
 
 const createReadmeFile = async (collection) => {
   const readmeFilePath = getFilePath('README.md');
+
+  // Check if README already exists
   try {
     await fs.access(readmeFilePath);
+    console.log('README.md already exists. No changes made.');
     return;
   } catch (error) {
-    const skillsByCategory = await collection.getSkillsByCategory();
-    const categories = Object.keys(skillsByCategory).sort();
-
-    const toc = categories.map(category => `- [${category}](#${createSlug(category)})`).join('\n');
-    const markdownSections = categories.map(category => {
-      const skillLinks = skillsByCategory[category].sort().map(fileName =>  `- ${fileName.replace(FILE_EXTENSIONS.skillJson, '')} [JSON](./skills/${category}/${fileName})` ).join('\n');
-      return `### [${category}](#${createSlug(category)})\n\n${skillLinks}\n\n[Back to Top](#skills)\n`;
-    }).join('\n\n');
-
-    const readmeContent = `# ${collection.name}\n\n${collection.description}\n\n## Skill Categories\n\n${toc}\n\n${markdownSections}`;
-    await writeToFile(readmeFilePath, readmeContent);
+    // File does not exist, continue with creation
   }
+
+  const skillsByCategory = await collection.getSkillsByCategory();
+  const categories = Object.keys(skillsByCategory).sort();
+
+  let toc = categories.map(category => `- [${category}](#${createSlug(category)})`).join('\n');
+  let markdownSections = categories.map(category => {
+    let skillsList = skillsByCategory[category]
+      .sort()
+      .map(skill => {
+        let skillName = (typeof skill === 'string') ? skill.replace(FILE_EXTENSIONS.skillJson, '') : 'Invalid Skill Name';
+        return `- ${skillName} [JSON](./skills/${createSlug(category)}/${createSlug(skillName)})`;
+      })
+      .join('\n');
+    
+    return `### ${category}\n\n${skillsList}\n`;
+  }).join('\n');
+
+  let readmeContent = `# ${collection.name}\n\n${collection.description}\n\n## Skill Categories\n\n${toc}\n\n## Skills\n\n${markdownSections}\n## License\n\n## Contributing\n`;
+
+  // Write to file
+  await writeToFile(readmeFilePath, readmeContent);
 };
 
 export {
