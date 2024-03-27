@@ -55,6 +55,7 @@ runs:
       env:
         GITHUB_TOKEN: ${{ secrets.githubToken }}
       run: |
+        rm -rf updater
         git config --local user.email "${{ inputs.gitEmail }}"
         git config --local user.name "${{ inputs.gitUsername }}"
         git add -A
