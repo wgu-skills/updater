@@ -1,47 +1,46 @@
 name: 'Update Skill Collection'
 description: 'Updates collection data and commits changes to the repository.'
 inputs:
-  'skillCollectionSlug':
+  skillCollectionSlug:
     description: 'Skill Collection Slug'
     required: true
-  'skillCollectionUrl':
+  skillCollectionUrl:
     description: 'Skill Collection URL'
     required: true
-  'skillCollectionUuid':
+  skillCollectionUuid:
     description: 'Skill Collection UUID'
     required: true
-  'gitOrg':
+  gitOrg:
     description: 'GitHub Organization'
     required: true
-  'gitUsername':
+  gitUsername:
     description: 'GitHub Username'
     required: true
-  'gitEmail':
+  gitEmail:
     description: 'GitHub Email'
     required: true
-  'githubToken':
+  githubToken:
     description: 'GitHub Token'
     required: true
 runs:
   using: 'composite'
   steps:
-
-  - name: Echo Input Variables
-    shell: bash
-    run: |
-      echo "Skill Collection Slug: $SKILL_COLLECTION_SLUG"
-      echo "Skill Collection URL: $SKILL_COLLECTION_URL"
-      echo "Skill Collection UUID: $SKILL_COLLECTION_UUID"
-      echo "Git Organization: $GIT_ORG"
-      echo "Git Username: $GIT_USERNAME"
-      echo "Git Email: $GIT_EMAIL"
-    env:
-      SKILL_COLLECTION_SLUG: ${{ inputs.skillCollectionSlug }}
-      SKILL_COLLECTION_URL: ${{ inputs.skillCollectionUrl }}
-      SKILL_COLLECTION_UUID: ${{ inputs.skillCollectionUuid }}
-      GIT_ORG: ${{ inputs.gitOrg }}
-      GIT_USERNAME: ${{ inputs.gitUsername }}
-      GIT_EMAIL: ${{ inputs.gitEmail }}
+    - name: Echo Input Variables
+      shell: bash
+      run: |
+        echo "Skill Collection Slug: $SKILL_COLLECTION_SLUG"
+        echo "Skill Collection URL: $SKILL_COLLECTION_URL"
+        echo "Skill Collection UUID: $SKILL_COLLECTION_UUID"
+        echo "Git Organization: $GIT_ORG"
+        echo "Git Username: $GIT_USERNAME"
+        echo "Git Email: $GIT_EMAIL"
+      env:
+        SKILL_COLLECTION_SLUG: ${{ inputs.skillCollectionSlug }}
+        SKILL_COLLECTION_URL: ${{ inputs.skillCollectionUrl }}
+        SKILL_COLLECTION_UUID: ${{ inputs.skillCollectionUuid }}
+        GIT_ORG: ${{ inputs.gitOrg }}
+        GIT_USERNAME: ${{ inputs.gitUsername }}
+        GIT_EMAIL: ${{ inputs.gitEmail }}
 
     - name: Checkout Skill Collection Repo
       uses: actions/checkout@v4
@@ -49,7 +48,7 @@ runs:
     - name: Checkout Updater Repo
       uses: actions/checkout@v4
       with:
-        repository: wgu-skills/updater
+        repository: ${{ inputs.gitOrg }}/updater
         path: updater
 
     - name: Set up Node.js
@@ -61,19 +60,21 @@ runs:
       shell: bash
       run: node updater/dist/index.js
       env:
-        skillCollectionSlug: ${inputs.skillCollectionSlug}
-        skillCollectionUrl: ${inputs.skillCollectionUrl}
-        skillCollectionUuid: ${inputs.skillCollectionUuid}
-        gitOrg: ${inputs.gitOrg}
-        gitUsername: ${inputs.gitUsername}
-        gitEmail: ${inputs.gitEmail}
+        SKILL_COLLECTION_SLUG: ${{ inputs.skillCollectionSlug }}
+        SKILL_COLLECTION_URL: ${{ inputs.skillCollectionUrl }}
+        SKILL_COLLECTION_UUID: ${{ inputs.skillCollectionUuid }}
+        GIT_ORG: ${{ inputs.gitOrg }}
+        GIT_USERNAME: ${{ inputs.gitUsername }}
+        GIT_EMAIL: ${{ inputs.gitEmail }}
 
     - name: Commit and push if changes
       shell: bash
       run: |
         rm -rf updater
-        git config --local user.email "${inputs.gitEmail}"
-        git config --local user.name "${inputs.gitUsername}"
+        git config --local user.email "${{ inputs.gitEmail }}"
+        git config --local user.name "${{ inputs.gitUsername }}"
         git add -A
         git diff --staged --exit-code > /dev/null || git commit -m "Automated commit message"
         git push
+      env:
+        GITHUB_TOKEN: ${{ inputs.githubToken }}
