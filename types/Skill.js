@@ -20,8 +20,9 @@ export default class Skill {
 
   export(format) {
     const categorySlug = this.category ? createSlug(this.category) : 'uncategorized'
+    const fileName = `${this.slug}.skill.${format}`
     const categoryFolder = path.join(config.files.output_dir, `skills`, categorySlug)
-    const filePath = path.join(categoryFolder, `${this.slug}.skill.${format}`)
+    const filePath = path.join(categoryFolder, fileName)
     const indexFile = path.join(categoryFolder, 'index.js')
 
     try {
