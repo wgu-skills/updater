@@ -18,10 +18,11 @@ export default class Skill {
     return { ...this };
   }
 
-  async export(format) {
+  export(format) {
     const categorySlug = this.category ? createSlug(this.category) : 'uncategorized';
     const skillFolder = path.join(config.files.output_dir, 'skills', categorySlug);
-    const fileName = path.join(skillFolder, `${this.slug}.skill.${format}`);
+    const fileName = `${this.slug}.skill.${format}`;
+    const filePath = path.join(skillFolder, fileName);
     const indexFile = path.join(skillFolder, 'index.js');
 
     try {
@@ -30,33 +31,33 @@ export default class Skill {
         fs.mkdirSync(skillFolder, { recursive: true });
       }
 
-      // Ensure that the index file exists
-      if (!fs.existsSync(indexFile)) {
-        fs.writeFileSync(indexFile, '', { flag: 'w' });
-      }
+      // Ensure unique import statement in the index file
+      this.appendToIndexFile(indexFile, fileName);
 
-      // Append import statement to the index file
-      const importStatement = `import ${ toCamelCase(this.slug) } from './${this.slug}.skill.${format}';\n`;
-      fs.appendFileSync(indexFile, importStatement);
-
-      // Prepare data string based on the format
-      let dataString;
-      switch (format) {
-        case FORMAT_JSON:
-          dataString = JSON.stringify(this.get(), null, 4);
-          break;
-        case FORMAT_YAML:
-          dataString = yaml.dump(this.get());
-          break;
-        default:
-          throw new Error(`Unsupported format: ${format}`);
-      }
-
-      // Write the skill data to file
-      await writeToFile(fileName, dataString);
+      // Prepare and write data string based on the format
+      const dataString = this.prepareDataString(format);
+      fs.writeFileSync(filePath, dataString);
     } catch (error) {
       console.error('Error in Skill.export:', error);
-      throw error; // Re-throw the error for further handling if necessary
+      throw error;
+    }
+  }
+
+  appendToIndexFile(indexFile, fileName) {
+    if (!fs.existsSync(indexFile) || !fs.readFileSync(indexFile).includes(fileName)) {
+      const importStatement = `import ${toCamelCase(this.slug)} from './${fileName}';\n`;
+      fs.appendFileSync(indexFile, importStatement);
+    }
+  }
+
+  prepareDataString(format) {
+    switch (format) {
+      case FORMAT_JSON:
+        return JSON.stringify(this.get(), null, 4);
+      case FORMAT_YAML:
+        return yaml.dump(this.get());
+      default:
+        throw new Error(`Unsupported format: ${format}`);
     }
   }
 }
