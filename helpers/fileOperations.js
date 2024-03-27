@@ -74,8 +74,7 @@ const createReadmeFile = async (collection) => {
     let skillsList = skillsByCategory[category]
       .sort()
       .map(skill => {
-        let skillName = (typeof skill === 'string') ? skill.replace(FILE_EXTENSIONS.skillJson, '') : 'Invalid Skill Name';
-        return `- ${skillName} [JSON](./skills/${createSlug(category)}/${createSlug(skillName)})`;
+        return `- ${skill.skillName} [JSON](./skills/${createSlug(category)}/${createSlug(skill.skillName)})`;
       })
       .join('\n');
     
