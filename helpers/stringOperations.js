@@ -16,10 +16,19 @@ const toCamelCase = (fileName) => {
 
 
 let slugCount = {};
+
 const createSlug = (originalString) => {
     const slug = slugify(originalString, { lower: true, strict: true });
-    slugCount[slug] = (slugCount[slug] || 0) + 1;
-    return slugCount[slug] > 1 ? `${slug}-${slugCount[slug]}` : slug;
+    
+    // Check if the slug already exists and increment the count accordingly.
+    if (slugCount[slug]) {
+        slugCount[slug] += 1;
+        return `${slug}-${slugCount[slug]}`;
+    } else {
+        // If it's the first time, just set the count to 1 and return the slug.
+        slugCount[slug] = 1;
+        return slug;
+    }
 };
 
 export { createSlug, toCamelCase }
