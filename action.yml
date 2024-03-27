@@ -53,6 +53,8 @@ runs:
 
     - name: Commit and push if changes
       shell: bash
+      with:
+        token: ${{ input.githubToken }}  
       run: |
         rm -rf updater
         git config --local user.email "${{ inputs.gitEmail }}"
