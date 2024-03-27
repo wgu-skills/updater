@@ -115,7 +115,7 @@ const createReadmeFile = async (collection) => {
 			return `- [${category}](#${anchor})`;
 		})
 		.join('\n');
-
+// @ TODO: Debug why category anchors are being created without "-"
 	const markdownSections = categories
 		.map((category) => {
 			const sortedSkills = skillsByCategory[category].sort((a, b) =>
@@ -134,7 +134,7 @@ const createReadmeFile = async (collection) => {
 		})
 		.join('\n\n');
 
-	const readmeContent = `${readmeHeader}## Skills\n\n${toc}\n\n${markdownSections}`;
+	const readmeContent = `${readmeHeader}## Skill Categories\n\n${toc}\n\n${markdownSections}`;
 	await writeToFile(readmeFilePath, readmeContent);
 };
 
