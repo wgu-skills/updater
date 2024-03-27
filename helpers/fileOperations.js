@@ -65,9 +65,7 @@ const createReadmeFile = async (collection) => {
 
     const toc = categories.map(category => `- [${category}](#${createSlug(category)})`).join('\n');
     const markdownSections = categories.map(category => {
-      const skillLinks = skillsByCategory[category].sort().map(fileName => 
-        `- ${fileName.replace(FILE_EXTENSIONS.skillJson, '')} [JSON](./skills/${category}/${fileName})`
-      ).join('\n');
+      const skillLinks = skillsByCategory[category].sort().map(fileName =>  `- ${fileName.replace(FILE_EXTENSIONS.skillJson, '')} [JSON](./skills/${category}/${fileName})` ).join('\n');
       return `### [${category}](#${createSlug(category)})\n\n${skillLinks}\n\n[Back to Top](#skills)\n`;
     }).join('\n\n');
 
