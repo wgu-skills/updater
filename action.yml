@@ -25,6 +25,19 @@ inputs:
 runs:
   using: 'composite'
   steps:
+
+    - name: Echo Input Variables
+      shell: bash
+      run: |
+        echo "Skill Collection Slug: ${{ inputs.skillCollectionSlug }}"
+        echo "Skill Collection URL: ${{ inputs.skillCollectionUrl }}"
+        echo "Skill Collection UUID: ${{ inputs.skillCollectionUuid }}"
+        echo "Git Organization: ${{ inputs.gitOrg }}"
+        echo "Git Username: ${{ inputs.gitUsername }}"
+        echo "Git Email: ${{ inputs.gitEmail }}"
+        echo "GitHub Token: ${{ inputs.githubToken }}"
+
+
     - name: Checkout Skill Collection Repo
       uses: actions/checkout@v4
       
