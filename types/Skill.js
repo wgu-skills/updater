@@ -21,9 +21,15 @@ export default class Skill {
   export(format) {
     console.log('Output dir', config.files.output_dir)
     const categorySlug = this.category ? createSlug(this.category) : 'uncategorized'
+    console.log('Category slug', categorySlug)
     const fileName = `${this.slug}.skill.${format}`
-    const filePath = path.join(config.files.output_dir, `skills`, categorySlug, fileName)
-    const indexFile = path.join(config.files.output_dir, `skills`, categorySlug, 'index.js')
+    console.log('File name', fileName)
+    const categoryFolder = path.join(config.files.output_dir, `skills`, categorySlug)
+    console.log('Category folder', categoryFolder)
+    const filePath = path.join(categoryFolder, fileName)
+    console.log('File path', filePath)
+    const indexFile = path.join(categoryFolder, 'index.js')
+    console.log('Index file', indexFile)
 
     try {
       // Ensure that the skill folder exists
