@@ -38,7 +38,7 @@ const createIndexFile = async (collection) => {
 		// Validate and process skill names in parallel (if applicable)
 		const processedSkills = collection.skills.map((skill) => {
 			const variableName = toCamelCase(skill.slug);
-			// console.log(`Processing skill: ${skill.slug} as ${variableName}`);
+			console.log(`Processing skill: ${skill.slug} in category: ${skill.category}`);
 
 			return {
 				importStatement: `import ${variableName} from './skills/${ createSlug(skill.category) }/${skill.slug}${FILE_EXTENSIONS.skillJson}';`,
