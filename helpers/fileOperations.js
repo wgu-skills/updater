@@ -39,9 +39,7 @@ const createIndexFile = async (collection) => {
       const variableName = toCamelCase(skill.slug)
 
       return {
-        importStatement: `import ${variableName} from './skills/${
-          skill.category ? createSlug(skill.category) : 'uncategorized'
-        }/${skill.slug}${FILE_EXTENSIONS.skillJson}';`,
+        importStatement: `import ${variableName} from './skills/${ skill.category ? createSlug(skill.category) : 'uncategorized' }/${skill.slug}${FILE_EXTENSIONS.skillJson}';`,
         exportName: variableName
       }
     })
@@ -60,8 +58,8 @@ const createIndexFile = async (collection) => {
   })
 }
 
-const createMainIndexFile = async () => {
-  const skillsByCategory = await getSkillsByCategory()
+const createMainIndexFile = async (collection) => {
+  const skillsByCategory = await collection.getSkillsByCategory()
   const importStatements = []
 
   for (const categoryName in skillsByCategory) {
