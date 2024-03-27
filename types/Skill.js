@@ -3,7 +3,7 @@ import path from 'path';
 import fs from 'fs';
 import config from '../helpers/config.js';
 import { FORMAT_JSON, FORMAT_YAML, writeToFile } from '../helpers/fileOperations.js';
-import { createSlug } from '../helpers/stringOperations.js';
+import { createSlug, toCamelCase } from '../helpers/stringOperations.js';
 
 export default class Skill {
   constructor(data, collection) {
@@ -36,7 +36,7 @@ export default class Skill {
       }
 
       // Append import statement to the index file
-      const importStatement = `import ${this.slug} from './${this.slug}.skill.${format}';\n`;
+      const importStatement = `import ${ toCamelCase(this.slug) } from './${this.slug}.skill.${format}';\n`;
       fs.appendFileSync(indexFile, importStatement);
 
       // Prepare data string based on the format
