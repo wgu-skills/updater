@@ -41,7 +41,7 @@ const createIndexFile = async (collection) => {
 			// console.log(`Processing skill: ${skill.slug} as ${variableName}`);
 
 			return {
-				importStatement: `import ${variableName} from './skills/${ createSlug(skill.slug.category) }/${skill.slug}${FILE_EXTENSIONS.skillJson}';`,
+				importStatement: `import ${variableName} from './skills/${ createSlug(skill.category) }/${skill.slug}${FILE_EXTENSIONS.skillJson}';`,
 				exportName: variableName,
 			};
 		});
