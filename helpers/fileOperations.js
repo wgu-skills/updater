@@ -61,28 +61,18 @@ const createIndexFile = async (collection) => {
 }
 
 const createMainIndexFile = async () => {
-  const skillsDir = path.join(config.files.output_dir, 'skills'); // Adjust path as necessary
-  try {
-    const categories = await fs.readdir(skillsDir, { withFileTypes: true });
-    const importStatements = [];
+  const skillsByCategory = await getSkillsByCategory()
+  const importStatements = []
 
-    for (const category of categories) {
-      if (category.isDirectory()) {
-        const categoryName = category.name;
-        const categorySlug = createSlug(categoryName);
-        importStatements.push(`export * from './skills/${categorySlug}/index.js';`);
-      }
-    }
-
-    const mainIndexContent = importStatements.join('\n');
-    const mainIndexPath = path.join(skillsDir, 'index.js');
-    await writeToFile(mainIndexPath, mainIndexContent);
-  } catch (error) {
-    console.error('Error creating main index file:', error);
-    throw error;
+  for (const categoryName in skillsByCategory) {
+    const categorySlug = createSlug(categoryName)
+    importStatements.push(`export * from './skills/${categorySlug}/index.js';`)
   }
-}
 
+  const mainIndexContent = importStatements.join('\n')
+  const mainIndexPath = path.join(config.files.output_dir, 'index.js')
+  await writeToFile(mainIndexPath, mainIndexContent)
+}
 
 const createPackageJsonFile = async (collection) => {
   await createFileFromTemplate(collection, 'package.json', (collection) =>
@@ -103,7 +93,7 @@ const createPackageJsonFile = async (collection) => {
 }
 
 const createReadmeFile = async (collection) => {
-  const readmeFilePath = getFilePath(`README.md`)
+  const readmeFilePath = getFilePath('README.md')
 
   // Check if README.md already exists
   try {
@@ -115,18 +105,9 @@ const createReadmeFile = async (collection) => {
   }
 
   const readmeHeader = `# ${collection.name}\n\n${collection.description}\n\n`
+  const skillsByCategory = await getSkillsByCategory()
 
-  // Group skills by category and sort skills within each category
-  const skillsByCategory = {}
-  for (const skill of collection.skills) {
-    const category = skill.category || 'Uncategorized'
-    if (!skillsByCategory[category]) {
-      skillsByCategory[category] = []
-    }
-    skillsByCategory[category].push(skill)
-  }
-
-  // Sort categories and skill names within each category
+  // Sort categories
   const categories = Object.keys(skillsByCategory).sort()
 
   // Create TOC
@@ -138,17 +119,16 @@ const createReadmeFile = async (collection) => {
     })
     .join('\n')
 
-  // @ TODO: Debug why category anchors are being created without "-"
+  // Generate markdown sections for each category
   const markdownSections = categories
     .map((category) => {
-      const sortedSkills = skillsByCategory[category].sort((a, b) => a.skillName.localeCompare(b.skillName))
-      console.log('Creating markdown section for', category, 'with', sortedSkills.length, 'skills')
+      console.log('Creating markdown section for', category)
+      const sortedSkills = skillsByCategory[category].sort()
       const anchor = createSlug(category) // Convert category to anchor
       const skillLinks = sortedSkills
-        .map((skill) => {
-          const skillName = path.basename(skill.skillName)
-          const category = skill.category ? createSlug(skill.category) : 'uncategorized'
-          return `- ${skillName} [JSON](./skills/${category}/${skill.slug}${FILE_EXTENSIONS.skillJson})`
+        .map((fileName) => {
+          const skillSlug = fileName.replace(FILE_EXTENSIONS.skillJson, '')
+          return `- ${skillSlug} [JSON](./skills/${category}/${fileName})`
         })
         .join('\n')
 
@@ -160,4 +140,12 @@ const createReadmeFile = async (collection) => {
   await writeToFile(readmeFilePath, readmeContent)
 }
 
-export { createMainIndexFile, writeToFile, createIndexFile, createPackageJsonFile, createReadmeFile, FORMAT_JSON, FORMAT_YAML }
+export {
+  createMainIndexFile,
+  writeToFile,
+  createIndexFile,
+  createPackageJsonFile,
+  createReadmeFile,
+  FORMAT_JSON,
+  FORMAT_YAML
+}

@@ -11,9 +11,7 @@ import {
 } from '../helpers/fileOperations.js'
 
 class SkillCollection {
-
   constructor(data) {
-      
     this.type = data.type
     this.creationDate = data.creationDate
     this.name = data.name
@@ -31,7 +29,6 @@ class SkillCollection {
     this.context = data['@context']
     this.slug = config.collection.slug
     this.skills = data.skills.map((skill) => new Skill(skill))
-    
   }
 
   static async fetchAndCreate(uuid, slug) {
@@ -61,6 +58,22 @@ class SkillCollection {
       format === FORMAT_JSON ? JSON.stringify(formattedCollection, null, 4) : yaml.dump(formattedCollection)
 
     await writeToFile(`./collection.skill.${format}`, dataToWrite)
+  }
+
+  async getSkillsByCategory() {
+    const skillsByCategory = {}
+    const skillsDir = path.join(config.files.output_dir, 'skills')
+
+    const categories = await fs.readdir(skillsDir, { withFileTypes: true })
+    for (const category of categories) {
+      if (category.isDirectory()) {
+        const categoryName = category.name
+        const categorySkills = await listFiles(path.join(skillsDir, categoryName))
+        skillsByCategory[categoryName] = categorySkills
+      }
+    }
+
+    return skillsByCategory
   }
 
   async exportSkills(format) {
