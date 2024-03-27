@@ -60,6 +60,30 @@ const createIndexFile = async (collection) => {
   })
 }
 
+const createMainIndexFile = async () => {
+  const skillsDir = path.join(config.files.output_dir, 'skills'); // Adjust path as necessary
+  try {
+    const categories = await fs.readdir(skillsDir, { withFileTypes: true });
+    const importStatements = [];
+
+    for (const category of categories) {
+      if (category.isDirectory()) {
+        const categoryName = category.name;
+        const categorySlug = createSlug(categoryName);
+        importStatements.push(`export * from './skills/${categorySlug}/index.js';`);
+      }
+    }
+
+    const mainIndexContent = importStatements.join('\n');
+    const mainIndexPath = path.join(skillsDir, 'index.js');
+    await writeToFile(mainIndexPath, mainIndexContent);
+  } catch (error) {
+    console.error('Error creating main index file:', error);
+    throw error;
+  }
+}
+
+
 const createPackageJsonFile = async (collection) => {
   await createFileFromTemplate(collection, 'package.json', (collection) =>
     JSON.stringify(
@@ -136,4 +160,4 @@ const createReadmeFile = async (collection) => {
   await writeToFile(readmeFilePath, readmeContent)
 }
 
-export { writeToFile, createIndexFile, createPackageJsonFile, createReadmeFile, FORMAT_JSON, FORMAT_YAML }
+export { createMainIndexFile, writeToFile, createIndexFile, createPackageJsonFile, createReadmeFile, FORMAT_JSON, FORMAT_YAML }

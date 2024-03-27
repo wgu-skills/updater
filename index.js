@@ -4,13 +4,18 @@ import SkillCollection from './types/SkillCollection'
 import { FORMAT_JSON } from './helpers/fileOperations'
 
 async function exportCollection(collection) {
+
   await Promise.all([
     collection.export(FORMAT_JSON),
-    collection.exportSkills(FORMAT_JSON),
-    collection.createIndexFile(),
+    collection.exportSkills(FORMAT_JSON)
+  ])
+
+  await Promise.all([
+    collection.createMainIndexFile(),
     collection.createPackageJsonFile(),
     collection.createReadmeFile()
   ])
+  
 }
 
 async function run() {

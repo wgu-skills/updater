@@ -11,9 +11,27 @@ import {
 } from '../helpers/fileOperations.js'
 
 class SkillCollection {
+
   constructor(data) {
+      
+    this.type = data.type
+    this.creationDate = data.creationDate
+    this.name = data.name
+    this.id = data.id
+    this.owner = data.owner
+    this.description = data.description
+    this.status = data.status
+    this.skills = data.skills
+    this.author = data.author
+    this.creator = data.creator
+    this.uuid = data.uuid
+    this.updateDate = data.updateDate
+    this.publishDate = data.publishDate
+    this.archiveDate = data.archiveDate
+    this.context = data['@context']
     this.slug = config.collection.slug
     this.skills = data.skills.map((skill) => new Skill(skill))
+    
   }
 
   static async fetchAndCreate(uuid, slug) {
