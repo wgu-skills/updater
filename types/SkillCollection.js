@@ -37,7 +37,7 @@ class SkillCollection {
   }
 
   async exportSkills(format) {
-    await Promise.all(this.skills.map(skill => skill.export(this, format)));
+    await Promise.all(this.skills.map(skill => skill.export(format)));
   }
 
   async createIndexFile() {

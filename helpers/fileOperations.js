@@ -119,6 +119,7 @@ const createReadmeFile = async (collection) => {
 			return `- [${category}](#${anchor})`;
 		})
 		.join('\n');
+		
 	// @ TODO: Debug why category anchors are being created without "-"
 	const markdownSections = categories
 		.map((category) => {
