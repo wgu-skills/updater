@@ -54,7 +54,7 @@ runs:
     - name: Commit and push if changes
       shell: bash
       with:
-        token: ${{ input.githubToken }}  
+        token: ${{ secrets.githubToken }}  
       run: |
         rm -rf updater
         git config --local user.email "${{ inputs.gitEmail }}"
