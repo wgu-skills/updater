@@ -14,6 +14,6 @@ const toCamelCase = (fileName) => {
     .replace(/^./, (str) => str.toLowerCase())
 }
 
-const createSlug = (name) => slugify(name, { lower: true, strict: true, trim: true })
+const createSlug = (name) => slugify(name, { lower: true, strict: false, trim: true })
 
 export { createSlug, toCamelCase }
