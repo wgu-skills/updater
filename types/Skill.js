@@ -19,10 +19,12 @@ export default class Skill {
   }
 
   export(format) {
+    const currentSkill = this.get()
+    console.log('Current skill', currentSkill)
     console.log('Output dir', config.files.output_dir)
-    const categorySlug = this.category ? createSlug(this.category) : 'uncategorized'
+    const categorySlug = currentSkill.category ? createSlug(currentSkill.category) : 'uncategorized'
     console.log('Category slug', categorySlug)
-    const fileName = `${this.slug}.skill.${format}`
+    const fileName = `${currentSkill.slug}.skill.${format}`
     console.log('File name', fileName)
     const categoryFolder = path.join(config.files.output_dir, `skills`, categorySlug)
     console.log('Category folder', categoryFolder)
