@@ -13,9 +13,10 @@ const toCamelCase = (fileName) => {
     .replace(/[^a-zA-Z0-9]/g, '')
     .replace(/^./, (str) => str.toLowerCase())
 }
-let slugCount = {};
 
-export const createSlug = (originalString) => {
+
+let slugCount = {};
+const createSlug = (originalString) => {
     const slug = slugify(originalString, { lower: true, strict: true });
     slugCount[slug] = (slugCount[slug] || 0) + 1;
     return slugCount[slug] > 1 ? `${slug}-${slugCount[slug]}` : slug;
