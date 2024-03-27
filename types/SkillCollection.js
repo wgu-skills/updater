@@ -4,7 +4,6 @@ import config from '../helpers/config.js'
 import Skill from './Skill.js'
 import {
   writeToFile,
-  createIndexFile,
   createMainIndexFile,
   createPackageJsonFile,
   createReadmeFile,
@@ -84,9 +83,6 @@ class SkillCollection {
     await Promise.all(this.skills.map((skill) => skill.export(format)))
   }
 
-  async createIndexFile() {
-    await createIndexFile(this)
-  }
 
   async createMainIndexFile() {
     await createMainIndexFile(this)
