@@ -25,6 +25,7 @@ class SkillCollection {
     this.archiveDate = data.archiveDate
     this.context = data['@context']
     this.slug = config.collection.slug
+    this.license = config.collection.license
     this.skills = data.skills.map((skill) => new Skill(skill))
   }
 

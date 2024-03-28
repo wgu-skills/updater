@@ -1,20 +1,24 @@
-import { writeToFile } from './fileOperations'
-import yaml from 'js-yaml'
-import { FORMAT_JSON } from './fileOperations'
+import { FORMAT_JSON } from './fileOperations';
+import { writeToFile } from './fileOperations';
+import yaml from 'js-yaml';
 
 const createCollectionJsonFile = async (collection, format) => {
+  // Extracting only necessary properties from each skill
   const formattedCollection = {
     ...collection,
     skills: collection.skills.map((skill) => {
-      const { slug, ...rest } = skill.get()
-      return rest
+      const { slug, ...rest } = skill.get();
+      return rest;
     })
-  }
+  };
 
-  const dataToWrite =
-    format === FORMAT_JSON ? JSON.stringify(formattedCollection, null, 4) : yaml.dump(formattedCollection)
+  // Choose the format based on the input parameter
+  const dataToWrite = format === FORMAT_JSON 
+    ? JSON.stringify(formattedCollection, null, 4) 
+    : yaml.dump(formattedCollection);
 
-  await writeToFile(`./collection.skill.${format}`, dataToWrite)
-}
+  // Write the formatted data to a file
+  await writeToFile(`./collection.skill.${format}`, dataToWrite);
+};
 
-export default createCollectionJsonFile
+export default createCollectionJsonFile;

@@ -10,7 +10,7 @@ const createPackageJsonFile = async (collection) => {
       main: 'index.js',
       scripts: { test: 'echo "Error: no test specified" && exit 1' },
       author: 'Western Governors University',
-      license: config.collection.license
+      license: collection.license
     },
     null,
     4
