@@ -1,5 +1,4 @@
 import config from './config.js';
-import creteIndexFileContent from './creteIndexFileContent.js';
 import createLicenseFile from './createLicenseFile.js';
 import createMainIndexFile from './createMainIndexFile.js';
 import createPackageJsonFile from './createPackageJsonFile.js';
@@ -22,7 +21,6 @@ const writeToFile = async (filePath, content) => {
 };
 
 export {
-  creteIndexFileContent,
   createLicenseFile,
   createMainIndexFile,
   createPackageJsonFile,
