@@ -1,7 +1,7 @@
 import fs from 'fs/promises';
 import path from 'path';
 import config from './config.js';
-import { toCamelCase, createSlug } from './stringOperations.js';
+import { toCamelCase, fixDuplicateSlugs, createSlug } from './stringOperations.js';
 
 const FORMAT_JSON = 'json';
 const FORMAT_YAML = 'yaml';
@@ -67,10 +67,13 @@ const createReadmeFile = async (collection) => {
   }
 
   const skillsByCategory = await collection.getSkillsByCategory();
+
   const categories = Object.keys(skillsByCategory).sort();
 
   let toc = categories.map(category => `- [${category}](#${createSlug(category)})`).join('\n');
   
+  toc = fixDuplicateSlugs(toc);
+
   let markdownSections = categories.map(category => {
     let skillsList = skillsByCategory[category]
       .sort()
