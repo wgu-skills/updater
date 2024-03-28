@@ -16,14 +16,15 @@ const config = {
   collection: {
     slug: checkEnvVariable('skillCollectionSlug'),
     uuid: checkEnvVariable('skillCollectionUuid'),
-    url: checkEnvVariable('skillCollectionUrl')
+    url: checkEnvVariable('skillCollectionUrl'),
+    license: checkEnvVariable('licenseUrl', 'https://creativecommons.org/licenses/by-sa/4.0/')
   },
   files: {
     output_dir: process.env.GITHUB_WORKSPACE
   },
   git: {
-    org: checkEnvVariable('gitOrg'),
-    username: checkEnvVariable('gitUsername'),
+    org: checkEnvVariable('gitOrg', 'wgu-skills'),
+    username: checkEnvVariable('gitUsername', ),
     email: checkEnvVariable('gitEmail')
   }
 }

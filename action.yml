@@ -47,6 +47,7 @@ runs:
         skillCollectionSlug: ${{ inputs.skillCollectionSlug }}
         skillCollectionUrl: ${{ inputs.skillCollectionUrl }}
         skillCollectionUuid: ${{ inputs.skillCollectionUuid }}
+        licenseUrl: ${{ inputs.licenseUrl }}
         gitOrg: ${{ inputs.gitOrg }}
         gitUsername: ${{ inputs.gitUsername }}
         gitEmail: ${{ inputs.gitEmail }}

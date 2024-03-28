@@ -83,12 +83,38 @@ const createReadmeFile = async (collection) => {
     return `### ${category}\n\n${skillsList}\n`;
   }).join('\n');
 
-  let readmeContent = `# ${collection.name}\n\n[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)\n\n${collection.description}\n\n## Skill Categories\n\n${toc}\n\n## Skills\n\n${markdownSections}\n## License\n\nThis work is licensed under a
-  [Creative Commons Attribution 4.0 International License][cc-by].\n\n## Contributing\n\nPlease read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.`;
+  let readmeContent = `# ${collection.name}\n\n[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)\n\n${collection.description}\n\n## Skill Categories\n\n${toc}\n\n## Skills\n\n${markdownSections}\n\n## Contributing\n\nPlease read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.`;
 
   // Write to file
   await writeToFile(readmeFilePath, readmeContent);
 };
+
+const createLicenseFile = async () => {
+  const fs = require('fs');
+  const fetch = require('node-fetch');
+  
+  const licenseUrl = 'https://creativecommons.org/licenses/by/4.0/legalcode.txt';
+  
+  async function fetchAndWriteLicense() {
+      try {
+          const response = await fetch(licenseUrl);
+          const licenseText = await response.text();
+  
+          fs.writeFile('LICENSE.md', licenseText, 'utf8', (err) => {
+              if (err) {
+                  console.error('An error occurred:', err);
+                  return;
+              }
+              console.log('LICENSE.md created with CC BY 4.0 content.');
+          });
+      } catch (error) {
+          console.error('Failed to fetch the license:', error);
+      }
+  }
+  
+  fetchAndWriteLicense();
+  
+}
 
 export {
   createMainIndexFile,
