@@ -12,18 +12,20 @@ const toCamelCase = (fileName) => {
 }
 
 const fixDuplicateSlugs = (toc) => {
-  const slugs = new Map()
+  const slugs = new Map();
   const fixedToc = toc.split('\n').map((line) => {
-    const slug = line.match(/\(#(.*)\)/)
+    const slug = line.match(/\(#(.*)\)/);
     if (slug) {
-      const [_, slugName] = slug
-      const count = slugs.get(slugName) || 0
-      slugs.set(slugName, count + 1)
-      return line.replace(slugName, `${slugName}-${count + 1}`)
+      const [_, slugName] = slug;
+      const count = slugs.get(slugName) || 0;
+      slugs.set(slugName, count + 1);
+      if (count > 0) { // Only modify if it's a duplicate
+        return line.replace(slugName, `${slugName}-${count + 1}`);
+      }
     }
-    return line
-  })
-  return fixedToc.join('\n')
+    return line;
+  });
+  return fixedToc.join('\n');
 }
 
 export { createSlug, toCamelCase, fixDuplicateSlugs }
