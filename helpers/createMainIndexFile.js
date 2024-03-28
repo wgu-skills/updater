@@ -11,3 +11,5 @@ const createMainIndexFile = async (collection) => {
   const mainIndexPath = getFilePath('index.js');
   await writeToFile(mainIndexPath, importStatements);
 };
+
+export default createMainIndexFile;

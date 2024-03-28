@@ -2,7 +2,7 @@ const checkEnvVariable = (key, defaultValue = null) => {
   const value = process.env[key]
   if (typeof value === 'undefined' || value === '') {
     if (defaultValue !== null) {
-      console.warn(`Environment variable ${key} is not set. Using default value.`)
+      console.warn(`Environment variable ${key} is not set. Using default value ${defaultValue}.`)
       return defaultValue
     }
     console.error(`Environment variable ${key} is missing.`)
