@@ -1,6 +1,6 @@
-import { writeToFile } from "./fileOperations"
+import { writeToFile } from './fileOperations'
 import yaml from 'js-yaml'
-import { FORMAT_JSON } from "./fileOperations"
+import { FORMAT_JSON } from './fileOperations'
 
 const createCollectionJsonFile = async (collection, format) => {
   const formattedCollection = {
