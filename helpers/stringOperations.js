@@ -1,5 +1,8 @@
 import slugify from 'slugify'
 
+
+const createSlug = (name) => slugify(name, { lower: true, strict: true, trim: true })
+
 const toCamelCase = (fileName) => {
   if (typeof fileName !== 'string') {
     console.error('toCamelCase error: Input is not a string', fileName)
@@ -14,24 +17,23 @@ const toCamelCase = (fileName) => {
     .replace(/^./, (str) => str.toLowerCase())
 }
 
-const createSlug = (name) => slugify(name, { lower: true, strict: true, trim: true })
-
-let slugCount = {};
-
-// This function now expects a list of categories
-const createSlugsForCategories = (categories) => {
-    const slugs = categories.map(category => {
-        const slug = slugify(category, { lower: true, strict: true });
-        if (!slugCount[slug]) {
-            slugCount[slug] = 1; // First occurrence of this category
-            return slug;
-        } else {
-            slugCount[slug] += 1; // Subsequent occurrence
-            return `${slug}-${slugCount[slug]}`;
+const fixDuplicateSlugs = (toc) => {
+    const slugs = new Map()
+    const fixedToc = toc.split('\n').map((line) => {
+        const slug = line.match(/\(#(.*)\)/)
+        if (slug) {
+            const [_, slugName] = slug
+            if (slugs.has(slugName)) {
+                const count = slugs.get(slugName) + 1
+                slugs.set(slugName, count)
+                return line.replace(slugName, `${slugName}-${count}`)
+            }
+            slugs.set(slugName, 0)
         }
-    });
+        return line
+    })
+    return fixedToc.join('\n')
+}
 
-    return slugs;
-};
 
-export { createSlug, createSlugsForCategories, toCamelCase }
+export { createSlug, toCamelCase, fixDuplicateSlugs }
