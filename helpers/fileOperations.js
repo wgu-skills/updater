@@ -48,7 +48,7 @@ const createPackageJsonFile = async (collection) => {
     main: 'index.js',
     scripts: { test: 'echo "Error: no test specified" && exit 1' },
     author: 'Western Governors University',
-    license: 'https://creativecommons.org/licenses/by-sa/4.0/'
+    license: config.collection.license,
   }, null, 4);
 
   await writeToFile(getFilePath('package.json'), packageContent);
@@ -76,7 +76,7 @@ const createReadmeFile = async (collection) => {
     let skillsList = skillsByCategory[category]
       .sort()
       .map(skill => {
-        return `- ${skill.skillName} [JSON](./skills/${createSlug(category)}/${createSlug(skill.skillName)}.json)`;
+        return `- ${skill.skillName} [JSON](./skills/${createSlug(category)}/${createSlug(skill.skillName)}.skill.json)`;
       })
       .join('\n');
     
