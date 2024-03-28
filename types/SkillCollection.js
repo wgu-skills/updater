@@ -2,10 +2,10 @@ import fetch from 'node-fetch'
 
 import config from '../helpers/config.js'
 import Skill from './Skill.js'
-import { createCollectionJsonFile } from '../helpers/createCollectionJsonFile.js'
-import { createPackageJsonFile } from '../helpers/createPackageJsonFile.js'
-import { createMainIndexFile } from '../helpers/createMainIndexFile.js'
-import { createReadmeFile } from '../helpers/createReadmeFile.js'
+import createCollectionJsonFile from '../helpers/createCollectionJsonFile.js'
+import createPackageJsonFile from '../helpers/createPackageJsonFile.js'
+import createMainIndexFile from '../helpers/createMainIndexFile.js'
+import createReadmeFile from '../helpers/createReadmeFile.js'
 
 class SkillCollection {
   constructor(data) {
