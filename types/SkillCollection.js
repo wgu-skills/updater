@@ -4,11 +4,11 @@ import config from '../helpers/config.js'
 import Skill from './Skill.js'
 import {
   writeToFile,
-  createMainIndexFile,
-  createPackageJsonFile,
-  createReadmeFile,
   FORMAT_JSON
 } from '../helpers/fileOperations.js'
+import { createPackageJsonFile } from '../helpers/createPackageJsonFile.js'
+import { createMainIndexFile } from '../helpers/createMainIndexFile.js'
+import { createReadmeFile } from '../helpers/createReadmeFile.js'
 
 class SkillCollection {
   constructor(data) {

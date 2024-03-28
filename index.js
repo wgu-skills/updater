@@ -1,21 +1,17 @@
-import { setFailed } from '@actions/core'
 import config from './helpers/config.js'
 import SkillCollection from './types/SkillCollection'
 import { FORMAT_JSON } from './helpers/fileOperations'
+import { setFailed } from '@actions/core'
 
 async function exportCollection(collection) {
 
   await Promise.all([
-    collection.export(FORMAT_JSON),
-    collection.exportSkills(FORMAT_JSON)
-  ])
-
-  await Promise.all([
+    collection.export(FORMAT_JSON), 
+    collection.exportSkills(FORMAT_JSON),
     collection.createMainIndexFile(),
     collection.createPackageJsonFile(),
     collection.createReadmeFile()
   ])
-   
 }
 
 async function run() {
