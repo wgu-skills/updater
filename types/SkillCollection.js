@@ -1,11 +1,8 @@
 import fetch from 'node-fetch'
-import yaml from 'js-yaml'
+
 import config from '../helpers/config.js'
 import Skill from './Skill.js'
-import {
-  writeToFile,
-  FORMAT_JSON
-} from '../helpers/fileOperations.js'
+import { createCollectionJsonFile } from '../helpers/createCollectionJsonFile.js'
 import { createPackageJsonFile } from '../helpers/createPackageJsonFile.js'
 import { createMainIndexFile } from '../helpers/createMainIndexFile.js'
 import { createReadmeFile } from '../helpers/createReadmeFile.js'
@@ -45,21 +42,6 @@ class SkillCollection {
     return new SkillCollection({ ...json, slug })
   }
 
-  async export(format) {
-    const formattedCollection = {
-      ...this,
-      skills: this.skills.map((skill) => {
-        const { slug, ...rest } = skill.get()
-        return rest
-      })
-    }
-
-    const dataToWrite =
-      format === FORMAT_JSON ? JSON.stringify(formattedCollection, null, 4) : yaml.dump(formattedCollection)
-
-    await writeToFile(`./collection.skill.${format}`, dataToWrite)
-  }
-
   async getSkillsByCategory() {
     const skillsByCategory = {}
 
@@ -79,10 +61,13 @@ class SkillCollection {
     return skillsByCategory
   }
 
+  async export(format) {
+    createCollectionJsonFile(this, format)
+  }
+
   async exportSkills(format) {
     await Promise.all(this.skills.map((skill) => skill.export(format)))
   }
-
 
   async createMainIndexFile() {
     await createMainIndexFile(this)
