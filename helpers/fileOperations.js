@@ -83,7 +83,7 @@ const createReadmeFile = async (collection) => {
     return `### ${category}\n\n${skillsList}\n`;
   }).join('\n');
 
-  let readmeContent = `# ${collection.name}\n\n[![CC BY 4.0][cc-by-shield]][cc-by]\n\n${collection.description}\n\n## Skill Categories\n\n${toc}\n\n## Skills\n\n${markdownSections}\n## License\n\nThis work is licensed under a
+  let readmeContent = `# ${collection.name}\n\n[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)\n\n${collection.description}\n\n## Skill Categories\n\n${toc}\n\n## Skills\n\n${markdownSections}\n## License\n\nThis work is licensed under a
   [Creative Commons Attribution 4.0 International License][cc-by].\n\n## Contributing\n\nPlease read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.`;
 
   // Write to file
