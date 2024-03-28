@@ -10,6 +10,9 @@ inputs:
   skillCollectionUuid:
     description: 'Skill Collection UUID'
     required: true
+  licenseUrl:
+    description: 'License URL'
+    required: false
   gitOrg:
     description: 'GitHub Organization'
     required: true
