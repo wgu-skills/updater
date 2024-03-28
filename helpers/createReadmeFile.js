@@ -31,7 +31,7 @@ const createReadmeFile = async (collection) => {
         })
         .join('\n')
 
-      return `### ${category}\n\n${skillsList}\n`
+      return `### ${category}\n\n${skillsList}\n[To The Top](#skill-categories)`
     })
     .join('\n')
 
