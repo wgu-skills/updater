@@ -14,21 +14,24 @@ const toCamelCase = (fileName) => {
     .replace(/^./, (str) => str.toLowerCase())
 }
 
+const createSlug = (name) => slugify(name, { lower: true, strict: true, trim: true })
 
 let slugCount = {};
 
-const createSlug = (originalString) => {
-    const slug = slugify(originalString, { lower: true, strict: true });
-    
-    // Check if the slug already exists and increment the count accordingly.
-    if (slugCount[slug]) {
-        slugCount[slug] += 1;
-        return `${slug}-${slugCount[slug]}`;
-    } else {
-        // If it's the first time, just set the count to 1 and return the slug.
-        slugCount[slug] = 1;
-        return slug;
-    }
+// This function now expects a list of categories
+const createSlugsForCategories = (categories) => {
+    const slugs = categories.map(category => {
+        const slug = slugify(category, { lower: true, strict: true });
+        if (!slugCount[slug]) {
+            slugCount[slug] = 1; // First occurrence of this category
+            return slug;
+        } else {
+            slugCount[slug] += 1; // Subsequent occurrence
+            return `${slug}-${slugCount[slug]}`;
+        }
+    });
+
+    return slugs;
 };
 
-export { createSlug, toCamelCase }
+export { createSlug, createSlugsForCategories, toCamelCase }
