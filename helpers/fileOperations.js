@@ -67,25 +67,24 @@ const createReadmeFile = async (collection) => {
   }
 
   const skillsByCategory = await collection.getSkillsByCategory();
-
   const categories = Object.keys(skillsByCategory).sort();
 
   let toc = categories.map(category => `- [${category}](#${createSlug(category)})`).join('\n');
-  
-  toc = fixDuplicateSlugs(toc);
+  toc = fixDuplicateSlugs(toc); // Append a number to duplicate slugs to match GitHub's behavior
 
   let markdownSections = categories.map(category => {
     let skillsList = skillsByCategory[category]
       .sort()
       .map(skill => {
-        return `- ${skill.skillName} [JSON](./skills/${createSlug(category)}/${createSlug(skill.skillName)})`;
+        return `- ${skill.skillName} [JSON](./skills/${createSlug(category)}/${createSlug(skill.skillName)}.json)`;
       })
       .join('\n');
     
     return `### ${category}\n\n${skillsList}\n`;
   }).join('\n');
 
-  let readmeContent = `# ${collection.name}\n\n${collection.description}\n\n## Skill Categories\n\n${toc}\n\n## Skills\n\n${markdownSections}\n## License\n\n## Contributing\n`;
+  let readmeContent = `# ${collection.name}\n\n[![CC BY 4.0][cc-by-shield]][cc-by]\n\n${collection.description}\n\n## Skill Categories\n\n${toc}\n\n## Skills\n\n${markdownSections}\n## License\n\nThis work is licensed under a
+  [Creative Commons Attribution 4.0 International License][cc-by].\n\n## Contributing\n\nPlease read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.`;
 
   // Write to file
   await writeToFile(readmeFilePath, readmeContent);
