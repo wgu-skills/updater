@@ -1,0 +1,90 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/249d7c96-68e0-41cb-be9d-a6135796d91a",
+    "uuid": "249d7c96-68e0-41cb-be9d-a6135796d91a",
+    "status": "published",
+    "publishDate": "2022-02-03T00:37:53.339606",
+    "archiveDate": null,
+    "skillName": "Banking Regulations Remediation Plan",
+    "skillStatement": "Create remediation plans for associations that do not comply with banking regulations.",
+    "category": "Financial Auditing",
+    "keywords": [
+        "CPA",
+        "CIA",
+        "Auditing",
+        "Delphi Technology",
+        "Oracle E-Business Suite Financials",
+        "Spreadware Business Financial Analysis",
+        "TechHackers",
+        "Financial Auditing",
+        "Financial Auditing",
+        "WGUSID: 7337"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1050",
+            "targetNodeName": "Cost Estimators",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1051",
+            "targetNodeName": "Cost Estimators",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2082",
+            "targetNodeName": "Tax Preparers",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "banking-regulations-remediation-plan"
+}

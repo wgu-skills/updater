@@ -1,0 +1,78 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/927f7d6a-f848-4196-a279-df208cc752ca",
+    "uuid": "927f7d6a-f848-4196-a279-df208cc752ca",
+    "status": "published",
+    "publishDate": "2022-02-03T19:17:59.148843",
+    "archiveDate": null,
+    "skillName": "Financial Schedule Creation",
+    "skillStatement": "Create financial schedules using spreadsheet programs.",
+    "category": "Certified Public Accountant",
+    "keywords": [
+        "CPA",
+        "CMA_BU",
+        "CIA",
+        "CFE",
+        "Certified Public Accountant",
+        "Public Accounting",
+        "WGUSID: 1135.1",
+        "Certified Public Accountant"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "financial-schedule-creation"
+}

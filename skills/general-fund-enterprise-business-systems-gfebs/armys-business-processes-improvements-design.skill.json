@@ -1,0 +1,76 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/af97d467-1e27-440c-8fab-b118d87c7903",
+    "uuid": "af97d467-1e27-440c-8fab-b118d87c7903",
+    "status": "published",
+    "publishDate": "2022-02-04T15:25:23.413767",
+    "archiveDate": null,
+    "skillName": "Army's Business Processes Improvements Design",
+    "skillStatement": "Design improvements to the Army's business processes to support full-cost reporting of the Army's outputs (products and services) and provide an auditable trail via General Fund Enterprise Business Systems (GFEBS).",
+    "category": "General Fund Enterprise Business Systems (GFEBS)",
+    "keywords": [
+        "CPA",
+        "CMA_BU",
+        "CIA",
+        "General Fund Enterprise Business Systems (GFEBS)",
+        "WGUSID: 2105",
+        "General Fund Enterprise Business Systems (GFEBS)"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "armys-business-processes-improvements-design"
+}

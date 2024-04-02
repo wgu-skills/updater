@@ -1,0 +1,76 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/fd21c99f-a1d9-45ad-a585-05968945bf2b",
+    "uuid": "fd21c99f-a1d9-45ad-a585-05968945bf2b",
+    "status": "published",
+    "publishDate": "2022-01-31T16:58:57.092854",
+    "archiveDate": null,
+    "skillName": "Financial Statements Interpretation",
+    "skillStatement": "Interpret basic financial statements in a highly structured environment to assess limited performance.",
+    "category": "Financial Statements",
+    "keywords": [
+        "CPA",
+        "CMA",
+        "Financial Statements",
+        "Finance",
+        "Financial Statements",
+        "WGUSID: 4568"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "financial-statements-interpretation"
+}

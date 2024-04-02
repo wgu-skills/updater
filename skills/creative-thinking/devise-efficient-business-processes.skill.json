@@ -1,0 +1,154 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/a73ad5f8-ffba-49f8-b0d9-02a1274941dd",
+    "uuid": "a73ad5f8-ffba-49f8-b0d9-02a1274941dd",
+    "status": "published",
+    "publishDate": "2022-02-25T13:53:59.022458",
+    "archiveDate": null,
+    "skillName": "Devise Efficient Business Processes",
+    "skillStatement": "Devise a more efficient business process through creative thinking.",
+    "category": "Creative Thinking",
+    "keywords": [
+        "AZ-304",
+        "Creative Thinking",
+        "Creative Thinking",
+        "WGUSID: 2669"
+    ],
+    "occupations": [
+        {
+            "code": "11-0000",
+            "targetNodeName": "Management Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3030",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3031",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1110",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1111",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1160",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1161",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-0000",
+            "targetNodeName": "Computer and Mathematical Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-1220",
+            "targetNodeName": "Computer and Information Research Scientists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-1221",
+            "targetNodeName": "Computer and Information Research Scientists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-1240",
+            "targetNodeName": "Database and Network Administrators and Architects",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-1241",
+            "targetNodeName": "Computer Network Architects",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-1244",
+            "targetNodeName": "Network and Computer Systems Administrators",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-1245",
+            "targetNodeName": "Database Administrators and Architects",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-1250",
+            "targetNodeName": "Software and Web Developers, Programmers, and Testers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-1251",
+            "targetNodeName": "Computer Programmers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-1256",
+            "targetNodeName": "Software Developers and Software Quality Assurance Analysts and Testers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-1257",
+            "targetNodeName": "Web Developers and Digital Interface Designers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-2030",
+            "targetNodeName": "Operations Research Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-2031",
+            "targetNodeName": "Operations Research Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-2090",
+            "targetNodeName": "Miscellaneous Mathematical Science Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "19-0000",
+            "targetNodeName": "Life, Physical, and Social Science Occupations",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "devise-efficient-business-processes"
+}

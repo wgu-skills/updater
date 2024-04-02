@@ -1,0 +1,54 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/03c3b7bd-5182-4e96-bcad-816063a69f22",
+    "uuid": "03c3b7bd-5182-4e96-bcad-816063a69f22",
+    "status": "published",
+    "publishDate": "2022-02-03T19:17:34.574798",
+    "archiveDate": null,
+    "skillName": "Unpaid Debt Collection",
+    "skillStatement": "Collect unpaid debts from individuals with delinquent accounts.",
+    "category": "Collections",
+    "keywords": [
+        "CPA",
+        "Collections",
+        "Collections",
+        "WGUSID: 7156"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "unpaid-debt-collection"
+}

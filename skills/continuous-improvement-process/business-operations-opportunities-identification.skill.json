@@ -1,0 +1,53 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/76c3fbfb-7301-499d-8c59-8380903cb3cb",
+    "uuid": "76c3fbfb-7301-499d-8c59-8380903cb3cb",
+    "status": "published",
+    "publishDate": "2022-12-21T21:46:20.673975",
+    "archiveDate": null,
+    "skillName": "Business Operations Opportunities Identification",
+    "skillStatement": "Identify opportunities for business operations improvement.",
+    "category": "Continuous Improvement Process",
+    "keywords": [
+        "AZ-304",
+        "Continuous Improvement Process",
+        "Adobe Systems Adobe Captivate",
+        "Articulate Rapid E-Learning Studio",
+        "Halogen eLMS",
+        "SumTotal Systems ToolBook",
+        "WGUSID: 7184",
+        "Continuous Improvement Process"
+    ],
+    "occupations": [
+        {
+            "code": "13-1071.00",
+            "targetNodeName": "Human Resources Specialists",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "13-1075.00",
+            "targetNodeName": "Labor Relations Specialists",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "13-1111.00",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "13-1141.00",
+            "targetNodeName": "Compensation, Benefits, and Job Analysis Specialists",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "13-1198",
+            "targetNodeName": "Project Management Specialists and Business Operations Specialists, All Other",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011.00",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "o*net"
+        }
+    ],
+    "slug": "business-operations-opportunities-identification"
+}

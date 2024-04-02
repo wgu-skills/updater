@@ -1,0 +1,54 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/5b5037f8-72cd-4db6-8369-6a7a0dd8ae32",
+    "uuid": "5b5037f8-72cd-4db6-8369-6a7a0dd8ae32",
+    "status": "published",
+    "publishDate": "2022-02-03T22:26:33.115352",
+    "archiveDate": null,
+    "skillName": "Acquisition Workpapers Preparation",
+    "skillStatement": "Prepare workpapers for the year of acquisition and the year(s) subsequent to the acquisition, assuming the parent accounts for the investment alternatively using the cost, the partial equity, and the complete equity methods.",
+    "category": "Consolidation",
+    "keywords": [
+        "CPA",
+        "Consolidation",
+        "Consolidation",
+        "WGUSID: 10207"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "acquisition-workpapers-preparation"
+}

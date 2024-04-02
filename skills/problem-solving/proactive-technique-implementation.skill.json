@@ -1,0 +1,74 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/afa8676d-9c11-4960-91ab-339d9f664449",
+    "uuid": "afa8676d-9c11-4960-91ab-339d9f664449",
+    "status": "published",
+    "publishDate": "2022-02-04T15:27:23.477093",
+    "archiveDate": null,
+    "skillName": "Proactive Technique Implementation",
+    "skillStatement": "Implement proactive and participatory techniques in problem-solving to convert obstacles into opportunities for accounting department staff and management.",
+    "category": "Problem Solving",
+    "keywords": [
+        "Problem Solving",
+        "Troubleshooting (Problem Solving)",
+        "Problem Solving",
+        "WGUSID: 2070.1"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "proactive-technique-implementation"
+}

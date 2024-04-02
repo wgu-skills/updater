@@ -1,0 +1,74 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/6ffe6a4a-5bd7-42e6-bdf3-7b83495bee1f",
+    "uuid": "6ffe6a4a-5bd7-42e6-bdf3-7b83495bee1f",
+    "status": "published",
+    "publishDate": "2022-02-08T15:56:44.604983",
+    "archiveDate": null,
+    "skillName": "Accessible Tax Preparation Information",
+    "skillStatement": "Make information more accessible for tax preparation through advanced tax preparation software and office financial databases.",
+    "category": "Tax Preparation",
+    "keywords": [
+        "CPA",
+        "Tax Preparation",
+        "WGUSID: 6833",
+        "Tax Preparation"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "accessible-tax-preparation-information"
+}

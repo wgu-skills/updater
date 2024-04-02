@@ -1,0 +1,43 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/7f477e71-cba5-4109-a9c2-3a96059eb4bf",
+    "uuid": "7f477e71-cba5-4109-a9c2-3a96059eb4bf",
+    "status": "published",
+    "publishDate": "2022-02-08T15:56:37.386952",
+    "archiveDate": null,
+    "skillName": "Tax Regulations Changes",
+    "skillStatement": "Apply all published changes to tax regulations.",
+    "category": "Tax Analysis",
+    "keywords": [
+        "CPA",
+        "ATX Total Tax Office",
+        "BNA Income Tax Planning Solutions",
+        "Intuit Lacerte",
+        "Orrtax Software IntelliTax Classic",
+        "Tax Analysis",
+        "Tax Analysis",
+        "WGUSID: 7787"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "tax-regulations-changes"
+}

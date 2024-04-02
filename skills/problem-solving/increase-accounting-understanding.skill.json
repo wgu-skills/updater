@@ -1,0 +1,74 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/e62a3e08-9bc9-4199-927d-134bc56d3fbf",
+    "uuid": "e62a3e08-9bc9-4199-927d-134bc56d3fbf",
+    "status": "published",
+    "publishDate": "2022-02-04T15:25:32.694047",
+    "archiveDate": null,
+    "skillName": "Increase Accounting Understanding",
+    "skillStatement": "Increase a team's ability to understand the fundamental accounting equation, the rules of debiting and crediting, and how to analyze each issue based on these rules.",
+    "category": "Problem Solving",
+    "keywords": [
+        "Problem Solving",
+        "Troubleshooting (Problem Solving)",
+        "Problem Solving",
+        "WGUSID: 4450"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "increase-accounting-understanding"
+}

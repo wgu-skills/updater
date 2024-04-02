@@ -1,42 +1,10 @@
 {
-  "name": "@wgu/updater",
-  "version": "1.0.0",
-  "description": "Github action to update the skills in a skill collection",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "ncc build index.js -o dist -m",
-    "watch": "ncc build index.js -o dist -m -w"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wgu-skills/updater.git"
-  },
-  "author": "David Petersen",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wgu-skills/updater/issues"
-  },
-  "homepage": "https://github.com/wgu-skills/updater#readme",
-  "dependencies": {
-    "@octokit/rest": "^20.0.2",
-    "js-yaml": "^4.1.0",
-    "node-fetch": "^3.3.2",
-    "path": "^0.12.7",
-    "simple-git": "^3.23.0",
-    "slugify": "^1.6.6"
-  },
-  "devDependencies": {
-    "@actions/core": "^1.10.1",
-    "@actions/github": "^6.0.0",
-    "@vercel/ncc": "^0.38.1"
-  },
-  "prettier": {
-    "trailingComma": "none",
-    "semi": false,
-    "singleQuote": true,
-    "jsxSingleQuote": true,
-    "printWidth": 120,
-    "tabWidth": 2
-  }
+    "name": "accountants-and-auditors",
+    "description": "This Collection represents the skills necessary for professionals responsible for all preparation and examination of financial documents, reports, or budgets, including advising others on business, financial, or operations matters.  It covers expectations for the CIA, CMA, CFE, and CPA certifications and includes knowledge based on the National Initiative for Cybersecurity Education (NICE) standards. This collection of skills was developed in partnership with a panel of subject matter experts who have worked as Accountants and Auditors.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Western Governors University",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/"
 }

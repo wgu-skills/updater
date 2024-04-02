@@ -1,0 +1,74 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/381aab96-68d4-40f2-b55b-e7f8ea370313",
+    "uuid": "381aab96-68d4-40f2-b55b-e7f8ea370313",
+    "status": "published",
+    "publishDate": "2022-02-08T15:56:43.715943",
+    "archiveDate": null,
+    "skillName": "Privileged Tax Practice Communications Situations Identification",
+    "skillStatement": "Identify situations in which communications regarding tax practice are considered privileged.",
+    "category": "Tax Accounting",
+    "keywords": [
+        "CPA",
+        "Tax Accounting",
+        "Tax Accounting",
+        "WGUSID: 10376"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "privileged-tax-practice-communications-situations-identification"
+}

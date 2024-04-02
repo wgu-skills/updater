@@ -1,0 +1,146 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/41003657-5352-4c3b-9fc5-4a31f5bd0ca5",
+    "uuid": "41003657-5352-4c3b-9fc5-4a31f5bd0ca5",
+    "status": "published",
+    "publishDate": "2022-01-31T16:58:56.683573",
+    "archiveDate": null,
+    "skillName": "Forecast, Report, and Analysis Preparation",
+    "skillStatement": "Prepare a revenue forecast, yield trend report, and revenue margin analysis.",
+    "category": "Financial Analysis",
+    "keywords": [
+        "NICE_AN_LNG",
+        "CPA",
+        "CMA",
+        "Finance",
+        "Forecasting",
+        "Financial Analysis",
+        "Revenue Forecast",
+        "Yield Trend Report",
+        "Revenue Margin Analysis",
+        "WGUSID: 5585",
+        "Financial Analysis"
+    ],
+    "occupations": [
+        {
+            "code": "11-0000",
+            "targetNodeName": "Management Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3030",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3031",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1020",
+            "targetNodeName": "Buyers and Purchasing Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1021",
+            "targetNodeName": "Buyers and Purchasing Agents, Farm Products",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1022",
+            "targetNodeName": "Wholesale and Retail Buyers, Except Farm Products",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1023",
+            "targetNodeName": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1110",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1111",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1160",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1161",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-0000",
+            "targetNodeName": "Computer and Mathematical Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-2040",
+            "targetNodeName": "Statisticians",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-2041",
+            "targetNodeName": "Statisticians",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "19-0000",
+            "targetNodeName": "Life, Physical, and Social Science Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "19-3010",
+            "targetNodeName": "Economists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "19-3011",
+            "targetNodeName": "Economists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "19-4060",
+            "targetNodeName": "Social Science Research Assistants",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "19-4061",
+            "targetNodeName": "Social Science Research Assistants",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "forecast-report-and-analysis-preparation"
+}

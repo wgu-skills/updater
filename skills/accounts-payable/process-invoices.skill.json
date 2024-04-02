@@ -1,0 +1,73 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/ff5216f6-b0a6-415a-aa65-76d8cbb46b60",
+    "uuid": "ff5216f6-b0a6-415a-aa65-76d8cbb46b60",
+    "status": "published",
+    "publishDate": "2022-02-03T19:17:51.719932",
+    "archiveDate": null,
+    "skillName": "Process Invoices",
+    "skillStatement": "Process client and vendor invoices.",
+    "category": "Accounts Payable",
+    "keywords": [
+        "SAP",
+        "Accounts Receivable",
+        "Accounts Payable",
+        "QuickBooks",
+        "Sage",
+        "Balance Sheets",
+        "Accounts Payable",
+        "WGUSID: 7001.2"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2050",
+            "targetNodeName": "Financial Analysts and Advisors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2082",
+            "targetNodeName": "Tax Preparers",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "process-invoices"
+}

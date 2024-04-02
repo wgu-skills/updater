@@ -1,0 +1,73 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/ddb5d4a4-5f6e-4474-a871-14c96f8a153e",
+    "uuid": "ddb5d4a4-5f6e-4474-a871-14c96f8a153e",
+    "status": "published",
+    "publishDate": "2022-02-04T15:27:21.287026",
+    "archiveDate": null,
+    "skillName": "Payroll Records Best Practices Recommendation",
+    "skillStatement": "Recommend best practices for collection, submission, and maintenance of employee and payroll records in accordance with state and federal regulations.",
+    "category": "Payroll Processing",
+    "keywords": [
+        "Payroll Processing",
+        "Payroll Processing",
+        "WGUSID: 5909"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "payroll-records-best-practices-recommendation"
+}

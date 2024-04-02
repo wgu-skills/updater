@@ -1,0 +1,66 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/06e9b1d7-0f36-4339-b15b-6d0d21eb00ab",
+    "uuid": "06e9b1d7-0f36-4339-b15b-6d0d21eb00ab",
+    "status": "published",
+    "publishDate": "2022-02-04T15:26:42.384189",
+    "archiveDate": null,
+    "skillName": "Periodic Reports Generating",
+    "skillStatement": "Generate periodic reports that detail the financial position and income for an organization.",
+    "category": "General Ledger",
+    "keywords": [
+        "CPA",
+        "CMA_BU",
+        "CIA",
+        "MS Office",
+        "MS Project",
+        "Visio",
+        "General Ledger",
+        "General Ledger Accounting",
+        "General Ledger Reconciliation",
+        "General Ledger",
+        "WGUSID: 7376"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2050",
+            "targetNodeName": "Financial Analysts and Advisors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "periodic-reports-generating"
+}

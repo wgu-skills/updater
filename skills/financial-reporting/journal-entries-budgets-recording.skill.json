@@ -1,0 +1,91 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/436f9fd9-494c-4d96-b690-7155a286537d",
+    "uuid": "436f9fd9-494c-4d96-b690-7155a286537d",
+    "status": "published",
+    "publishDate": "2022-02-23T22:54:08.90763",
+    "archiveDate": null,
+    "skillName": "Journal Entries Budgets Recording",
+    "skillStatement": "Prepare journal entries to record budgets (original and final) of state and local governments",
+    "category": "Financial Reporting",
+    "keywords": [
+        "NICE_AN_LNG",
+        "CPA",
+        "Financial Reporting",
+        "Reports",
+        "Financial Reporting",
+        "WGUSID: 10242"
+    ],
+    "occupations": [
+        {
+            "code": "11-0000",
+            "targetNodeName": "Management Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3030",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3031",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1110",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1111",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1160",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1161",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-0000",
+            "targetNodeName": "Computer and Mathematical Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "19-0000",
+            "targetNodeName": "Life, Physical, and Social Science Occupations",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "journal-entries-budgets-recording"
+}

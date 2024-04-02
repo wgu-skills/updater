@@ -1,0 +1,55 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/fa4d5b6a-74d0-45ca-9842-4bc6379f5929",
+    "uuid": "fa4d5b6a-74d0-45ca-9842-4bc6379f5929",
+    "status": "published",
+    "publishDate": "2022-02-08T15:56:50.124757",
+    "archiveDate": null,
+    "skillName": "Tax Returns Accuracy Review",
+    "skillStatement": "Review accuracy of income tax returns.",
+    "category": "Tax Return",
+    "keywords": [
+        "CPA",
+        "Tax Return",
+        "Federal Tax Returns",
+        "Tax Returns",
+        "Tax Return",
+        "ATX Total Tax Office",
+        "BNA Income Tax Planning Solutions",
+        "Intuit Lacerte",
+        "Orrtax Software IntelliTax Classic",
+        "WGUSID: 7807"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "tax-returns-accuracy-review"
+}

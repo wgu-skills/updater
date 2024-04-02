@@ -1,0 +1,78 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/1b6a850f-6b3a-4744-bd59-8747160c7104",
+    "uuid": "1b6a850f-6b3a-4744-bd59-8747160c7104",
+    "status": "published",
+    "publishDate": "2022-02-04T15:27:20.21016",
+    "archiveDate": null,
+    "skillName": "Risk Reports Preparation",
+    "skillStatement": "Prepare operational and risk reports for management analysis.",
+    "category": "Operational Risk",
+    "keywords": [
+        "CPA",
+        "CMA_BU",
+        "CIA",
+        "CFE",
+        "Risk Reporting",
+        "Operational Risk",
+        "WGUSID: 5576",
+        "Operational Risk"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "risk-reports-preparation"
+}

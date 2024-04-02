@@ -1,0 +1,91 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/ce1deba0-b3be-44bb-bb98-854d816e12af",
+    "uuid": "ce1deba0-b3be-44bb-bb98-854d816e12af",
+    "status": "published",
+    "publishDate": "2022-01-31T17:01:19.302633",
+    "archiveDate": null,
+    "skillName": "Data Security Policies Communication",
+    "skillStatement": "Communicate data security policies.",
+    "category": "Sarbanes-Oxley Act (SOX) Compliance",
+    "keywords": [
+        "CPA",
+        "CIA",
+        "CFE",
+        "Sarbanes-Oxley Act (SOX) Compliance",
+        "WGUSID: 2505.1",
+        "Sarbanes-Oxley Act (SOX) Compliance"
+    ],
+    "occupations": [
+        {
+            "code": "11-0000",
+            "targetNodeName": "Management Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-9190",
+            "targetNodeName": "Miscellaneous Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-9198",
+            "targetNodeName": "Personal Service Managers, All Other; Entertainment and Recreation Managers, Except Gambling; and Managers, All Other",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "data-security-policies-communication"
+}

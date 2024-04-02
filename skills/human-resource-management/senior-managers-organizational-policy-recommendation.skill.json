@@ -1,0 +1,87 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/48215f7d-de6c-423b-a409-1ca8adce42b6",
+    "uuid": "48215f7d-de6c-423b-a409-1ca8adce42b6",
+    "status": "published",
+    "publishDate": "2022-01-31T17:00:21.205927",
+    "archiveDate": null,
+    "skillName": "Senior Managers Organizational Policy Recommendation",
+    "skillStatement": "Recommend needed changes on organizational policy matters, such as equal employment opportunity and sexual harassment, to senior managers.",
+    "category": "Human Resource Management",
+    "keywords": [
+        "Management",
+        "Human Resource Management",
+        "Human Resource Management",
+        "Equal Employment Opportunity",
+        "EEO",
+        "Human Resources",
+        "WGUSID: 118.1"
+    ],
+    "occupations": [
+        {
+            "code": "11-9033",
+            "targetNodeName": "Education Administrators, Postsecondary",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-9039",
+            "targetNodeName": "Education Administrators, All Other",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "senior-managers-organizational-policy-recommendation"
+}

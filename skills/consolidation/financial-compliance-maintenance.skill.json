@@ -1,0 +1,58 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/dabdc468-3558-4502-b83b-ae908fb3ed0e",
+    "uuid": "dabdc468-3558-4502-b83b-ae908fb3ed0e",
+    "status": "published",
+    "publishDate": "2022-02-03T22:27:00.190462",
+    "archiveDate": null,
+    "skillName": "Financial Compliance Maintenance",
+    "skillStatement": "Maintain compliance with internal consolidating and reporting financial processes.",
+    "category": "Consolidation",
+    "keywords": [
+        "CPA",
+        "Sage 50 Accounting",
+        "Tax Software",
+        "Fund Accounting Software",
+        "Intuit QuickBooks Hot Technology",
+        "Consolidation",
+        "Consolidation",
+        "WGUSID: 7176"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "financial-compliance-maintenance"
+}

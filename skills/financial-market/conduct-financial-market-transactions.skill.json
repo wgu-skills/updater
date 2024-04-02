@@ -1,0 +1,92 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/6d12f2d7-1cf6-4b3d-b45d-f3692f308b73",
+    "uuid": "6d12f2d7-1cf6-4b3d-b45d-f3692f308b73",
+    "status": "published",
+    "publishDate": "2022-02-23T22:54:06.516871",
+    "archiveDate": null,
+    "skillName": "Conduct Financial Market Transactions",
+    "skillStatement": "Conduct financial market transactions on behalf of clients.",
+    "category": "Financial Market",
+    "keywords": [
+        "NICE_AN_TWA",
+        "NICE_AN_EXP",
+        "NICE_AN_ASA",
+        "NICE_AN_LNG",
+        "Financial Market",
+        "WGUSID: 1207",
+        "Financial Market"
+    ],
+    "occupations": [
+        {
+            "code": "11-0000",
+            "targetNodeName": "Management Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3030",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3031",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1110",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1111",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1160",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1161",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-0000",
+            "targetNodeName": "Computer and Mathematical Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "19-0000",
+            "targetNodeName": "Life, Physical, and Social Science Occupations",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "conduct-financial-market-transactions"
+}

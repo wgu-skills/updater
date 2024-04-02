@@ -1,0 +1,73 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/df1c9d99-2c3f-4e3b-8f6b-e0604399900d",
+    "uuid": "df1c9d99-2c3f-4e3b-8f6b-e0604399900d",
+    "status": "published",
+    "publishDate": "2022-02-03T19:18:00.329548",
+    "archiveDate": null,
+    "skillName": "Generate Trends and Forecasts from GL",
+    "skillStatement": "Generate month-end trend and forecasting activities from the general ledger (GL).",
+    "category": "Enterprise Resource Planning",
+    "keywords": [
+        "Enterprise Resource Planning",
+        "Enterprise Resource Planning",
+        "WGUSID: 341"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "generate-trends-and-forecasts-from-gl"
+}

@@ -1,0 +1,78 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/14b5fe39-6336-48cd-bd4c-3f94e0e82ae7",
+    "uuid": "14b5fe39-6336-48cd-bd4c-3f94e0e82ae7",
+    "status": "published",
+    "publishDate": "2022-02-04T15:26:33.30526",
+    "archiveDate": null,
+    "skillName": "Produce Process Assessment Reports",
+    "skillStatement": "Produce reporting and analysis of all process and controls assessments.",
+    "category": "Risk Management",
+    "keywords": [
+        "Risk Management",
+        "CPA",
+        "CMA_BU",
+        "CIA",
+        "CFE",
+        "Risk Reporting",
+        "Risk Management",
+        "WGUSID: 5654"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "produce-process-assessment-reports"
+}

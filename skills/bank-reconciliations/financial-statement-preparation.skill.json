@@ -1,0 +1,63 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/17eeac56-1ba8-4504-84f3-b1425bf693ef",
+    "uuid": "17eeac56-1ba8-4504-84f3-b1425bf693ef",
+    "status": "published",
+    "publishDate": "2022-02-03T19:18:18.647103",
+    "archiveDate": null,
+    "skillName": "Financial Statement Preparation",
+    "skillStatement": "Prepare periodic financial statements with financial information.",
+    "category": "Bank Reconciliations",
+    "keywords": [
+        "CPA",
+        "PowerPoint",
+        "Microsoft Excel",
+        "Microsoft Word",
+        "Bank Reconciliations",
+        "Bank Reconciliations",
+        "Outlook.",
+        "WGUSID: 7053.1"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2050",
+            "targetNodeName": "Financial Analysts and Advisors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "financial-statement-preparation"
+}

@@ -1,0 +1,76 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/da6b5671-c7d4-4c9b-b84f-29293648082c",
+    "uuid": "da6b5671-c7d4-4c9b-b84f-29293648082c",
+    "status": "published",
+    "publishDate": "2022-02-03T19:16:58.376246",
+    "archiveDate": null,
+    "skillName": "Improvement Recommendations",
+    "skillStatement": "Recommend improvements to senior management on internal control and audit of the month-end close process.",
+    "category": "Accounting",
+    "keywords": [
+        "CPA",
+        "CIA",
+        "Accounting",
+        "Month-End Close Processes",
+        "Accounting",
+        "WGUSID: 5915"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "improvement-recommendations"
+}

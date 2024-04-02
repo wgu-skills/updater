@@ -1,0 +1,75 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/e8dddadf-59f8-4f12-9b27-6d84adde54ac",
+    "uuid": "e8dddadf-59f8-4f12-9b27-6d84adde54ac",
+    "status": "published",
+    "publishDate": "2022-01-31T16:59:20.864793",
+    "archiveDate": null,
+    "skillName": "Produce Behavior Variance Interpretation Statement",
+    "skillStatement": "Produce a statement and interpretation of why the variance of behavior occurred.",
+    "category": "Variance Analysis",
+    "keywords": [
+        "Analysis",
+        "Analytical Techniques",
+        "Variance Analysis",
+        "Variance Analysis",
+        "WGUSID: 1234.1"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "produce-behavior-variance-interpretation-statement"
+}

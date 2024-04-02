@@ -1,0 +1,53 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/10c0148a-977e-4b5c-a560-fd6bb07e6c9c",
+    "uuid": "10c0148a-977e-4b5c-a560-fd6bb07e6c9c",
+    "status": "published",
+    "publishDate": "2022-02-08T15:56:36.021323",
+    "archiveDate": null,
+    "skillName": "Tax Accounting Strategies Evaluation",
+    "skillStatement": "Evaluate an organization's tax accounting strategies to ensure compliance with applicable laws.",
+    "category": "Tax Accounting",
+    "keywords": [
+        "CPA",
+        "Tax Accounting",
+        "Tax Accounting",
+        "ATX Total Tax Office",
+        "BNA Income Tax Planning Solutions",
+        "Intuit Lacerte",
+        "Orrtax Software IntelliTax Classic",
+        "WGUSID: 7782"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2082",
+            "targetNodeName": "Tax Preparers",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "tax-accounting-strategies-evaluation"
+}

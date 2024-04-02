@@ -1,0 +1,77 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/dbde1a0d-3359-4ab5-b9ca-226004c40a04",
+    "uuid": "dbde1a0d-3359-4ab5-b9ca-226004c40a04",
+    "status": "published",
+    "publishDate": "2022-02-03T19:16:30.227887",
+    "archiveDate": null,
+    "skillName": "Report Unethical Behavior",
+    "skillStatement": "Report unethical behavior to the appropriate resource.",
+    "category": "Accounting Ethics",
+    "keywords": [
+        "CPA",
+        "CMA_BU",
+        "CIA",
+        "CFE",
+        "Accounting Ethics",
+        "Accounting Ethics",
+        "WGUSID: 10166"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "report-unethical-behavior"
+}

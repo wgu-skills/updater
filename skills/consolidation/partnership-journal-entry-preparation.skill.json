@@ -1,0 +1,54 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/1f4382a6-c66f-45bd-b8e7-f7a52426a97d",
+    "uuid": "1f4382a6-c66f-45bd-b8e7-f7a52426a97d",
+    "status": "published",
+    "publishDate": "2022-02-03T22:26:33.828795",
+    "archiveDate": null,
+    "skillName": "Partnership Journal Entry Preparation",
+    "skillStatement": "Prepare journal entries for a partnership using the bonus and goodwill methods.",
+    "category": "Consolidation",
+    "keywords": [
+        "CPA",
+        "Consolidation",
+        "Consolidation",
+        "WGUSID: 10205"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "partnership-journal-entry-preparation"
+}

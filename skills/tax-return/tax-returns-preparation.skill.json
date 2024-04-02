@@ -1,0 +1,77 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/186c7c62-af13-4bb4-a70c-653dd8c986fc",
+    "uuid": "186c7c62-af13-4bb4-a70c-653dd8c986fc",
+    "status": "published",
+    "publishDate": "2022-01-31T16:59:18.04646",
+    "archiveDate": null,
+    "skillName": "Tax Returns Preparation",
+    "skillStatement": "Prepare federal income tax returns, state income and franchise tax returns, annual tax extension filings, and quarterly tax payments.",
+    "category": "Tax Return",
+    "keywords": [
+        "CPA",
+        "Taxes",
+        "Tax Return",
+        "Federal Tax Returns",
+        "Tax Returns",
+        "Tax Return",
+        "WGUSID: 5562"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "tax-returns-preparation"
+}

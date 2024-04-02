@@ -1,0 +1,75 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/b300f0a4-461f-4506-8d89-41684b0b3bed",
+    "uuid": "b300f0a4-461f-4506-8d89-41684b0b3bed",
+    "status": "published",
+    "publishDate": "2022-02-08T15:56:52.90624",
+    "archiveDate": null,
+    "skillName": "Audit Settlements Negotiation",
+    "skillStatement": "Negotiate Internal Revenue Service (IRS) audit settlements.",
+    "category": "Tax Return",
+    "keywords": [
+        "Tax Return",
+        "Federal Tax Returns",
+        "Tax Returns",
+        "Tax Return",
+        "WGUSID: 371.1"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "audit-settlements-negotiation"
+}

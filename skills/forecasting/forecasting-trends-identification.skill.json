@@ -1,0 +1,201 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/bc138f6e-e113-4f0d-9bf7-3a71822affac",
+    "uuid": "bc138f6e-e113-4f0d-9bf7-3a71822affac",
+    "status": "published",
+    "publishDate": "2022-02-23T17:50:35.267021",
+    "archiveDate": null,
+    "skillName": "Forecasting Trends Identification",
+    "skillStatement": "Identify trends for forecasting.",
+    "category": "Forecasting",
+    "keywords": [
+        "NICE_SP_RSK",
+        "NICE_AN_TWA",
+        "NICE_AN_EXP",
+        "NICE_AN_ASA",
+        "NICE_AN_LNG",
+        "CPA",
+        "CMA",
+        "NICE_OM_DTA",
+        "Forecasting",
+        "Forecasting",
+        "WGUSID: 3984"
+    ],
+    "occupations": [
+        {
+            "code": "11-0000",
+            "targetNodeName": "Management Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-1010",
+            "targetNodeName": "Chief Executives",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-1011",
+            "targetNodeName": "Chief Executives",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-1020",
+            "targetNodeName": "General and Operations Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-1021",
+            "targetNodeName": "General and Operations Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-2020",
+            "targetNodeName": "Marketing and Sales Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-2022",
+            "targetNodeName": "Sales Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3010",
+            "targetNodeName": "Administrative Services and Facilities Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3030",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3031",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3050",
+            "targetNodeName": "Industrial Production Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3051",
+            "targetNodeName": "Industrial Production Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3070",
+            "targetNodeName": "Transportation, Storage, and Distribution Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3071",
+            "targetNodeName": "Transportation, Storage, and Distribution Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-9020",
+            "targetNodeName": "Construction Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-9021",
+            "targetNodeName": "Construction Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-9150",
+            "targetNodeName": "Social and Community Service Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-9151",
+            "targetNodeName": "Social and Community Service Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-9190",
+            "targetNodeName": "Miscellaneous Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-9198",
+            "targetNodeName": "Personal Service Managers, All Other; Entertainment and Recreation Managers, Except Gambling; and Managers, All Other",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1050",
+            "targetNodeName": "Cost Estimators",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1051",
+            "targetNodeName": "Cost Estimators",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1110",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1111",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1160",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1161",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-0000",
+            "targetNodeName": "Computer and Mathematical Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "19-0000",
+            "targetNodeName": "Life, Physical, and Social Science Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "37-0000",
+            "targetNodeName": "Building and Grounds Cleaning and Maintenance Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "39-0000",
+            "targetNodeName": "Personal Care and Service Occupations",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "forecasting-trends-identification"
+}

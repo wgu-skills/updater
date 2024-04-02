@@ -1,0 +1,96 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/8a8b9273-c6d9-4396-a690-553e6dd887e7",
+    "uuid": "8a8b9273-c6d9-4396-a690-553e6dd887e7",
+    "status": "published",
+    "publishDate": "2022-02-23T17:50:27.299987",
+    "archiveDate": null,
+    "skillName": "Data Reporting",
+    "skillStatement": "Report data to explain economic phenomena and forecast market trends with mathematical models and statistical techniques.",
+    "category": "Forecasting",
+    "keywords": [
+        "NICE_SP_RSK",
+        "NICE_AN_TWA",
+        "NICE_AN_EXP",
+        "NICE_AN_ASA",
+        "NICE_AN_LNG",
+        "CPA",
+        "CMA",
+        "NICE_OM_DTA",
+        "Forecasting",
+        "Forecasting",
+        "WGUSID: 1127"
+    ],
+    "occupations": [
+        {
+            "code": "11-0000",
+            "targetNodeName": "Management Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3030",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3031",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1110",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1111",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1160",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1161",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-0000",
+            "targetNodeName": "Computer and Mathematical Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "19-0000",
+            "targetNodeName": "Life, Physical, and Social Science Occupations",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "data-reporting"
+}

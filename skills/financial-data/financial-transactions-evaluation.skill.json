@@ -1,0 +1,84 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/82e9ae4d-e8cb-402c-817a-bb87b342db07",
+    "uuid": "82e9ae4d-e8cb-402c-817a-bb87b342db07",
+    "status": "published",
+    "publishDate": "2022-02-04T00:36:48.047686",
+    "archiveDate": null,
+    "skillName": "Financial Transactions Evaluation",
+    "skillStatement": "Evaluate financial transactions to identify opportunities to improve profitability.",
+    "category": "Financial Data",
+    "keywords": [
+        "CPA",
+        "CMA",
+        "Financial Data",
+        "Delphi Technology",
+        "Oracle E-Business Suite Financials",
+        "PRISM",
+        "Data Management Software",
+        "Financial Data",
+        "WGUSID: 7342"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1110",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1111",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2050",
+            "targetNodeName": "Financial Analysts and Advisors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "financial-transactions-evaluation"
+}

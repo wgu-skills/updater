@@ -1,0 +1,101 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/208506ea-8b9c-4fdb-9425-47b5c5c715fc",
+    "uuid": "208506ea-8b9c-4fdb-9425-47b5c5c715fc",
+    "status": "published",
+    "publishDate": "2022-02-03T19:17:06.512986",
+    "archiveDate": null,
+    "skillName": "Disaster Recovery Planning",
+    "skillStatement": "Develop plans to manage the impact of catastrophic events on a business.",
+    "category": "Business Acumen",
+    "keywords": [
+        "Business Acumen",
+        "Business Acumen",
+        "Email Software",
+        "Human Capital Management (HCM) software",
+        "Enterprise Resource Planning (ERP) software",
+        "WGUSID: 7100"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1070",
+            "targetNodeName": "Human Resources Workers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1071",
+            "targetNodeName": "Human Resources Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1075",
+            "targetNodeName": "Labor Relations Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1110",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1111",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1160",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1161",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1190",
+            "targetNodeName": "Miscellaneous Business Operations Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1198",
+            "targetNodeName": "Project Management Specialists and Business Operations Specialists, All Other",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2050",
+            "targetNodeName": "Financial Analysts and Advisors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "disaster-recovery-planning"
+}

@@ -1,0 +1,78 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/612188b3-4d79-4782-82d4-63fdccca8582",
+    "uuid": "612188b3-4d79-4782-82d4-63fdccca8582",
+    "status": "published",
+    "publishDate": "2022-02-03T19:17:49.461597",
+    "archiveDate": null,
+    "skillName": "Ledger Reconciliation",
+    "skillStatement": "Reconcile ledgers to ensure cash amounts agree with bank balances.",
+    "category": "Account Analysis",
+    "keywords": [
+        "CPA",
+        "CIA",
+        "CFE",
+        "Account Analysis",
+        "Account Reconciliation",
+        "Account Analysis",
+        "Accounting",
+        "WGUSID: 6062"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "ledger-reconciliation"
+}

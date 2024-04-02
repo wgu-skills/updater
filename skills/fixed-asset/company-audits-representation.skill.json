@@ -1,0 +1,75 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/994a614c-fd02-4b99-94f9-1ebd4b9fa461",
+    "uuid": "994a614c-fd02-4b99-94f9-1ebd4b9fa461",
+    "status": "published",
+    "publishDate": "2022-02-04T15:26:18.080951",
+    "archiveDate": null,
+    "skillName": "Company Audits Representation",
+    "skillStatement": "Represent the company during any audits by a government that involves fixed assets.",
+    "category": "Fixed Asset",
+    "keywords": [
+        "CPA",
+        "CIA",
+        "Fixed Asset",
+        "Fixed Asset",
+        "WGUSID: 6013"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "company-audits-representation"
+}

@@ -1,0 +1,109 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/d02dc9c5-3a9d-4d68-9e9f-3f6e3272bfdd",
+    "uuid": "d02dc9c5-3a9d-4d68-9e9f-3f6e3272bfdd",
+    "status": "published",
+    "publishDate": "2022-02-04T15:27:28.306165",
+    "archiveDate": null,
+    "skillName": "Risk Control Recommendation",
+    "skillStatement": "Make recommendations to reduce or control risks.",
+    "category": "Risk Analysis",
+    "keywords": [
+        "Risk Analysis",
+        "Risk Assessment",
+        "Vendor Risk Assessment",
+        "CPA",
+        "Risk Analysis",
+        "CMA_BU",
+        "CIA",
+        "CFE",
+        "WGUSID: 7694"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1050",
+            "targetNodeName": "Cost Estimators",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1051",
+            "targetNodeName": "Cost Estimators",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1080",
+            "targetNodeName": "Logisticians and Project Management Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1081",
+            "targetNodeName": "Logisticians",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1110",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1111",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1190",
+            "targetNodeName": "Miscellaneous Business Operations Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2050",
+            "targetNodeName": "Financial Analysts and Advisors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "risk-control-recommendation"
+}

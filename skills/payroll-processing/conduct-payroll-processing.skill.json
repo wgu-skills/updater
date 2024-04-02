@@ -1,0 +1,73 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/2c2a6051-ea8e-47b7-8264-216d19ed23b3",
+    "uuid": "2c2a6051-ea8e-47b7-8264-216d19ed23b3",
+    "status": "published",
+    "publishDate": "2022-02-04T15:27:21.373801",
+    "archiveDate": null,
+    "skillName": "Conduct Payroll Processing",
+    "skillStatement": "Conduct payroll processing using software to manage the calculation and processing of the payroll.",
+    "category": "Payroll Processing",
+    "keywords": [
+        "Payroll Processing",
+        "WGUSID: 1231",
+        "Payroll Processing"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "conduct-payroll-processing"
+}

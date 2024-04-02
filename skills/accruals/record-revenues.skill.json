@@ -1,0 +1,63 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/aa20aa51-3832-4d90-8c5d-207b36f26d45",
+    "uuid": "aa20aa51-3832-4d90-8c5d-207b36f26d45",
+    "status": "published",
+    "publishDate": "2022-02-03T19:18:15.91545",
+    "archiveDate": null,
+    "skillName": "Record Revenues",
+    "skillStatement": "Record revenue accruals over the lifetime of a product.",
+    "category": "Accruals",
+    "keywords": [
+        "CPA",
+        "Sage 50 Accounting",
+        "Tax Software",
+        "Accruals",
+        "Accruals",
+        "Fund Accounting Software",
+        "Intuit QuickBooks Hot Technology",
+        "WGUSID: 7005"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2082",
+            "targetNodeName": "Tax Preparers",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "record-revenues"
+}

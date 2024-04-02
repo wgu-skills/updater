@@ -1,0 +1,106 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/d592d09a-8f3f-46be-ac84-6b879bf3ab1c",
+    "uuid": "d592d09a-8f3f-46be-ac84-6b879bf3ab1c",
+    "status": "published",
+    "publishDate": "2022-02-04T21:48:12.214588",
+    "archiveDate": null,
+    "skillName": "Conduct Economic Research",
+    "skillStatement": "Conduct research on economic issues to disseminate research findings through technical reports or scientific articles in journals.",
+    "category": "Research",
+    "keywords": [
+        "NICE_AN_TWA",
+        "NICE_AN_EXP",
+        "NICE_AN_ASA",
+        "NICE_AN_TGT",
+        "NICE_AN_LNG",
+        "NICE_CO_CLO",
+        "NICE_CO_OPL",
+        "NICE_CO_OPS",
+        "Research",
+        "Basic Research",
+        "Action Research",
+        "Applied Research",
+        "Clinical Research",
+        "Educational Research",
+        "Research And Development",
+        "Research Design",
+        "Research Experiences",
+        "Research Methodologies",
+        "Research Reports",
+        "Research",
+        "WGUSID: 1238"
+    ],
+    "occupations": [
+        {
+            "code": "11-0000",
+            "targetNodeName": "Management Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3030",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3031",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1110",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1111",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1160",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1161",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-0000",
+            "targetNodeName": "Computer and Mathematical Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "19-0000",
+            "targetNodeName": "Life, Physical, and Social Science Occupations",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "conduct-economic-research"
+}

@@ -1,0 +1,61 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/8fdcebf0-d750-4cda-92ef-c836a72a21de",
+    "uuid": "8fdcebf0-d750-4cda-92ef-c836a72a21de",
+    "status": "published",
+    "publishDate": "2022-02-04T15:26:21.060252",
+    "archiveDate": null,
+    "skillName": "Due Professional Care Demonstration",
+    "skillStatement": "Demonstrate due professional care.",
+    "category": "Internal Auditing",
+    "keywords": [
+        "CPA",
+        "CMA_BU",
+        "CIA",
+        "Internal Auditing",
+        "Internal Auditing",
+        "WGUSID: 10317"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2050",
+            "targetNodeName": "Financial Analysts and Advisors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "due-professional-care-demonstration"
+}

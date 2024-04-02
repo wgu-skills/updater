@@ -1,0 +1,56 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/4ead5fe4-5f86-4bff-be08-37f09926c0bb",
+    "uuid": "4ead5fe4-5f86-4bff-be08-37f09926c0bb",
+    "status": "published",
+    "publishDate": "2022-02-04T20:55:30.315847",
+    "archiveDate": null,
+    "skillName": "Risk Minimization",
+    "skillStatement": "Minimize the potential for identified risks to materialize.",
+    "category": "Risk Reduction",
+    "keywords": [
+        "Risk Management",
+        "CPA",
+        "CMA_BU",
+        "CIA",
+        "CFE",
+        "Risk Reporting",
+        "Risk Reduction",
+        "Risk Reduction"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15_1210"
+        }
+    ],
+    "slug": "risk-minimization"
+}

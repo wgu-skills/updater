@@ -1,0 +1,73 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/295479c3-c4d7-4e31-8c08-6fddf85eb289",
+    "uuid": "295479c3-c4d7-4e31-8c08-6fddf85eb289",
+    "status": "published",
+    "publishDate": "2022-02-03T19:17:03.752235",
+    "archiveDate": null,
+    "skillName": "Financial Data Analysis for Tax Implications",
+    "skillStatement": "Analyze financial data to determine the tax implications for a business.",
+    "category": "Auditing",
+    "keywords": [
+        "CPA",
+        "Tableau",
+        "Bloomberg",
+        "Auditing",
+        "Auditing",
+        "QuickBooks",
+        "Sage",
+        "Microsoft Office Suite",
+        "SAS",
+        "Reuters",
+        "Tax Audits",
+        "LotusNotes",
+        "WGUSID: 7788"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2050",
+            "targetNodeName": "Financial Analysts and Advisors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2082",
+            "targetNodeName": "Tax Preparers",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "financial-data-analysis-for-tax-implications"
+}

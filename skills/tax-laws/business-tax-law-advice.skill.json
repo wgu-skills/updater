@@ -1,0 +1,75 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/c47319b8-69b3-4f80-ab51-24690479b484",
+    "uuid": "c47319b8-69b3-4f80-ab51-24690479b484",
+    "status": "published",
+    "publishDate": "2022-02-08T15:56:40.065018",
+    "archiveDate": null,
+    "skillName": "Business Tax Law Advice",
+    "skillStatement": "Provide advice to clients regarding new or updated local and federal tax laws that affect their business.",
+    "category": "Tax Laws",
+    "keywords": [
+        "CPA",
+        "Tax Laws",
+        "Tax Law",
+        "WGUSID: 5761",
+        "Tax Laws"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "business-tax-law-advice"
+}

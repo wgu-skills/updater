@@ -1,0 +1,108 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/2ea48a38-b86d-4748-b36c-f4c4321092fb",
+    "uuid": "2ea48a38-b86d-4748-b36c-f4c4321092fb",
+    "status": "published",
+    "publishDate": "2022-12-13T22:15:44.533301",
+    "archiveDate": null,
+    "skillName": "Root Cause Analysis (RCA) Action Plan Development",
+    "skillStatement": "Develop action plans to remedy situations uncovered by a root cause analysis (RCA) process.",
+    "category": "Risk Management",
+    "keywords": [
+        "NICE_SP_RSK",
+        "NICE_OV_MGT",
+        "NICE_AN_TWA",
+        "NICE_AN_EXP",
+        "NICE_AN_ASA",
+        "NICE_AN_TGT",
+        "NICE_AN_LNG",
+        "NICE_CO_CLO",
+        "NICE_CO_OPL",
+        "NICE_CO_OPS",
+        "NICE_OV_PMA",
+        "NICE_OM_ANA",
+        "NICE_PR_CIR",
+        "NICE_IN_FOR",
+        "NICE_OV_EXL",
+        "Risk Management",
+        "CPA",
+        "CMA_BU",
+        "CIA",
+        "CFE",
+        "Risk Reporting",
+        "WGUSID: 4306.1",
+        "Risk Management"
+    ],
+    "occupations": [
+        {
+            "code": "11-1011.00",
+            "targetNodeName": "Chief Executives",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "11-1021.00",
+            "targetNodeName": "General and Operations Managers",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "11-2022.00",
+            "targetNodeName": "Sales Managers",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "11-3031.00",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "11-3051.00",
+            "targetNodeName": "Industrial Production Managers",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "11-3071.00",
+            "targetNodeName": "Transportation, Storage, and Distribution Managers",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "11-9021.00",
+            "targetNodeName": "Construction Managers",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "11-9151.00",
+            "targetNodeName": "Social and Community Service Managers",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "11-9198",
+            "targetNodeName": "Personal Service Managers, All Other; Entertainment and Recreation Managers, Except Gambling; and Managers, All Other",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1051.00",
+            "targetNodeName": "Cost Estimators",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "13-1111.00",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "13-1161.00",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "13-2011.00",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "13-2041.00",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "o*net"
+        }
+    ],
+    "slug": "root-cause-analysis-rca-action-plan-development"
+}

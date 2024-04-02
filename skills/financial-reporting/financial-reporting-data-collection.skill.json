@@ -1,0 +1,84 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/74cf5bd0-5429-49f9-b2dd-e103053f6225",
+    "uuid": "74cf5bd0-5429-49f9-b2dd-e103053f6225",
+    "status": "published",
+    "publishDate": "2022-02-04T00:43:57.406494",
+    "archiveDate": null,
+    "skillName": "Financial Reporting Data Collection",
+    "skillStatement": "Collect financial reporting data related to a company's assets, real property, liabilities, and equity.",
+    "category": "Financial Reporting",
+    "keywords": [
+        "CPA",
+        "Finance",
+        "Microsoft Access Hot technology",
+        "Structured Query Language SQL Hot technology",
+        "FileMaker Pro",
+        "Practice management software PMS",
+        "Financial Reporting",
+        "Reports",
+        "WGUSID: 7352"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1110",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1111",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2050",
+            "targetNodeName": "Financial Analysts and Advisors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "financial-reporting-data-collection"
+}

@@ -1,0 +1,67 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/49eb1031-0d93-4186-a94b-c0b72061caf9",
+    "uuid": "49eb1031-0d93-4186-a94b-c0b72061caf9",
+    "status": "published",
+    "publishDate": "2022-06-15T17:35:36.610894",
+    "archiveDate": null,
+    "skillName": "Financial Tools and Techniques",
+    "skillStatement": "Identify financial tools and techniques to inform financial decisions.",
+    "category": "Finance",
+    "keywords": [
+        "Finance",
+        "Financial Tools"
+    ],
+    "occupations": [
+        {
+            "code": "11-3031.00",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2051",
+            "targetNodeName": "Financial and Investment Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2052",
+            "targetNodeName": "Personal Financial Advisors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2054",
+            "targetNodeName": "Financial Risk Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2082",
+            "targetNodeName": "Tax Preparers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2099",
+            "targetNodeName": "Financial Specialists, All Other",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "financial-tools-and-techniques"
+}

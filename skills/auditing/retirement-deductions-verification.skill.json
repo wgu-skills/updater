@@ -1,0 +1,153 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/c81d7fff-c474-449e-9b7b-bca4bbfd78a7",
+    "uuid": "c81d7fff-c474-449e-9b7b-bca4bbfd78a7",
+    "status": "published",
+    "publishDate": "2022-02-03T19:17:52.911558",
+    "archiveDate": null,
+    "skillName": "Retirement Deductions Verification",
+    "skillStatement": "Verify employee retirement savings payroll deductions match expectations.",
+    "category": "Auditing",
+    "keywords": [
+        "CPA",
+        "CIA",
+        "Auditing",
+        "Auditing",
+        "Tax Audits",
+        "Benefits portals",
+        "HRIS and payroll systems",
+        "WGUSID: 7043"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1050",
+            "targetNodeName": "Cost Estimators",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1051",
+            "targetNodeName": "Cost Estimators",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1070",
+            "targetNodeName": "Human Resources Workers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1071",
+            "targetNodeName": "Human Resources Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1075",
+            "targetNodeName": "Labor Relations Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1080",
+            "targetNodeName": "Logisticians and Project Management Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1081",
+            "targetNodeName": "Logisticians",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1110",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1111",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1140",
+            "targetNodeName": "Compensation, Benefits, and Job Analysis Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1141",
+            "targetNodeName": "Compensation, Benefits, and Job Analysis Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1150",
+            "targetNodeName": "Training and Development Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1151",
+            "targetNodeName": "Training and Development Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2050",
+            "targetNodeName": "Financial Analysts and Advisors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2082",
+            "targetNodeName": "Tax Preparers",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "retirement-deductions-verification"
+}

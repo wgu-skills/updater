@@ -1,0 +1,75 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/687e7126-e9d1-46e8-9c6a-971fb20bd38a",
+    "uuid": "687e7126-e9d1-46e8-9c6a-971fb20bd38a",
+    "status": "published",
+    "publishDate": "2022-02-08T15:56:43.603047",
+    "archiveDate": null,
+    "skillName": "Tax Accounting Reports Training Facilitation",
+    "skillStatement": "Facilitate training to ensure accurate weekly and monthly tax accounting reports remain in compliance with state, federal, and Sarbanes-Oxley requirements.",
+    "category": "Tax Analysis",
+    "keywords": [
+        "CPA",
+        "CIA",
+        "Tax Analysis",
+        "Tax Analysis",
+        "WGUSID: 3446"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "tax-accounting-reports-training-facilitation"
+}

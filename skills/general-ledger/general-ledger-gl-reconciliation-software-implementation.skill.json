@@ -1,0 +1,77 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/f4e4812f-b1ec-4343-a8db-53b795840be7",
+    "uuid": "f4e4812f-b1ec-4343-a8db-53b795840be7",
+    "status": "published",
+    "publishDate": "2022-02-04T15:27:10.698485",
+    "archiveDate": null,
+    "skillName": "General Ledger (GL) Reconciliation Software Implementation",
+    "skillStatement": "Implement general ledger (GL) reconciliation software to automate all steps in the general ledger reconciliation process.",
+    "category": "General Ledger",
+    "keywords": [
+        "CPA",
+        "CIA",
+        "General Ledger",
+        "General Ledger Accounting",
+        "General Ledger Reconciliation",
+        "General Ledger",
+        "WGUSID: 4190"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "general-ledger-gl-reconciliation-software-implementation"
+}

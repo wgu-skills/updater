@@ -1,0 +1,101 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/b89f7f5c-1988-456d-b0eb-73007bab078e",
+    "uuid": "b89f7f5c-1988-456d-b0eb-73007bab078e",
+    "status": "published",
+    "publishDate": "2022-02-09T23:22:27.975398",
+    "archiveDate": null,
+    "skillName": "Financial Statements Compliance Certification",
+    "skillStatement": "Certify all financial statements presented to the U.S. Securities and Exchange Commission (SEC) are in compliance with the Sarbanes-Oxley (SOX).",
+    "category": "Sarbanes-Oxley Act (SOX) Compliance",
+    "keywords": [
+        "CPA",
+        "CIA",
+        "Compliance",
+        "Financial Statements",
+        "Finance",
+        "SOX",
+        "Sarbanes-Oxley Act",
+        "Sarbanes-Oxley Act (SOX) Compliance",
+        "Sarbanes-Oxley Act (SOX) Compliance",
+        "Sarbanes-Oxley Act Compliance",
+        "SOX Act Compliance",
+        "Sarbanes-Oxley (SOX) Act",
+        "SOX Act",
+        "Sarbanes-Oxley (SOX)",
+        "Sarbanes-Oxley",
+        "WGUSID: 899"
+    ],
+    "occupations": [
+        {
+            "code": "11-0000",
+            "targetNodeName": "Management Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-9190",
+            "targetNodeName": "Miscellaneous Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-9198",
+            "targetNodeName": "Personal Service Managers, All Other; Entertainment and Recreation Managers, Except Gambling; and Managers, All Other",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "financial-statements-compliance-certification"
+}

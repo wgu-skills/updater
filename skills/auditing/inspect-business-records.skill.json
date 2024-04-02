@@ -1,0 +1,75 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/fb261aaf-4e1d-412e-814a-4161a0cc8214",
+    "uuid": "fb261aaf-4e1d-412e-814a-4161a0cc8214",
+    "status": "published",
+    "publishDate": "2022-02-03T19:18:18.569646",
+    "archiveDate": null,
+    "skillName": "Inspect Business Records",
+    "skillStatement": "Inspect business records and associated tax filings for discrepancies.",
+    "category": "Auditing",
+    "keywords": [
+        "CPA",
+        "Auditing",
+        "Auditing",
+        "Tax Audits",
+        "WGUSID: 748"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "inspect-business-records"
+}

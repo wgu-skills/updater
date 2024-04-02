@@ -1,0 +1,210 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/e63e9ff4-a65b-4e71-ba75-1b0be6983b0b",
+    "uuid": "e63e9ff4-a65b-4e71-ba75-1b0be6983b0b",
+    "status": "published",
+    "publishDate": "2022-02-04T21:48:08.446456",
+    "archiveDate": null,
+    "skillName": "Visual Content Creation",
+    "skillStatement": "Collaborate with sales and marketing teams to create visual content for product and service promotions.",
+    "category": "Presentations",
+    "keywords": [
+        "NICE_OV_MGT",
+        "NICE_AN_TWA",
+        "NICE_AN_EXP",
+        "NICE_AN_ASA",
+        "NICE_AN_TGT",
+        "NICE_AN_LNG",
+        "NICE_CO_CLO",
+        "NICE_CO_OPL",
+        "NICE_CO_OPS",
+        "NICE_OV_PMA",
+        "NICE_OM_ANA",
+        "NICE_OV_SPP",
+        "NICE_OV_EXL",
+        "NICE_OV_LGA",
+        "NICE_OV_TEA",
+        "Presentations",
+        "Microsoft PowerPoint",
+        "Presentation Design",
+        "Presentations",
+        "WGUSID: 975"
+    ],
+    "occupations": [
+        {
+            "code": "11-0000",
+            "targetNodeName": "Management Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-1010",
+            "targetNodeName": "Chief Executives",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-1011",
+            "targetNodeName": "Chief Executives",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-1020",
+            "targetNodeName": "General and Operations Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-1021",
+            "targetNodeName": "General and Operations Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-2020",
+            "targetNodeName": "Marketing and Sales Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-2022",
+            "targetNodeName": "Sales Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3010",
+            "targetNodeName": "Administrative Services and Facilities Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3030",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3031",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3050",
+            "targetNodeName": "Industrial Production Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3051",
+            "targetNodeName": "Industrial Production Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3070",
+            "targetNodeName": "Transportation, Storage, and Distribution Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3071",
+            "targetNodeName": "Transportation, Storage, and Distribution Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-9020",
+            "targetNodeName": "Construction Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-9021",
+            "targetNodeName": "Construction Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-9150",
+            "targetNodeName": "Social and Community Service Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-9151",
+            "targetNodeName": "Social and Community Service Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-9190",
+            "targetNodeName": "Miscellaneous Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-9198",
+            "targetNodeName": "Personal Service Managers, All Other; Entertainment and Recreation Managers, Except Gambling; and Managers, All Other",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1050",
+            "targetNodeName": "Cost Estimators",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1051",
+            "targetNodeName": "Cost Estimators",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1110",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1111",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1160",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1161",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-0000",
+            "targetNodeName": "Computer and Mathematical Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "19-0000",
+            "targetNodeName": "Life, Physical, and Social Science Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "37-0000",
+            "targetNodeName": "Building and Grounds Cleaning and Maintenance Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "39-0000",
+            "targetNodeName": "Personal Care and Service Occupations",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "visual-content-creation"
+}

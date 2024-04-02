@@ -1,0 +1,78 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/7d791b19-d2d2-4ac2-8efb-cb0c9ebd5df7",
+    "uuid": "7d791b19-d2d2-4ac2-8efb-cb0c9ebd5df7",
+    "status": "published",
+    "publishDate": "2022-02-04T15:26:42.123174",
+    "archiveDate": null,
+    "skillName": "Legal Requirements Compliance Advisement",
+    "skillStatement": "Advise management on needed actions to comply with federal, state, and local financial legal requirements.",
+    "category": "General Ledger",
+    "keywords": [
+        "CPA",
+        "CMA_BU",
+        "CIA",
+        "General Ledger",
+        "General Ledger Accounting",
+        "General Ledger Reconciliation",
+        "General Ledger",
+        "WGUSID: 2888"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "legal-requirements-compliance-advisement"
+}

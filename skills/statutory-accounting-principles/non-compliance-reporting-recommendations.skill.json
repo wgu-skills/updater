@@ -1,0 +1,73 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/d18f706f-ee1d-4847-a49d-d62bd94bea3d",
+    "uuid": "d18f706f-ee1d-4847-a49d-d62bd94bea3d",
+    "status": "published",
+    "publishDate": "2022-02-07T21:28:41.243408",
+    "archiveDate": null,
+    "skillName": "Non-Compliance Reporting Recommendations",
+    "skillStatement": "Recommend corrective actions for non-compliance to statutory accounting principles (SAP).",
+    "category": "Statutory Accounting Principles",
+    "keywords": [
+        "Statutory Accounting Principles",
+        "Statutory Accounting Principles",
+        "WGUSID: 2558"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "non-compliance-reporting-recommendations"
+}

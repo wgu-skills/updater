@@ -1,0 +1,76 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/2363ac52-c939-4242-b155-ba494b46b58a",
+    "uuid": "2363ac52-c939-4242-b155-ba494b46b58a",
+    "status": "published",
+    "publishDate": "2022-02-04T15:26:41.677226",
+    "archiveDate": null,
+    "skillName": "General Fund Enterprise Business Systems (GFEBS) Enterprise Resource Planning (ERP) Solution Instance Implementation",
+    "skillStatement": "Implement a new instance of the General Fund Enterprise Business Systems (GFEBS) Enterprise Resource Planning (ERP) solution to support the Army's current and future missions.",
+    "category": "General Fund Enterprise Business Systems (GFEBS)",
+    "keywords": [
+        "CPA",
+        "CMA_BU",
+        "CIA",
+        "General Fund Enterprise Business Systems (GFEBS)",
+        "General Fund Enterprise Business Systems (GFEBS)",
+        "WGUSID: 4029"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "general-fund-enterprise-business-systems-gfebs-enterprise-resource-planning-erp-solution-instance-implementation"
+}

@@ -1,0 +1,75 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/7a9ad8fe-74d1-4e82-b292-60ddd7e52c5f",
+    "uuid": "7a9ad8fe-74d1-4e82-b292-60ddd7e52c5f",
+    "status": "published",
+    "publishDate": "2022-01-31T17:00:31.88845",
+    "archiveDate": null,
+    "skillName": "Financial Principles Application",
+    "skillStatement": "Apply basic financial principles in structured personal financial situations to meet a limited need.",
+    "category": "Personal Finance",
+    "keywords": [
+        "Finance",
+        "Application",
+        "Personal Finance",
+        "WGUSID: 402",
+        "Personal Finance"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "financial-principles-application"
+}

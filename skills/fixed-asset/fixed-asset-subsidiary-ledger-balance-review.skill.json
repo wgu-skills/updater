@@ -1,0 +1,75 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/7d7a51e1-7b0f-4a27-b941-c325978234f9",
+    "uuid": "7d7a51e1-7b0f-4a27-b941-c325978234f9",
+    "status": "published",
+    "publishDate": "2022-02-04T15:25:22.960989",
+    "archiveDate": null,
+    "skillName": "Fixed Asset Subsidiary Ledger Balance Review",
+    "skillStatement": "Review the balance in the fixed asset subsidiary ledger to the summary-level account of the general ledger (GL) and recommends to management any updates to accounting policies related to fixed assets.",
+    "category": "Fixed Asset",
+    "keywords": [
+        "CPA",
+        "CIA",
+        "Fixed Asset",
+        "Fixed Asset",
+        "WGUSID: 6113"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "fixed-asset-subsidiary-ledger-balance-review"
+}

@@ -1,0 +1,56 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/97349e9b-5b97-4aef-aad4-917884593e4d",
+    "uuid": "97349e9b-5b97-4aef-aad4-917884593e4d",
+    "status": "published",
+    "publishDate": "2022-07-11T21:19:00.394166",
+    "archiveDate": null,
+    "skillName": "Improvement Opportunity Identification",
+    "skillStatement": "Identify opportunities for improvement.",
+    "category": "Continuous Improvement Process",
+    "keywords": [
+        "AZ-304",
+        "Continuous Improvement Process",
+        "Adobe Systems Adobe Captivate",
+        "Articulate Rapid E-Learning Studio",
+        "Halogen eLMS",
+        "SumTotal Systems ToolBook",
+        "Continuous Improvement Process",
+        "ILA_Professionals_6.2",
+        "ILA_Professionals_7.2",
+        "ILA_Professionals_6.3",
+        "ILA_Professionals_6.1"
+    ],
+    "occupations": [
+        {
+            "code": "13-1071.00",
+            "targetNodeName": "Human Resources Specialists",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "13-1075.00",
+            "targetNodeName": "Labor Relations Specialists",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "13-1111.00",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "13-1141.00",
+            "targetNodeName": "Compensation, Benefits, and Job Analysis Specialists",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "13-1198",
+            "targetNodeName": "Project Management Specialists and Business Operations Specialists, All Other",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011.00",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "o*net"
+        }
+    ],
+    "slug": "improvement-opportunity-identification"
+}

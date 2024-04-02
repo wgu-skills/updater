@@ -1,0 +1,76 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/1f36416a-8f01-4689-a9cd-0b9a1b83de2a",
+    "uuid": "1f36416a-8f01-4689-a9cd-0b9a1b83de2a",
+    "status": "published",
+    "publishDate": "2022-02-03T19:16:29.342743",
+    "archiveDate": null,
+    "skillName": "Loan Amortization Schedule Creation",
+    "skillStatement": "Create a loan amortization schedule for a new corporate loan.",
+    "category": "Accounting",
+    "keywords": [
+        "CPA",
+        "CMA_BU",
+        "CIA",
+        "Accounting",
+        "Accounting",
+        "WGUSID: 10144"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "loan-amortization-schedule-creation"
+}

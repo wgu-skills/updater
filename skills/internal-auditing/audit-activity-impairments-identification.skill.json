@@ -1,0 +1,60 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/28e7ebab-c2d0-4c9f-acf6-00afddbd384a",
+    "uuid": "28e7ebab-c2d0-4c9f-acf6-00afddbd384a",
+    "status": "published",
+    "publishDate": "2022-02-04T15:26:20.91427",
+    "archiveDate": null,
+    "skillName": "Audit Activity Impairments Identification",
+    "skillStatement": "Identify whether the internal audit activity has any impairments to the independence.",
+    "category": "Internal Auditing",
+    "keywords": [
+        "CPA",
+        "CIA",
+        "Internal Auditing",
+        "Internal Auditing",
+        "WGUSID: 10328"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2050",
+            "targetNodeName": "Financial Analysts and Advisors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "audit-activity-impairments-identification"
+}

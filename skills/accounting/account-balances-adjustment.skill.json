@@ -1,0 +1,86 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/4acd4bb1-0b1b-40fa-9863-fb55c5e69982",
+    "uuid": "4acd4bb1-0b1b-40fa-9863-fb55c5e69982",
+    "status": "published",
+    "publishDate": "2022-01-31T16:59:22.491908",
+    "archiveDate": null,
+    "skillName": "Account Balances Adjustment",
+    "skillStatement": "Adjust account balances from cash basis to accrual basis.",
+    "category": "Accounting",
+    "keywords": [
+        "CPA",
+        "CIA",
+        "Accounting",
+        "Month-End Close Processes",
+        "WGUSID: 81",
+        "Accounting"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "33-0000",
+            "targetNodeName": "Protective Service Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "33-3020",
+            "targetNodeName": "Detectives and Criminal Investigators",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "account-balances-adjustment"
+}

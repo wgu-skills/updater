@@ -1,0 +1,85 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/79a31eb4-3fa7-4735-a04c-c28d17ffe074",
+    "uuid": "79a31eb4-3fa7-4735-a04c-c28d17ffe074",
+    "status": "published",
+    "publishDate": "2022-02-04T15:26:58.000997",
+    "archiveDate": null,
+    "skillName": "Mortgage-Backed Bond Analysis",
+    "skillStatement": "Conduct detailed analyses, calculations, and reconciliations on a variety of residential mortgage-backed bond structures and models to ensure payments are accurately reported and disbursed.",
+    "category": "Securities (Finance)",
+    "keywords": [
+        "CPA",
+        "CIA",
+        "Securities (Finance)",
+        "Securities (Finance)",
+        "WGUSID: 1200"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1110",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1111",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "mortgage-backed-bond-analysis"
+}
