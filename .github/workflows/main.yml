@@ -1,0 +1,20 @@
+name: Update the Collection
+permissions: write-all
+on:
+  workflow_dispatch:
+
+jobs:
+  update:
+    name: Run the Update Collection Action
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Action to Update Collection
+        uses: wgu-skills/updater@main
+        with:
+          skillCollectionSlug: 'accountants-and-auditors'
+          skillCollectionUuid: '1db79be3-ff33-4114-8449-e151aa9e6b25'
+          skillCollectionUrl: 'https://osmt.wgu.edu/api/collections/1db79be3-ff33-4114-8449-e151aa9e6b25'
+          gitOrg: 'wgu-skills'
+          gitUsername: 'David Petersen'
+          gitEmail: 'david.petersen@wgu.edu'
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
