@@ -1,0 +1,76 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/7f166015-0899-42d7-b80b-1cdc89a5ea63",
+    "uuid": "7f166015-0899-42d7-b80b-1cdc89a5ea63",
+    "status": "published",
+    "publishDate": "2022-02-03T19:17:53.222062",
+    "archiveDate": null,
+    "skillName": "Balance Sheet Discrepancy Resolution",
+    "skillStatement": "Resolve discrepancies to reconcile balance sheets.",
+    "category": "Balance Sheet",
+    "keywords": [
+        "CPA",
+        "SAP",
+        "Microsoft Excel",
+        "CIA",
+        "Sage",
+        "Oracle",
+        "Crystal reports",
+        "IBM Cognos",
+        "Balance Sheet",
+        "Balance Sheet",
+        "WGUSID: 7048"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "balance-sheet-discrepancy-resolution"
+}

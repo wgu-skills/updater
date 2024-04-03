@@ -1,0 +1,75 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/6366663b-5213-48ee-86c5-4db8d9da2a6f",
+    "uuid": "6366663b-5213-48ee-86c5-4db8d9da2a6f",
+    "status": "published",
+    "publishDate": "2022-01-31T17:00:18.980511",
+    "archiveDate": null,
+    "skillName": "Structured Environment Financial Records",
+    "skillStatement": "Record basic financial transactions and balances in a structured environment to meet a limited need.",
+    "category": "Financial Accounting",
+    "keywords": [
+        "CPA",
+        "Accounting",
+        "Finance",
+        "Financial Accounting",
+        "Financial Accounting"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "structured-environment-financial-records"
+}

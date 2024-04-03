@@ -1,0 +1,173 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/d59fc0d3-c27a-405c-98c2-f822c07252cb",
+    "uuid": "d59fc0d3-c27a-405c-98c2-f822c07252cb",
+    "status": "published",
+    "publishDate": "2022-02-04T13:52:16.345288",
+    "archiveDate": null,
+    "skillName": "Active Listening Demonstration",
+    "skillStatement": "Demonstrate active listening skills during verbal communications.",
+    "category": "Verbal Communication Skills",
+    "keywords": [
+        "NICE_SP_RSK",
+        "NICE_SP_DEV",
+        "NICE_SP_ARC",
+        "NICE_SP_TRD",
+        "NICE_SP_SRP",
+        "NICE_SP_TST",
+        "NICE_SP_SYS",
+        "NICE_OV_MGT",
+        "NICE_AN_TWA",
+        "NICE_AN_EXP",
+        "NICE_AN_ASA",
+        "NICE_AN_TGT",
+        "NICE_AN_LNG",
+        "NICE_CO_CLO",
+        "NICE_CO_OPL",
+        "NICE_CO_OPS",
+        "NICE_OV_PMA",
+        "GeneralEducation2019",
+        "NICE_PR_CIR",
+        "NICE_IN_INV",
+        "NICE_IN_FOR",
+        "NICE_PR_CDA",
+        "NICE_PR_INF",
+        "NICE_OV_SPP",
+        "NICE_OV_EXL",
+        "NICE_OV_LGA",
+        "NICE_OV_TEA",
+        "Verbal Communication Skills",
+        "Oral Communication",
+        "Active Listening",
+        "https://skills.emsidata.com/skills/KS441S06L3NZBK0D6JM8",
+        "Verbal Communication Skills",
+        "WGUSID: 6606"
+    ],
+    "occupations": [
+        {
+            "code": "11-0000",
+            "targetNodeName": "Management Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3030",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3031",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1110",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1111",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1160",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1161",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-0000",
+            "targetNodeName": "Computer and Mathematical Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "17-0000",
+            "targetNodeName": "Architecture and Engineering Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "17-2080",
+            "targetNodeName": "Environmental Engineers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "17-2110",
+            "targetNodeName": "Industrial Engineers, Including Health and Safety",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "17-2190",
+            "targetNodeName": "Miscellaneous Engineers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "17-3020",
+            "targetNodeName": "Engineering Technologists and Technicians, Except Drafters",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "19-0000",
+            "targetNodeName": "Life, Physical, and Social Science Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "19-4090",
+            "targetNodeName": "Miscellaneous Life, Physical, and Social Science Technicians",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "33-0000",
+            "targetNodeName": "Protective Service Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "33-1010",
+            "targetNodeName": "First-Line Supervisors of Law Enforcement Workers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "33-3010",
+            "targetNodeName": "Bailiffs, Correctional Officers, and Jailers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "33-3020",
+            "targetNodeName": "Detectives and Criminal Investigators",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "33-3050",
+            "targetNodeName": "Police Officers",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "active-listening-demonstration"
+}

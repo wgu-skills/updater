@@ -1,0 +1,173 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/10657f62-ef05-45ca-9416-af830822e7ce",
+    "uuid": "10657f62-ef05-45ca-9416-af830822e7ce",
+    "status": "published",
+    "publishDate": "2022-02-11T20:43:09.768202",
+    "archiveDate": null,
+    "skillName": "Lead Internal Employee Training",
+    "skillStatement": "Lead internal training to improve employee productivity and work-relationships.",
+    "category": "Training And Development",
+    "keywords": [
+        "ATD.Prof.EI",
+        "ATD.Prof.ID",
+        "ATD.Prof.TDF",
+        "ISTE.Coach.C.3a",
+        "ISTE.Coach.CA.1a",
+        "ISTE.Coach.CA.1c",
+        "ISTE.Coach.CL.2c",
+        "ISTE.Coach.PLF.5b",
+        "InTASC_3l",
+        "ISTE.Coach.PLF.5c",
+        "ATD.Org.ODC",
+        "ATD.Pers.CL",
+        "ATD.Org.CBP",
+        "ATD.Prof.KM",
+        "ISTE.Coach.PLF.5a",
+        "Training and Development",
+        "ISTE_EdLeaders_2a",
+        "Training And Development",
+        "ISTE.Coach.PLF.5cISTE_Educators_2a",
+        "productivity",
+        "relationships",
+        "computer",
+        "Hand tools",
+        "pen",
+        "pencil",
+        "office equipment",
+        "production equipment",
+        "WGUSID: 2417.1"
+    ],
+    "occupations": [
+        {
+            "code": "11-0000",
+            "targetNodeName": "Management Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3030",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3031",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1110",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1111",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1160",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1161",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-0000",
+            "targetNodeName": "Computer and Mathematical Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "17-0000",
+            "targetNodeName": "Architecture and Engineering Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "17-2080",
+            "targetNodeName": "Environmental Engineers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "17-2110",
+            "targetNodeName": "Industrial Engineers, Including Health and Safety",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "17-2190",
+            "targetNodeName": "Miscellaneous Engineers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "17-3020",
+            "targetNodeName": "Engineering Technologists and Technicians, Except Drafters",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "19-0000",
+            "targetNodeName": "Life, Physical, and Social Science Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "25-0000",
+            "targetNodeName": "Educational Instruction and Library Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "25-4020",
+            "targetNodeName": "Librarians and Media Collections Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "25-9030",
+            "targetNodeName": "Instructional Coordinators",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "25-9031",
+            "targetNodeName": "Instructional Coordinators",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "25-9090",
+            "targetNodeName": "Miscellaneous Educational Instruction and Library Workers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "33-0000",
+            "targetNodeName": "Protective Service Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "33-1010",
+            "targetNodeName": "First-Line Supervisors of Law Enforcement Workers",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "lead-internal-employee-training"
+}

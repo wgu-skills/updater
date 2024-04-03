@@ -1,0 +1,57 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/4801bac8-439e-42ad-8a47-41e504875b79",
+    "uuid": "4801bac8-439e-42ad-8a47-41e504875b79",
+    "status": "published",
+    "publishDate": "2022-02-08T15:56:45.253608",
+    "archiveDate": null,
+    "skillName": "Tax Estimates Monitoring",
+    "skillStatement": "Monitor business tax estimates to ensure adequacy of tax payments.",
+    "category": "Tax Planning",
+    "keywords": [
+        "CPA",
+        "Tableau",
+        "Bloomberg",
+        "QuickBooks",
+        "Sage",
+        "Microsoft Office Suite",
+        "SAS",
+        "Reuters",
+        "LotusNotes",
+        "Tax Planning",
+        "Tax Planning",
+        "WGUSID: 7798"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2082",
+            "targetNodeName": "Tax Preparers",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "tax-estimates-monitoring"
+}

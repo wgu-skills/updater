@@ -1,0 +1,75 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/deb71769-e2e2-4087-893f-a287ebce3412",
+    "uuid": "deb71769-e2e2-4087-893f-a287ebce3412",
+    "status": "published",
+    "publishDate": "2022-02-04T15:27:25.347361",
+    "archiveDate": null,
+    "skillName": "Provide Tax Assessment Quality Control",
+    "skillStatement": "Provide quality control and supervises the final output of tax assessments and ensures proper documentation and records are maintained.",
+    "category": "Property Tax",
+    "keywords": [
+        "CPA",
+        "CIA",
+        "Property Tax",
+        "Property Tax",
+        "WGUSID: 5817"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "provide-tax-assessment-quality-control"
+}

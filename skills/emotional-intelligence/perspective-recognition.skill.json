@@ -1,0 +1,198 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/772c9d7b-a6e7-439c-a976-47a77f50e207",
+    "uuid": "772c9d7b-a6e7-439c-a976-47a77f50e207",
+    "status": "published",
+    "publishDate": "2022-02-23T22:20:00.378941",
+    "archiveDate": null,
+    "skillName": "Perspective Recognition",
+    "skillStatement": "Recognize the intellectual and emotional dimensions of other's perspectives using these insights to inform interactions in a variety of business situations.",
+    "category": "Emotional Intelligence",
+    "keywords": [
+        "ATD.Prof.ID",
+        "ATD.Prof.TDF",
+        "ISTE.Coach.C.3a",
+        "ISTE.Coach.CA.1a",
+        "ISTE.Coach.CA.1c",
+        "ISTE.Coach.CL.2c",
+        "ISTE.Coach.PLF.5b",
+        "ISTE.Coach.PLF.5c",
+        "ATD.Org.ODC",
+        "ATD.Prof.LS",
+        "ATD.Org.CBP",
+        "ISTE.Coach.CL.2a",
+        "ISTE.Coach.CL.2b",
+        "ISTE.Coach.PLF.5a",
+        "ISTE.Coach.DCA.7a",
+        "ISTE.Coach.DCA.7b",
+        "ISTE.Coach.CA.1e",
+        "ATD.Pers.CA",
+        "ATD.Pers.LL",
+        "Emotional Intelligence",
+        "Emotional Intelligence",
+        "BCore",
+        "AppBizSkl",
+        "ISTE-Educators-3b",
+        "ISTE-Educators-4d",
+        "InTASC-3a",
+        "InTASC-3b",
+        "InTASC-3e",
+        "InTASC-3f",
+        "InTASC-3h",
+        "InTASC-3i",
+        "InTASC-3l",
+        "InTASC-3n",
+        "InTASC-3o",
+        "InTASC-4f",
+        "InTASC-4g",
+        "InTASC-5d",
+        "InTASC-6o",
+        "InTASC-8n",
+        "ISTE-EdLeaders-2c",
+        "ISTE.Coach.PLF.5cISTE-Educators-3a"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011.00",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "13-2011.01"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031.00",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041.00",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061.00",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081.00",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "15-0000",
+            "targetNodeName": "Computer and Mathematical Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-1122.00"
+        },
+        {
+            "code": "15-1210",
+            "targetNodeName": "Computer and Information Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "25-0000",
+            "targetNodeName": "Educational Instruction and Library Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "25-4020",
+            "targetNodeName": "Librarians and Media Collections Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "25-4022",
+            "targetNodeName": "Librarians and Media Collections Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "25-9011.00"
+        },
+        {
+            "code": "25-9030",
+            "targetNodeName": "Instructional Coordinators",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "25-9031",
+            "targetNodeName": "Instructional Coordinators",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "25-9031.00",
+            "targetNodeName": "Instructional Coordinators",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "25-9031.01"
+        },
+        {
+            "code": "25-9090",
+            "targetNodeName": "Miscellaneous Educational Instruction and Library Workers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "25-9099.00",
+            "targetNodeName": "Educational Instruction and Library Workers, All Other",
+            "frameworkName": "o*net"
+        }
+    ],
+    "slug": "perspective-recognition"
+}

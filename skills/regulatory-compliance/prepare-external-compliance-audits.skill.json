@@ -1,0 +1,73 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/8f4e5ccb-c019-4a41-8506-baba41aa1070",
+    "uuid": "8f4e5ccb-c019-4a41-8506-baba41aa1070",
+    "status": "published",
+    "publishDate": "2022-02-04T15:27:26.323311",
+    "archiveDate": null,
+    "skillName": "Prepare External Compliance Audits",
+    "skillStatement": "Prepare for external compliance audits by promptly carrying out internal audits to ensure all regulatory requirements are duly followed.",
+    "category": "Regulatory Compliance",
+    "keywords": [
+        "Regulatory Compliance",
+        "Regulatory Compliance",
+        "WGUSID: 5565"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "prepare-external-compliance-audits"
+}

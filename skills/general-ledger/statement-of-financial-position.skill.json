@@ -1,0 +1,78 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/d73a014d-2de5-4dc7-b6d3-84e1f0eb96d2",
+    "uuid": "d73a014d-2de5-4dc7-b6d3-84e1f0eb96d2",
+    "status": "published",
+    "publishDate": "2022-01-31T16:58:57.739602",
+    "archiveDate": null,
+    "skillName": "Statement of Financial Position",
+    "skillStatement": "Derive the statement of financial position from the general ledger (GL).",
+    "category": "General Ledger",
+    "keywords": [
+        "CPA",
+        "CMA_BU",
+        "CIA",
+        "General Ledger",
+        "General Ledger Accounting",
+        "General Ledger Reconciliation",
+        "WGUSID: 1982",
+        "General Ledger"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "statement-of-financial-position"
+}

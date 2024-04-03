@@ -1,0 +1,252 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/4eeb95d7-7212-4868-9c64-8b07e88cf50c",
+    "uuid": "4eeb95d7-7212-4868-9c64-8b07e88cf50c",
+    "status": "published",
+    "publishDate": "2022-01-25T16:52:06.341928",
+    "archiveDate": null,
+    "skillName": "Motivational Employee Meeting Leadership",
+    "skillStatement": "Lead employee meetings for increasing motivation and team spirit.",
+    "category": "Verbal Communication Skills",
+    "keywords": [
+        "Business_Ethics",
+        "Professional_Ethics",
+        "NICE_SP_RSK",
+        "NICE_SP_DEV",
+        "NICE_SP_ARC",
+        "NICE_SP_TRD",
+        "NICE_SP_SRP",
+        "NICE_SP_TST",
+        "NICE_SP_SYS",
+        "NICE_OV_MGT",
+        "NICE_AN_TWA",
+        "NICE_AN_EXP",
+        "NICE_AN_ASA",
+        "NICE_AN_TGT",
+        "NICE_AN_LNG",
+        "NICE_CO_CLO",
+        "NICE_CO_OPL",
+        "NICE_CO_OPS",
+        "NICE_OV_PMA",
+        "21st_Century_Skills",
+        "Communications",
+        "Doing",
+        "SEL: Interpersonal Communication",
+        "SEL",
+        "NICE_OV_SPP",
+        "NICE_OV_EXL",
+        "NICE_OV_LGA",
+        "NICE_OV_TEA",
+        "Verbal Communication Skills",
+        "Oral Communication",
+        "Verbal Communication Skills",
+        "WGUSID: 5247.1"
+    ],
+    "occupations": [
+        {
+            "code": "11-0000",
+            "targetNodeName": "Management Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-1010",
+            "targetNodeName": "Chief Executives",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-1011",
+            "targetNodeName": "Chief Executives",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-1020",
+            "targetNodeName": "General and Operations Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-1021",
+            "targetNodeName": "General and Operations Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-2020",
+            "targetNodeName": "Marketing and Sales Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-2022",
+            "targetNodeName": "Sales Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3010",
+            "targetNodeName": "Administrative Services and Facilities Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3030",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3031",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3050",
+            "targetNodeName": "Industrial Production Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3051",
+            "targetNodeName": "Industrial Production Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3070",
+            "targetNodeName": "Transportation, Storage, and Distribution Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3071",
+            "targetNodeName": "Transportation, Storage, and Distribution Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-9020",
+            "targetNodeName": "Construction Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-9021",
+            "targetNodeName": "Construction Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-9150",
+            "targetNodeName": "Social and Community Service Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-9151",
+            "targetNodeName": "Social and Community Service Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-9190",
+            "targetNodeName": "Miscellaneous Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-9198",
+            "targetNodeName": "Personal Service Managers, All Other; Entertainment and Recreation Managers, Except Gambling; and Managers, All Other",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1050",
+            "targetNodeName": "Cost Estimators",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1051",
+            "targetNodeName": "Cost Estimators",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1070",
+            "targetNodeName": "Human Resources Workers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1071",
+            "targetNodeName": "Human Resources Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1110",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1111",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1160",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1161",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-0000",
+            "targetNodeName": "Computer and Mathematical Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "19-0000",
+            "targetNodeName": "Life, Physical, and Social Science Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "33-0000",
+            "targetNodeName": "Protective Service Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "33-1010",
+            "targetNodeName": "First-Line Supervisors of Law Enforcement Workers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "33-3020",
+            "targetNodeName": "Detectives and Criminal Investigators",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "33-3050",
+            "targetNodeName": "Police Officers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "37-0000",
+            "targetNodeName": "Building and Grounds Cleaning and Maintenance Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "39-0000",
+            "targetNodeName": "Personal Care and Service Occupations",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "motivational-employee-meeting-leadership"
+}

@@ -1,0 +1,87 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/c64f703e-b1f0-41bb-837c-05363026d46c",
+    "uuid": "c64f703e-b1f0-41bb-837c-05363026d46c",
+    "status": "published",
+    "publishDate": "2022-02-03T19:16:14.318128",
+    "archiveDate": null,
+    "skillName": "Operating Budget Control",
+    "skillStatement": "Control an annual operating budget that adheres to Sarbanes-Oxley (SOX) controls for planned budget allocations.",
+    "category": "Budgeting",
+    "keywords": [
+        "CPA",
+        "CMA",
+        "Budgeting",
+        "Budget Management",
+        "Project Budgeting",
+        "Budgeting",
+        "WGUSID: 3498.1"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "33-0000",
+            "targetNodeName": "Protective Service Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "33-1010",
+            "targetNodeName": "First-Line Supervisors of Law Enforcement Workers",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "operating-budget-control"
+}

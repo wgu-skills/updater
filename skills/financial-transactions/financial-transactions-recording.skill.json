@@ -1,0 +1,57 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/782225ee-5132-49c1-8050-f64a7c81914c",
+    "uuid": "782225ee-5132-49c1-8050-f64a7c81914c",
+    "status": "published",
+    "publishDate": "2022-09-15T18:25:59.936875",
+    "archiveDate": null,
+    "skillName": "Financial Transactions Recording",
+    "skillStatement": "Record financial transactions, including purchases, sales, receipts, and payments by an individual or an organization/corporation.",
+    "category": "Financial Transactions",
+    "keywords": [
+        "Finance",
+        "Financial Transactions"
+    ],
+    "occupations": [
+        {
+            "code": "13-2011.00",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "13-2031.00",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "13-2041.00",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "13-2051.00",
+            "targetNodeName": "Financial and Investment Analysts",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "13-2054.00",
+            "targetNodeName": "Financial Risk Specialists",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "13-2061.00",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "13-2081.00",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "13-2099.00",
+            "targetNodeName": "Financial Specialists, All Other",
+            "frameworkName": "o*net"
+        }
+    ],
+    "slug": "financial-transactions-recording"
+}

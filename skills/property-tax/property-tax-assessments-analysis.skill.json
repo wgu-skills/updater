@@ -1,0 +1,74 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/a5196da7-b0d4-4608-b0ec-177c539509b9",
+    "uuid": "a5196da7-b0d4-4608-b0ec-177c539509b9",
+    "status": "published",
+    "publishDate": "2022-02-04T15:25:35.802235",
+    "archiveDate": null,
+    "skillName": "Property Tax Assessments Analysis",
+    "skillStatement": "Analyze client property tax assessments and records to determine all property tax refunds due.",
+    "category": "Property Tax",
+    "keywords": [
+        "CPA",
+        "Property Tax",
+        "Property Tax",
+        "WGUSID: 214"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "property-tax-assessments-analysis"
+}

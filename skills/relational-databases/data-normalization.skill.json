@@ -1,0 +1,126 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/26831a67-0fe8-4429-a78e-88b20e87e134",
+    "uuid": "26831a67-0fe8-4429-a78e-88b20e87e134",
+    "status": "published",
+    "publishDate": "2022-02-04T15:26:06.142887",
+    "archiveDate": null,
+    "skillName": "Data Normalization",
+    "skillStatement": "Normalize data to optimize storage in a relational database.",
+    "category": "Relational Databases",
+    "keywords": [
+        "AZ DP-203",
+        "SQL",
+        "Relational Databases",
+        "RDBMS",
+        "Relational Databases",
+        "WGUSID: 7667"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1070",
+            "targetNodeName": "Human Resources Workers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1071",
+            "targetNodeName": "Human Resources Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1075",
+            "targetNodeName": "Labor Relations Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1110",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1111",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1140",
+            "targetNodeName": "Compensation, Benefits, and Job Analysis Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1141",
+            "targetNodeName": "Compensation, Benefits, and Job Analysis Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1190",
+            "targetNodeName": "Miscellaneous Business Operations Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1198",
+            "targetNodeName": "Project Management Specialists and Business Operations Specialists, All Other",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2050",
+            "targetNodeName": "Financial Analysts and Advisors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "data-normalization"
+}

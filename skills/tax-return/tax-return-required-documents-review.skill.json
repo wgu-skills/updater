@@ -1,0 +1,55 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/aa3c466a-2d0f-4c9f-9a22-724242f860fd",
+    "uuid": "aa3c466a-2d0f-4c9f-9a22-724242f860fd",
+    "status": "published",
+    "publishDate": "2022-02-08T15:56:53.612958",
+    "archiveDate": null,
+    "skillName": "Tax Return Required Documents Review",
+    "skillStatement": "Review documents needed to complete a tax return for an individual or business.",
+    "category": "Tax Return",
+    "keywords": [
+        "CPA",
+        "Tax Return",
+        "Federal Tax Returns",
+        "Tax Returns",
+        "Tax Return",
+        "ATX Total Tax Office",
+        "BNA Income Tax Planning Solutions",
+        "Intuit Lacerte",
+        "Orrtax Software IntelliTax Classic",
+        "WGUSID: 7808"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "tax-return-required-documents-review"
+}

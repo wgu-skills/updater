@@ -1,0 +1,84 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/bfc427de-1a19-48c7-b474-13ff9a3f79bf",
+    "uuid": "bfc427de-1a19-48c7-b474-13ff9a3f79bf",
+    "status": "published",
+    "publishDate": "2022-01-31T16:58:55.950404",
+    "archiveDate": null,
+    "skillName": "Financial Forecasts Preparation",
+    "skillStatement": "Prepare financial forecasts that can be used to make strategic business decisions.",
+    "category": "Financial Accounting",
+    "keywords": [
+        "Decision Making",
+        "CPA",
+        "CMA",
+        "Accounting",
+        "Finance",
+        "Forecasting",
+        "Strategy",
+        "Business Strategy",
+        "Business Strategies",
+        "Microsoft Access",
+        "Financial Accounting",
+        "Financial Accounting",
+        "ACL Analytics",
+        "LexisNexis"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1110",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1111",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2050",
+            "targetNodeName": "Financial Analysts and Advisors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2082",
+            "targetNodeName": "Tax Preparers",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "financial-forecasts-preparation"
+}

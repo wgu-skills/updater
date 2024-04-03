@@ -1,0 +1,60 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/154f5b94-a95c-4936-b349-d1ab92f368f1",
+    "uuid": "154f5b94-a95c-4936-b349-d1ab92f368f1",
+    "status": "published",
+    "publishDate": "2022-02-04T15:26:45.105414",
+    "archiveDate": null,
+    "skillName": "Auditor Objectivity Assessment",
+    "skillStatement": "Assess an individual internal auditor's objectivity.",
+    "category": "Internal Auditing",
+    "keywords": [
+        "CPA",
+        "CIA",
+        "Internal Auditing",
+        "Internal Auditing",
+        "WGUSID: 10314"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2050",
+            "targetNodeName": "Financial Analysts and Advisors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "auditor-objectivity-assessment"
+}

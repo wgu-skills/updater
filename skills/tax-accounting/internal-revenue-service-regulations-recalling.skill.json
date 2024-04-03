@@ -1,0 +1,74 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/6568db63-4395-4bdd-8d4a-ac9d3e43dfc3",
+    "uuid": "6568db63-4395-4bdd-8d4a-ac9d3e43dfc3",
+    "status": "published",
+    "publishDate": "2022-02-08T15:56:43.873784",
+    "archiveDate": null,
+    "skillName": "Internal Revenue Service Regulations Recalling",
+    "skillStatement": "Recall the regulations governing practice before the Internal Revenue Service.",
+    "category": "Tax Accounting",
+    "keywords": [
+        "CPA",
+        "Tax Accounting",
+        "Tax Accounting",
+        "WGUSID: 10382"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "internal-revenue-service-regulations-recalling"
+}

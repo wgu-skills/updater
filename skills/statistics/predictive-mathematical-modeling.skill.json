@@ -1,0 +1,125 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/e45759f4-3202-4501-85ed-e3eec11ae63c",
+    "uuid": "e45759f4-3202-4501-85ed-e3eec11ae63c",
+    "status": "published",
+    "publishDate": "2022-02-04T22:08:45.93091",
+    "archiveDate": null,
+    "skillName": "Predictive Mathematical Modeling",
+    "skillStatement": "Create mathematical models to be used for prediction.",
+    "category": "Statistics",
+    "keywords": [
+        "NICE_AN_TWA",
+        "NICE_AN_EXP",
+        "NICE_AN_ASA",
+        "NICE_AN_LNG",
+        "CPA",
+        "NICE_OM_DTA",
+        "CMA_BU",
+        "CIA",
+        "SAS",
+        "MATLAB",
+        "Statistics",
+        "Python",
+        "R",
+        "Statistics",
+        "WGUSID: 1645"
+    ],
+    "occupations": [
+        {
+            "code": "11-0000",
+            "targetNodeName": "Management Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3030",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3031",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1110",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1111",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1160",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1161",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-0000",
+            "targetNodeName": "Computer and Mathematical Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-1220",
+            "targetNodeName": "Computer and Information Research Scientists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-1221",
+            "targetNodeName": "Computer and Information Research Scientists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-2030",
+            "targetNodeName": "Operations Research Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-2031",
+            "targetNodeName": "Operations Research Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-2090",
+            "targetNodeName": "Miscellaneous Mathematical Science Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "19-0000",
+            "targetNodeName": "Life, Physical, and Social Science Occupations",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "predictive-mathematical-modeling"
+}

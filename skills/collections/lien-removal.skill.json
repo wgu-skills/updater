@@ -1,0 +1,54 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/0eeeead6-54f6-4fb3-a898-5cf9c89b31e3",
+    "uuid": "0eeeead6-54f6-4fb3-a898-5cf9c89b31e3",
+    "status": "published",
+    "publishDate": "2022-02-03T19:16:42.380401",
+    "archiveDate": null,
+    "skillName": "Lien Removal",
+    "skillStatement": "Remove a lien once a customer has paid past-due accounts in full.",
+    "category": "Collections",
+    "keywords": [
+        "CPA",
+        "Collections",
+        "Collections",
+        "WGUSID: 7158"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "lien-removal"
+}

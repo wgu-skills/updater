@@ -1,0 +1,175 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/2018de52-4873-40cc-9030-5cd59fe0e5c2",
+    "uuid": "2018de52-4873-40cc-9030-5cd59fe0e5c2",
+    "status": "published",
+    "publishDate": "2022-01-31T16:59:21.969681",
+    "archiveDate": null,
+    "skillName": "Financial Statement Preparation for Accounting",
+    "skillStatement": "Prepare financial statements in accordance with generally accepted accounting principles (GAAP).",
+    "category": "Accounting",
+    "keywords": [
+        "ATD.Prof.TDF",
+        "ATD.Pers.PM",
+        "CPA",
+        "SAP",
+        "Microsoft Excel",
+        "CIA",
+        "Sage",
+        "Accounting",
+        "Month-End Close Processes",
+        "Accounting",
+        "Generally Accepted Accounting Principles",
+        "Generally Accepted Accounting Principles (GAAP)",
+        "GAAP",
+        "Oracle",
+        "Financial Statements",
+        "Crystal reports",
+        "IBM Cognos",
+        "Fund Accounting Coftware",
+        "Intuit",
+        "QuickBooks Hot technology",
+        "Sage 50 Accounting",
+        "Tax Software",
+        "Accounting Standards Codification (ASC)",
+        "WGUSID: 6993",
+        "7380"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1050",
+            "targetNodeName": "Cost Estimators",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1051",
+            "targetNodeName": "Cost Estimators",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1070",
+            "targetNodeName": "Human Resources Workers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1071",
+            "targetNodeName": "Human Resources Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1080",
+            "targetNodeName": "Logisticians and Project Management Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1081",
+            "targetNodeName": "Logisticians",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1110",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1111",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1140",
+            "targetNodeName": "Compensation, Benefits, and Job Analysis Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1141",
+            "targetNodeName": "Compensation, Benefits, and Job Analysis Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1150",
+            "targetNodeName": "Training and Development Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1151",
+            "targetNodeName": "Training and Development Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1190",
+            "targetNodeName": "Miscellaneous Business Operations Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2050",
+            "targetNodeName": "Financial Analysts and Advisors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2082",
+            "targetNodeName": "Tax Preparers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "33-0000",
+            "targetNodeName": "Protective Service Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "33-3020",
+            "targetNodeName": "Detectives and Criminal Investigators",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "financial-statement-preparation-for-accounting"
+}

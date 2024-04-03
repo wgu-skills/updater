@@ -1,0 +1,78 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/580c67fd-bf8c-477d-8922-5c82854f165b",
+    "uuid": "580c67fd-bf8c-477d-8922-5c82854f165b",
+    "status": "published",
+    "publishDate": "2022-02-03T19:17:51.03664",
+    "archiveDate": null,
+    "skillName": "Cash Flow Analysis",
+    "skillStatement": "Analyze cash flows in spreadsheet software using macros for advanced data manipulation.",
+    "category": "Accounting Software",
+    "keywords": [
+        "Excel",
+        "CPA",
+        "CMA_BU",
+        "CIA",
+        "Accounting software",
+        "QuickBooks",
+        "WGUSID: 211",
+        "Accounting Software"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "cash-flow-analysis"
+}

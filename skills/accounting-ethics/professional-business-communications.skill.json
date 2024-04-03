@@ -1,0 +1,77 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/6c0de63d-5b91-4ca1-9ef9-434dd895bded",
+    "uuid": "6c0de63d-5b91-4ca1-9ef9-434dd895bded",
+    "status": "published",
+    "publishDate": "2022-02-03T19:16:59.428219",
+    "archiveDate": null,
+    "skillName": "Professional Business Communications",
+    "skillStatement": "Communicate straightforwardness and honesty in all professional and business relationships.",
+    "category": "Accounting Ethics",
+    "keywords": [
+        "CPA",
+        "CMA_BU",
+        "CIA",
+        "CFE",
+        "Accounting Ethics",
+        "Accounting Ethics",
+        "WGUSID: 10159"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "professional-business-communications"
+}

@@ -1,0 +1,54 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/874b3fed-6247-49e5-bceb-2f3baa8345df",
+    "uuid": "874b3fed-6247-49e5-bceb-2f3baa8345df",
+    "status": "published",
+    "publishDate": "2022-02-08T15:56:36.118406",
+    "archiveDate": null,
+    "skillName": "Income Tax Returns Review",
+    "skillStatement": "Review federal and state income tax returns.",
+    "category": "Tax Accounting",
+    "keywords": [
+        "CPA",
+        "CIA",
+        "Tax Accounting",
+        "Tax Accounting",
+        "ATX Total Tax Office",
+        "BNA Income Tax Planning Solutions",
+        "Intuit Lacerte",
+        "Orrtax Software IntelliTax Classic",
+        "WGUSID: 7783"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2082",
+            "targetNodeName": "Tax Preparers",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "income-tax-returns-review"
+}

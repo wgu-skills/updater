@@ -1,0 +1,96 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/93480235-24d7-4c98-aa01-ce0ec15f48ad",
+    "uuid": "93480235-24d7-4c98-aa01-ce0ec15f48ad",
+    "status": "published",
+    "publishDate": "2022-01-31T17:01:40.714101",
+    "archiveDate": null,
+    "skillName": "Financial Accounting Standards Board (FASB) Documentation Communication",
+    "skillStatement": "Communicate current and relevant Financial Accounting Standards Board (FASB) documentation and findings throughout an organization.",
+    "category": "Financial Accounting Standards Board",
+    "keywords": [
+        "NICE_AN_LNG",
+        "Communications",
+        "CPA",
+        "CIA",
+        "Accounting",
+        "Financial Accounting Standards Board",
+        "FASB",
+        "Financial Accountability Standards Board (FASB)",
+        "Financial Accountability Standards Board (FASB) Certified",
+        "WGUSID: 1040",
+        "Financial Accounting Standards Board"
+    ],
+    "occupations": [
+        {
+            "code": "11-0000",
+            "targetNodeName": "Management Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3030",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3031",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1110",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1111",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1160",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1161",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-0000",
+            "targetNodeName": "Computer and Mathematical Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "19-0000",
+            "targetNodeName": "Life, Physical, and Social Science Occupations",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "financial-accounting-standards-board-fasb-documentation-communication"
+}

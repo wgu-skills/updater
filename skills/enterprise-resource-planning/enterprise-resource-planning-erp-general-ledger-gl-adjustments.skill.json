@@ -1,0 +1,73 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/9f65604a-a4e5-48bc-943f-45d9fe2d76bd",
+    "uuid": "9f65604a-a4e5-48bc-943f-45d9fe2d76bd",
+    "status": "published",
+    "publishDate": "2022-02-03T19:17:12.033024",
+    "archiveDate": null,
+    "skillName": "Enterprise Resource Planning (ERP) General Ledger (GL) Adjustments",
+    "skillStatement": "Perform monthly adjustments to the enterprise resource planning (ERP) general ledger (GL).",
+    "category": "Enterprise Resource Planning",
+    "keywords": [
+        "Enterprise Resource Planning",
+        "Enterprise Resource Planning",
+        "WGUSID: 5418"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "enterprise-resource-planning-erp-general-ledger-gl-adjustments"
+}

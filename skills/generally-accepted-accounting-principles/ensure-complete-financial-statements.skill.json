@@ -1,0 +1,74 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/7bbec0d4-2d8a-402e-8cf6-2c132a555107",
+    "uuid": "7bbec0d4-2d8a-402e-8cf6-2c132a555107",
+    "status": "published",
+    "publishDate": "2022-01-31T17:01:41.916675",
+    "archiveDate": null,
+    "skillName": "Ensure Complete Financial Statements",
+    "skillStatement": "Ensure a company's financial statements are complete and consistent.",
+    "category": "Generally Accepted Accounting Principles",
+    "keywords": [
+        "CPA",
+        "CIA",
+        "Accounting",
+        "Generally Accepted Accounting Principles",
+        "Generally Accepted Accounting Principles (GAAP)",
+        "GAAP",
+        "Financial Statements",
+        "Sage 50 Accounting",
+        "Tax Software",
+        "Accounting Standards Codification (ASC)",
+        "Generally Accepted Accounting Principles",
+        "Fund Accounting Software",
+        "Intuit QuickBooks Hot Technology",
+        "WGUSID: 7379"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2050",
+            "targetNodeName": "Financial Analysts and Advisors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2082",
+            "targetNodeName": "Tax Preparers",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "ensure-complete-financial-statements"
+}

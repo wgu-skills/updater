@@ -1,0 +1,105 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/c0fce8b9-f7ec-46bc-b72b-99930a9913a4",
+    "uuid": "c0fce8b9-f7ec-46bc-b72b-99930a9913a4",
+    "status": "published",
+    "publishDate": "2022-01-27T22:23:47.458753",
+    "archiveDate": null,
+    "skillName": "Analyze the Need for Active Listening in Various Situations",
+    "skillStatement": "Analyze how to use active listening in a variety of situations, to build relationships characterized by positive regard, trust, and active engagement.",
+    "category": "Active Listening",
+    "keywords": [
+        "Active Listening",
+        "Active Listening",
+        "Social Emotional Learning (SEL): General",
+        "Social Emotional Learning (SEL): Interpersonal Communication",
+        "WGUSID: 268"
+    ],
+    "occupations": [
+        {
+            "code": "11-0000",
+            "targetNodeName": "Management Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3030",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3031",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1110",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1111",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1160",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1161",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-0000",
+            "targetNodeName": "Computer and Mathematical Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "19-0000",
+            "targetNodeName": "Life, Physical, and Social Science Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "33-0000",
+            "targetNodeName": "Protective Service Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "33-1010",
+            "targetNodeName": "First-Line Supervisors of Law Enforcement Workers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "33-3010",
+            "targetNodeName": "Bailiffs, Correctional Officers, and Jailers",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "analyze-the-need-for-active-listening-in-various-situations"
+}

@@ -1,0 +1,73 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/0827a9ef-8966-4e2f-8a03-333a981e4467",
+    "uuid": "0827a9ef-8966-4e2f-8a03-333a981e4467",
+    "status": "published",
+    "publishDate": "2022-02-07T21:30:38.321432",
+    "archiveDate": null,
+    "skillName": "Non-Compliance Reporting Policy Development",
+    "skillStatement": "Develop policies and procedures to report non-compliance to statutory accounting principles (SAP).",
+    "category": "Statutory Accounting Principles",
+    "keywords": [
+        "Statutory Accounting Principles",
+        "Statutory Accounting Principles",
+        "WGUSID: 2558"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "non-compliance-reporting-policy-development"
+}

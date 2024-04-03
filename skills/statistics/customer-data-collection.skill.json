@@ -1,0 +1,104 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/40c34516-f393-4131-837c-4477abda5fce",
+    "uuid": "40c34516-f393-4131-837c-4477abda5fce",
+    "status": "published",
+    "publishDate": "2022-02-04T15:27:32.126285",
+    "archiveDate": null,
+    "skillName": "Customer Data Collection",
+    "skillStatement": "Collect data about customers and transactions.",
+    "category": "Statistics",
+    "keywords": [
+        "CPA",
+        "CMA",
+        "Data Entry Software Hot Technology",
+        "Microsoft Access Hot technology",
+        "Structured Query Language SQL Hot technology",
+        "Statistics",
+        "Statistics",
+        "Best Software CPAPayroll",
+        "WGUSID: 7753"
+    ],
+    "occupations": [
+        {
+            "code": "11-9033",
+            "targetNodeName": "Education Administrators, Postsecondary",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-9039",
+            "targetNodeName": "Education Administrators, All Other",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1110",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1111",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1160",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1161",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1190",
+            "targetNodeName": "Miscellaneous Business Operations Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1198",
+            "targetNodeName": "Project Management Specialists and Business Operations Specialists, All Other",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2050",
+            "targetNodeName": "Financial Analysts and Advisors",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "customer-data-collection"
+}

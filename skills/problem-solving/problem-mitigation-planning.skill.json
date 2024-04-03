@@ -1,0 +1,183 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/972c162b-6e6d-496c-9490-71e3a946585f",
+    "uuid": "972c162b-6e6d-496c-9490-71e3a946585f",
+    "status": "published",
+    "publishDate": "2022-02-04T15:26:52.936786",
+    "archiveDate": null,
+    "skillName": "Problem Mitigation Planning",
+    "skillStatement": "Develop a plan to mitigate or eliminate a problem.",
+    "category": "Problem Solving",
+    "keywords": [
+        "ATD.Org.DA",
+        "ATD.Prof.EI",
+        "ATD.Prof.ID",
+        "ATD.Prof.TDF",
+        "ISTE.Coach.C.3a",
+        "ISTE.Coach.CA.1a",
+        "ISTE.Coach.CA.1c",
+        "ISTE.Coach.CL.2c",
+        "ATD.Org.ODC",
+        "ATD.Pers.CL",
+        "ATD.Prof.KM",
+        "ISTE.Coach.CL.2a",
+        "ISTE.Coach.CL.2b",
+        "ISTE.Coach.PLF.5a",
+        "AZ-303",
+        "AZ-304",
+        "Problem Solving",
+        "AZ-900",
+        "ISTE.Coach.CA.1e",
+        "Troubleshooting (Problem Solving)",
+        "Problem Solving",
+        "AZ-204",
+        "AZ-104",
+        "AZ DP-203",
+        "Pareto chart",
+        "Fishbone Diagram",
+        "Root cause corrective analysis (RCCA)",
+        "WGUSID: 7601"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1070",
+            "targetNodeName": "Human Resources Workers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1071",
+            "targetNodeName": "Human Resources Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1075",
+            "targetNodeName": "Labor Relations Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1080",
+            "targetNodeName": "Logisticians and Project Management Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1081",
+            "targetNodeName": "Logisticians",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1110",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1111",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1140",
+            "targetNodeName": "Compensation, Benefits, and Job Analysis Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1141",
+            "targetNodeName": "Compensation, Benefits, and Job Analysis Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1150",
+            "targetNodeName": "Training and Development Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1151",
+            "targetNodeName": "Training and Development Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1160",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1161",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1190",
+            "targetNodeName": "Miscellaneous Business Operations Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1198",
+            "targetNodeName": "Project Management Specialists and Business Operations Specialists, All Other",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2050",
+            "targetNodeName": "Financial Analysts and Advisors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2082",
+            "targetNodeName": "Tax Preparers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "33-0000",
+            "targetNodeName": "Protective Service Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "33-1010",
+            "targetNodeName": "First-Line Supervisors of Law Enforcement Workers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "33-3020",
+            "targetNodeName": "Detectives and Criminal Investigators",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "33-3050",
+            "targetNodeName": "Police Officers",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "problem-mitigation-planning"
+}

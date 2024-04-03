@@ -1,0 +1,69 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/11c7ddac-2809-4907-84d1-8cfed11b5817",
+    "uuid": "11c7ddac-2809-4907-84d1-8cfed11b5817",
+    "status": "published",
+    "publishDate": "2022-02-04T15:25:40.283331",
+    "archiveDate": null,
+    "skillName": "Sarbanes-Oxley Act (SOX) Compliance Deficiencies Tracking",
+    "skillStatement": "Track the status of all identified Sarbanes-Oxley Act (SOX) compliance deficiencies.",
+    "category": "Sarbanes-Oxley Act (SOX) Compliance",
+    "keywords": [
+        "CPA",
+        "SAP",
+        "CIA",
+        "Finance",
+        "IBM Cognos",
+        "Sarbanes-Oxley Act (SOX) Compliance",
+        "Sarbanes-Oxley Act (SOX) Compliance",
+        "AS400",
+        "WGUSID: 7715"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2050",
+            "targetNodeName": "Financial Analysts and Advisors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2082",
+            "targetNodeName": "Tax Preparers",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "sarbanes-oxley-act-sox-compliance-deficiencies-tracking"
+}

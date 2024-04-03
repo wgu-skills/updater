@@ -1,0 +1,127 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/a441da69-fbeb-4daf-96dd-d2b2067bf81c",
+    "uuid": "a441da69-fbeb-4daf-96dd-d2b2067bf81c",
+    "status": "published",
+    "publishDate": "2022-02-04T20:55:00.29873",
+    "archiveDate": null,
+    "skillName": "Analyzed Problem Solution Implementation",
+    "skillStatement": "Implement a solution to an analyzed problem.",
+    "category": "Problem Solving",
+    "keywords": [
+        "NICE_SP_RSK",
+        "NICE_SP_DEV",
+        "NICE_SP_ARC",
+        "NICE_SP_TRD",
+        "NICE_SP_SRP",
+        "NICE_SP_TST",
+        "NICE_SP_SYS",
+        "NICE_OV_MGT",
+        "NICE_AN_TWA",
+        "NICE_AN_EXP",
+        "NICE_AN_ASA",
+        "NICE_AN_TGT",
+        "NICE_AN_LNG",
+        "NICE_CO_CLO",
+        "NICE_CO_OPL",
+        "NICE_CO_OPS",
+        "NICE_OV_PMA",
+        "NICE_OM_ANA",
+        "NICE_PR_CIR",
+        "NICE_OM_NET",
+        "NICE_OM_ADM",
+        "NICE_PR_CDA",
+        "NICE_PR_VAM",
+        "Problem Solving",
+        "NICE_PR_INF",
+        "NICE_OV_SPP",
+        "NICE_OV_EXL",
+        "NICE_OV_LGA",
+        "NICE_OV_TEA",
+        "NICE_OM_DTA",
+        "NICE_OM_STS",
+        "Troubleshooting (Problem Solving)",
+        "Problem Solving",
+        "WGUSID: 169"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13_2010"
+        },
+        {
+            "code": "13_2030"
+        },
+        {
+            "code": "13_2040"
+        },
+        {
+            "code": "13_2060"
+        },
+        {
+            "code": "13_2080"
+        },
+        {
+            "code": "15-0000",
+            "targetNodeName": "Computer and Mathematical Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15_1210"
+        },
+        {
+            "code": "19-0000",
+            "targetNodeName": "Life, Physical, and Social Science Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "19_4090"
+        },
+        {
+            "code": "33-0000",
+            "targetNodeName": "Protective Service Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "33_1010"
+        },
+        {
+            "code": "33_3010"
+        },
+        {
+            "code": "33_3020"
+        },
+        {
+            "code": "33_3050"
+        }
+    ],
+    "slug": "analyzed-problem-solution-implementation"
+}

@@ -1,0 +1,72 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/6e56e09e-091e-48ac-a9fa-cf963c0c4d89",
+    "uuid": "6e56e09e-091e-48ac-a9fa-cf963c0c4d89",
+    "status": "published",
+    "publishDate": "2022-02-03T19:18:15.757599",
+    "archiveDate": null,
+    "skillName": "Bad Debt Reserves Review",
+    "skillStatement": "Review bad debt reserves on an annual basis for determination of whether the reserve amount is sufficient.",
+    "category": "Accounts Receivable",
+    "keywords": [
+        "CPA",
+        "CMA_BU",
+        "CIA",
+        "Accounts Receivable",
+        "Accounts Receivable",
+        "CFE",
+        "WGUSID: 10181"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2050",
+            "targetNodeName": "Financial Analysts and Advisors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2082",
+            "targetNodeName": "Tax Preparers",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "bad-debt-reserves-review"
+}

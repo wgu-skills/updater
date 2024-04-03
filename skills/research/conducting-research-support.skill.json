@@ -1,0 +1,143 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/eda0beb4-b5f4-4531-9933-5c1a76f5d703",
+    "uuid": "eda0beb4-b5f4-4531-9933-5c1a76f5d703",
+    "status": "published",
+    "publishDate": "2022-02-08T22:53:29.736307",
+    "archiveDate": null,
+    "skillName": "Conducting Research Support",
+    "skillStatement": "Support researchers in conducting investigation and research analysis.",
+    "category": "Research",
+    "keywords": [
+        "21st_Century_Skills",
+        "Thinking",
+        "InTASC_3a",
+        "InTASC_3i",
+        "InTASC_4g",
+        "InTASC_8n",
+        "ATD.Org.DA",
+        "ATD.Prof.EI",
+        "ATD.Prof.ID",
+        "ATD.Prof.TA",
+        "ATD.Prof.TDF",
+        "InTASC_3b",
+        "InTASC_3e",
+        "InTASC_3h",
+        "InTASC_3l",
+        "InTASC_3o",
+        "InTASC_5d",
+        "ATD.Pers.CL",
+        "ATD.Pers.PM",
+        "ATD.Org.CBP",
+        "ATD.Prof.KM",
+        "InTASC_6o",
+        "InTASC_6s",
+        "SEL: Executive Function",
+        "SEL",
+        "ISTE_Educators_1c",
+        "Power_Skills_Framework",
+        "ISTE_EdLeaders_3a",
+        "ISTE_EdLeaders_2a",
+        "Research",
+        "Basic Research",
+        "Action Research",
+        "Applied Research",
+        "Clinical Research",
+        "Educational Research",
+        "Research And Development",
+        "Research Design",
+        "Research Experiences",
+        "Research Methodologies",
+        "Research Reports",
+        "Research",
+        "ATD.Prof.TDFISTE_Educators_1b",
+        "WGUSID: 781"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "25-0000",
+            "targetNodeName": "Educational Instruction and Library Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "25-4020",
+            "targetNodeName": "Librarians and Media Collections Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "25-4022",
+            "targetNodeName": "Librarians and Media Collections Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "25-9030",
+            "targetNodeName": "Instructional Coordinators",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "25-9031",
+            "targetNodeName": "Instructional Coordinators",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "25-9090",
+            "targetNodeName": "Miscellaneous Educational Instruction and Library Workers",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "conducting-research-support"
+}

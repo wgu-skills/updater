@@ -1,0 +1,68 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/a1778c8a-2bf9-4666-adae-517ba4f7f8e1",
+    "uuid": "a1778c8a-2bf9-4666-adae-517ba4f7f8e1",
+    "status": "published",
+    "publishDate": "2022-02-03T19:16:30.592252",
+    "archiveDate": null,
+    "skillName": "Export Financial Transactions",
+    "skillStatement": "Export financial transactions using accounting software.",
+    "category": "Accounting Software",
+    "keywords": [
+        "CPA",
+        "SAP",
+        "Microsoft Excel",
+        "CMA_BU",
+        "CIA",
+        "CFE",
+        "Accounting software",
+        "Sage",
+        "Oracle",
+        "Crystal reports",
+        "IBM Cognos",
+        "Accounting Software",
+        "WGUSID: 6994"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2050",
+            "targetNodeName": "Financial Analysts and Advisors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "export-financial-transactions"
+}

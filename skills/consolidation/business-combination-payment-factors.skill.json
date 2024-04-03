@@ -1,0 +1,55 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/14580867-7192-4161-bb04-a84832f95aa4",
+    "uuid": "14580867-7192-4161-bb04-a84832f95aa4",
+    "status": "published",
+    "publishDate": "2022-02-03T22:26:34.577365",
+    "archiveDate": null,
+    "skillName": "Business Combination Payment Factors",
+    "skillStatement": "Indicate factors used to determine the price and the method of payment for a business combination.",
+    "category": "Consolidation",
+    "keywords": [
+        "CPA",
+        "CMA",
+        "Consolidation",
+        "Consolidation",
+        "WGUSID: 10202"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "business-combination-payment-factors"
+}

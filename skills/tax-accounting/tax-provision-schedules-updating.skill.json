@@ -1,0 +1,53 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/ef7892c8-9cfb-4e8c-b7fc-c5db8f96310b",
+    "uuid": "ef7892c8-9cfb-4e8c-b7fc-c5db8f96310b",
+    "status": "published",
+    "publishDate": "2022-02-08T15:56:44.297428",
+    "archiveDate": null,
+    "skillName": "Tax Provision Schedules Updating",
+    "skillStatement": "Update tax provision schedules.",
+    "category": "Tax Accounting",
+    "keywords": [
+        "CPA",
+        "Tax Accounting",
+        "Tax Accounting",
+        "ATX Total Tax Office",
+        "BNA Income Tax Planning Solutions",
+        "Intuit Lacerte",
+        "Orrtax Software IntelliTax Classic",
+        "WGUSID: 7784"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2082",
+            "targetNodeName": "Tax Preparers",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "tax-provision-schedules-updating"
+}

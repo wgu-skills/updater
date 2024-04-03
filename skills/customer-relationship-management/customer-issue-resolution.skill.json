@@ -1,0 +1,74 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/12743d28-70df-4cb3-b74b-72ad238c1d36",
+    "uuid": "12743d28-70df-4cb3-b74b-72ad238c1d36",
+    "status": "published",
+    "publishDate": "2022-02-03T22:26:45.957646",
+    "archiveDate": null,
+    "skillName": "Customer Issue Resolution",
+    "skillStatement": "Resolve customers' issues to maintain the customer relationship.",
+    "category": "Customer Relationship Management",
+    "keywords": [
+        "Customer Relationship Management",
+        "Customer Contact",
+        "Customer Relationship Management",
+        "WGUSID: 6061"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "customer-issue-resolution"
+}

@@ -1,0 +1,63 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/930dbbad-4fe4-4481-8933-2e0c2df8934d",
+    "uuid": "930dbbad-4fe4-4481-8933-2e0c2df8934d",
+    "status": "published",
+    "publishDate": "2022-02-03T19:18:16.144702",
+    "archiveDate": null,
+    "skillName": "Change Estimation",
+    "skillStatement": "Estimate changes to revenue accruals over time.",
+    "category": "Accruals",
+    "keywords": [
+        "CPA",
+        "Sage 50 Accounting",
+        "Tax Software",
+        "Accruals",
+        "Accruals",
+        "Fund Accounting Software",
+        "Intuit QuickBooks Hot Technology",
+        "WGUSID: 7003"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2082",
+            "targetNodeName": "Tax Preparers",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "change-estimation"
+}

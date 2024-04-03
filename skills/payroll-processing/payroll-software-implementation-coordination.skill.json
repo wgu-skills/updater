@@ -1,0 +1,74 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/8d74983c-6970-40dc-b2d0-dcc11b59a27c",
+    "uuid": "8d74983c-6970-40dc-b2d0-dcc11b59a27c",
+    "status": "published",
+    "publishDate": "2022-02-04T15:26:28.056396",
+    "archiveDate": null,
+    "skillName": "Payroll Software Implementation Coordination",
+    "skillStatement": "Coordinate the implementation of payroll processing software (such as Oracle R12) within the payroll department.",
+    "category": "Payroll Processing",
+    "keywords": [
+        "Payroll Processing",
+        "Payroll Processing",
+        "Oracle R12",
+        "WGUSID: 1374"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "payroll-software-implementation-coordination"
+}

@@ -1,0 +1,67 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/c43ecbbb-9619-4544-a365-4e6e3be62be1",
+    "uuid": "c43ecbbb-9619-4544-a365-4e6e3be62be1",
+    "status": "published",
+    "publishDate": "2022-02-08T15:56:40.489193",
+    "archiveDate": null,
+    "skillName": "Financial Planning Guidance",
+    "skillStatement": "Provide financial planning guidance based upon tax law and regulation research findings.",
+    "category": "Tax Research",
+    "keywords": [
+        "CPA",
+        "Tableau",
+        "Bloomberg",
+        "QuickBooks",
+        "Sage",
+        "Microsoft Office Suite",
+        "SAS",
+        "Reuters",
+        "Tax Research",
+        "Tax Research",
+        "LotusNotes",
+        "WGUSID: 7805"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2082",
+            "targetNodeName": "Tax Preparers",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "financial-planning-guidance"
+}

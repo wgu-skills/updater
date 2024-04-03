@@ -1,0 +1,194 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/66adf478-ddaa-4d44-9b0f-762dc8d1d599",
+    "uuid": "66adf478-ddaa-4d44-9b0f-762dc8d1d599",
+    "status": "published",
+    "publishDate": "2022-02-04T13:52:16.839375",
+    "archiveDate": null,
+    "skillName": "Clear Message Delivery",
+    "skillStatement": "Deliver messages with a high degree of clarity.",
+    "category": "Verbal Communication Skills",
+    "keywords": [
+        "GeneralEducation2019",
+        "Verbal Communication Skills",
+        "Oral Communication",
+        "https://skills.emsidata.com/skills/KS441S06L3NZBK0D6JM8",
+        "Verbal Communication Skills",
+        "WGUSID: 1863"
+    ],
+    "occupations": [
+        {
+            "code": "11-0000",
+            "targetNodeName": "Management Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3030",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3031",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1110",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1111",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1160",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1161",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-0000",
+            "targetNodeName": "Computer and Mathematical Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-1210",
+            "targetNodeName": "Computer and Information Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-1211",
+            "targetNodeName": "Computer Systems Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-1220",
+            "targetNodeName": "Computer and Information Research Scientists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-1221",
+            "targetNodeName": "Computer and Information Research Scientists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-1230",
+            "targetNodeName": "Computer Support Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-1231",
+            "targetNodeName": "Computer Network Support Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-1232",
+            "targetNodeName": "Computer User Support Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-1240",
+            "targetNodeName": "Database and Network Administrators and Architects",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-1241",
+            "targetNodeName": "Computer Network Architects",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-1244",
+            "targetNodeName": "Network and Computer Systems Administrators",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-1245",
+            "targetNodeName": "Database Administrators and Architects",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-1250",
+            "targetNodeName": "Software and Web Developers, Programmers, and Testers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-1251",
+            "targetNodeName": "Computer Programmers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-1259"
+        },
+        {
+            "code": "15-1290",
+            "targetNodeName": "Miscellaneous Computer Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "19-0000",
+            "targetNodeName": "Life, Physical, and Social Science Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "19-4090",
+            "targetNodeName": "Miscellaneous Life, Physical, and Social Science Technicians",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "33-0000",
+            "targetNodeName": "Protective Service Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "33-1010",
+            "targetNodeName": "First-Line Supervisors of Law Enforcement Workers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "33-3010",
+            "targetNodeName": "Bailiffs, Correctional Officers, and Jailers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "33-3020",
+            "targetNodeName": "Detectives and Criminal Investigators",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "33-3050",
+            "targetNodeName": "Police Officers",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "clear-message-delivery"
+}

@@ -1,0 +1,74 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/9631e78f-9ab5-419b-aac8-45900ebaffea",
+    "uuid": "9631e78f-9ab5-419b-aac8-45900ebaffea",
+    "status": "published",
+    "publishDate": "2022-02-03T19:16:30.338494",
+    "archiveDate": null,
+    "skillName": "Tax Return Standards Determination",
+    "skillStatement": "Determine applicable standards for a tax return.",
+    "category": "Accounting Ethics",
+    "keywords": [
+        "CPA",
+        "Accounting Ethics",
+        "Accounting Ethics",
+        "WGUSID: 10164"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "tax-return-standards-determination"
+}

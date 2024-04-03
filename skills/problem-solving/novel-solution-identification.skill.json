@@ -1,0 +1,73 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/28f20c1b-6a53-4c8d-a248-cce1f8add360",
+    "uuid": "28f20c1b-6a53-4c8d-a248-cce1f8add360",
+    "status": "published",
+    "publishDate": "2022-07-21T18:37:27.850457",
+    "archiveDate": null,
+    "skillName": "Novel Solution Identification",
+    "skillStatement": "Identify an independently reached solution to a stated problem in a novel way.",
+    "category": "Problem Solving",
+    "keywords": [
+        "Problem Solving",
+        "Troubleshooting (Problem Solving)",
+        "Problem Solving",
+        "NICE-SP-RSK",
+        "NICE-SP-DEV",
+        "NICE-SP-ARC",
+        "NICE-SP-TRD",
+        "NICE-SP-SRP",
+        "NICE-SP-TST",
+        "NICE-SP-SYS",
+        "NICE-OM-ANA",
+        "NICE-OV-MGT",
+        "NICE-OV-PMA",
+        "NICE-AN-TWA",
+        "NICE-AN-EXP",
+        "NICE-AN-ASA",
+        "NICE-AN-TGT",
+        "NICE-AN-LNG",
+        "NICE-CO-CLO",
+        "NICE-CO-OPL",
+        "NICE-CO-OPS",
+        "NICE-OV-LGA",
+        "NICE-OV-TEA",
+        "NICE-OV-SPP",
+        "NICE-OV-EXL",
+        "NICE-OM-DTA",
+        "NICE-OM-STS",
+        "NICE-OM-NET",
+        "NICE-OM-ADM",
+        "NICE-PR-CDA",
+        "NICE-PR-CIR",
+        "NICE-PR-VAM",
+        "NICE-PR-INF"
+    ],
+    "occupations": [
+        {
+            "code": "13-2011.00",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "13-2031.00",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "13-2041.00",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "13-2061.00",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "o*net"
+        },
+        {
+            "code": "13-2081.00",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "o*net"
+        }
+    ],
+    "slug": "novel-solution-identification"
+}

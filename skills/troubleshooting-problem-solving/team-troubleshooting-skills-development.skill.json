@@ -1,0 +1,73 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/aeb0bdfa-ed22-482f-a3cf-2b7ec801ab3e",
+    "uuid": "aeb0bdfa-ed22-482f-a3cf-2b7ec801ab3e",
+    "status": "published",
+    "publishDate": "2022-02-07T21:28:09.301148",
+    "archiveDate": null,
+    "skillName": "Team Troubleshooting Skills Development",
+    "skillStatement": "Develop a team's troubleshooting skills through deliberate coaching and application of smart questions.",
+    "category": "Troubleshooting (Problem Solving)",
+    "keywords": [
+        "Troubleshooting (Problem Solving)",
+        "Troubleshooting (Problem Solving)",
+        "WGUSID: 2385"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "team-troubleshooting-skills-development"
+}

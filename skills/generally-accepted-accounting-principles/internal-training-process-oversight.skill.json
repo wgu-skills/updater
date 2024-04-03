@@ -1,0 +1,87 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/5bac6b54-801b-4e6d-8a19-95fd8b79b374",
+    "uuid": "5bac6b54-801b-4e6d-8a19-95fd8b79b374",
+    "status": "published",
+    "publishDate": "2022-02-04T15:25:48.748833",
+    "archiveDate": null,
+    "skillName": "Internal Training Process Oversight",
+    "skillStatement": "Oversee an internal training process to ensure accountants of the company understand their individual responsibilities for generally accepted accounting principles (GAAP) compliance.",
+    "category": "Generally Accepted Accounting Principles",
+    "keywords": [
+        "CPA",
+        "CIA",
+        "Generally Accepted Accounting Principles",
+        "Generally Accepted Accounting Principles (GAAP)",
+        "Accounting Standards Codification (ASC)",
+        "Generally Accepted Accounting Principles",
+        "WGUSID: 5281"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1110",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1111",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "internal-training-process-oversight"
+}

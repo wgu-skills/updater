@@ -1,0 +1,92 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/87153ae5-ccfd-4c8c-8d70-95922ec251d9",
+    "uuid": "87153ae5-ccfd-4c8c-8d70-95922ec251d9",
+    "status": "published",
+    "publishDate": "2022-02-23T22:54:14.29765",
+    "archiveDate": null,
+    "skillName": "Financial Accounting Standards Board (FASB) Enforcement",
+    "skillStatement": "Enforce Financial Accounting Standards Board (FASB) standards and principles throughout an organization.",
+    "category": "Financial Accounting Standards Board",
+    "keywords": [
+        "NICE_AN_LNG",
+        "CPA",
+        "CIA",
+        "Financial Accounting Standards Board",
+        "Financial Accountability Standards Board (FASB) Certified",
+        "Financial Accounting Standards Board",
+        "WGUSID: 4073"
+    ],
+    "occupations": [
+        {
+            "code": "11-0000",
+            "targetNodeName": "Management Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3030",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "11-3031",
+            "targetNodeName": "Financial Managers",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1110",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1111",
+            "targetNodeName": "Management Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1160",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-1161",
+            "targetNodeName": "Market Research Analysts and Marketing Specialists",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "15-0000",
+            "targetNodeName": "Computer and Mathematical Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "19-0000",
+            "targetNodeName": "Life, Physical, and Social Science Occupations",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "financial-accounting-standards-board-fasb-enforcement"
+}

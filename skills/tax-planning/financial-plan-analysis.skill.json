@@ -1,0 +1,74 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/ac7eb597-0bc0-4109-ad2f-5fb0b3f972b7",
+    "uuid": "ac7eb597-0bc0-4109-ad2f-5fb0b3f972b7",
+    "status": "published",
+    "publishDate": "2022-02-08T15:56:44.722168",
+    "archiveDate": null,
+    "skillName": "Financial Plan Analysis",
+    "skillStatement": "Analyze a financial situation or plan to ensure the financial plan is the most tax-efficient as possible.",
+    "category": "Tax Planning",
+    "keywords": [
+        "CPA",
+        "Tax Planning",
+        "Tax Planning",
+        "WGUSID: 166"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "financial-plan-analysis"
+}

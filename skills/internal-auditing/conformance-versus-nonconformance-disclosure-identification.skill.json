@@ -1,0 +1,60 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/e3d806dc-3856-40a5-b05b-899e539f702d",
+    "uuid": "e3d806dc-3856-40a5-b05b-899e539f702d",
+    "status": "published",
+    "publishDate": "2022-02-04T15:26:20.744087",
+    "archiveDate": null,
+    "skillName": "Conformance Versus Nonconformance Disclosure Identification",
+    "skillStatement": "Identify appropriate disclosure of conformance vs. nonconformance with the Institute of Internal Auditors (IIA)'s International Standards for the Professional Practice of Internal Auditing.",
+    "category": "Internal Auditing",
+    "keywords": [
+        "CPA",
+        "CIA",
+        "Internal Auditing",
+        "Internal Auditing",
+        "WGUSID: 10324"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2050",
+            "targetNodeName": "Financial Analysts and Advisors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "conformance-versus-nonconformance-disclosure-identification"
+}

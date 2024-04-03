@@ -1,0 +1,87 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/510bd76e-73c5-4467-aecc-d823ae726362",
+    "uuid": "510bd76e-73c5-4467-aecc-d823ae726362",
+    "status": "published",
+    "publishDate": "2022-01-31T17:01:44.483681",
+    "archiveDate": null,
+    "skillName": "Record-Keeping Procedures Development",
+    "skillStatement": "Develop training programs, payroll, benefits, and Family and Medical Leave Act (FMLA) and Occupational Safety and Health Administration (OSHA) record-keeping procedures to ensure adherence to state and federal policies.",
+    "category": "Human Resource Policies",
+    "keywords": [
+        "Training and Development",
+        "Legal Knowledge",
+        "Training",
+        "Professional Development",
+        "OSHA",
+        "State Laws",
+        "Federal Laws",
+        "Laws",
+        "Human Resources",
+        "Human Resource Policies",
+        "Occupational Safety and Health Administration (OSHA)",
+        "Occupational Safety and Health Administration",
+        "Family and Medical Leave Act (FMLA)",
+        "Family and Medical Leave Act",
+        "FMLA",
+        "WGUSID: 2649",
+        "Human Resource Policies"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2030",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2031",
+            "targetNodeName": "Budget Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2040",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2041",
+            "targetNodeName": "Credit Analysts",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2060",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2061",
+            "targetNodeName": "Financial Examiners",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "record-keeping-procedures-development"
+}

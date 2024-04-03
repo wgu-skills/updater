@@ -1,0 +1,54 @@
+{
+    "id": "https://osmt.wgu.edu/api/skills/01853178-ce09-4eee-9bd3-091c1ff89bb6",
+    "uuid": "01853178-ce09-4eee-9bd3-091c1ff89bb6",
+    "status": "published",
+    "publishDate": "2022-02-03T22:26:59.6156",
+    "archiveDate": null,
+    "skillName": "Journal Entry and System Reconciliation",
+    "skillStatement": "Prepare consolidation journal entries and system reconciliations.",
+    "category": "Consolidation",
+    "keywords": [
+        "CPA",
+        "CIA",
+        "Sage 50 Accounting",
+        "Tax Software",
+        "Fund Accounting Software",
+        "Intuit QuickBooks Hot Technology",
+        "Consolidation",
+        "Consolidation",
+        "WGUSID: 7177"
+    ],
+    "occupations": [
+        {
+            "code": "13-0000",
+            "targetNodeName": "Business and Financial Operations Occupations",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2010",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2011",
+            "targetNodeName": "Accountants and Auditors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2050",
+            "targetNodeName": "Financial Analysts and Advisors",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2080",
+            "targetNodeName": "Tax Examiners, Collectors and Preparers, and Revenue Agents",
+            "frameworkName": "bls"
+        },
+        {
+            "code": "13-2081",
+            "targetNodeName": "Tax Examiners and Collectors, and Revenue Agents",
+            "frameworkName": "bls"
+        }
+    ],
+    "slug": "journal-entry-and-system-reconciliation"
+}
